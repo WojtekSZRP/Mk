@@ -3,19 +3,20 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = indian
 religion = catholic
+elector = yes
 primary_culture = panjabi
 capital = 507
 1431.1.1 = { 
 	capital = 510#Sirhind
 	monarch = { 
-		name = "Bahlûl"
+		name = "Bahlï¿½l"
 		dynasty = "Lodi"
 		culture = afghani
 		religion = sunni
 		ADM = 4
 		DIP = 5
 		MIL = 6
-		leader = { name = "Bahlûl Ludi" type = general fire = 4 shock = 5 manuever = 4 siege = 2 }
+		leader = { name = "Bahlï¿½l Ludi" type = general fire = 4 shock = 5 manuever = 4 siege = 2 }
 	}
 	government = monarchy
 	add_government_reform = indian_sultanate_reform

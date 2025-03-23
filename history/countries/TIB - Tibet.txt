@@ -3,6 +3,7 @@ add_government_reform = steppe_horde
 government_rank = 1
 technology_group = chinese
 religion = catholic
+elector = yes
 primary_culture = tibetan
 capital = 677
 1391.1.1 = { 

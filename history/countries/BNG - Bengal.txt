@@ -4,6 +4,7 @@ government_rank = 1
 technology_group = indian
 religion = catholic
 primary_culture = bengali
+elector = yes
 capital = 563
 religious_school = hanafi_school
 1390.1.1 = { 

@@ -3,6 +3,7 @@ add_government_reform = mandala_reform
 government_rank = 1
 technology_group = chinese
 religion = catholic
+elector = yes
 primary_culture = central_thai
 capital = 600
 1395.1.1 = { 

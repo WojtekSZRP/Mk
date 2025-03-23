@@ -3,6 +3,7 @@ add_government_reform = pirate_republic_reform
 government_rank = 1
 technology_group = chinese
 religion = catholic
+elector = yes
 primary_culture = filipino
 capital = 2700
 1365.1.1 = { 
