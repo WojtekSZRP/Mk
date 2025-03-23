@@ -12,7 +12,7 @@ capital = 507
 		name = "Bahl�l"
 		dynasty = "Lodi"
 		culture = afghani
-		religion = sunni
+		religion = catholic
 		ADM = 4
 		DIP = 5
 		MIL = 6
@@ -20,7 +20,7 @@ capital = 507
 	}
 	government = monarchy
 	add_government_reform = indian_sultanate_reform
-	religion = sunni
+	religion = catholic
 	religious_school = hanafi_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = strict_personality
