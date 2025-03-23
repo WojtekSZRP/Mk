@@ -1,4 +1,3 @@
 discovered_by = chinese
 religion = catholic
-hre = yes
 is_city = no

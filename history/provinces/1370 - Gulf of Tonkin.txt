@@ -7,4 +7,3 @@ add_core = DAI
 owner = DAI
 controller = DAI
 religion = catholic
-hre = yes

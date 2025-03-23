@@ -5,4 +5,3 @@ discovered_by = ottoman
 culture = central_thai
 is_city = no
 religion = catholic
-hre = yes

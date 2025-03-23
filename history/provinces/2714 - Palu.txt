@@ -14,5 +14,4 @@ discovered_by = ottoman
 native_size = 60
 native_ferocity = 2
 native_hostileness = 9
-hre = yes
 is_city = no

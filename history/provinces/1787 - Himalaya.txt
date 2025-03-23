@@ -7,4 +7,3 @@ base_tax = 3
 base_manpower = 2
 base_production = 4
 religion = catholic
-hre = yes

@@ -15,5 +15,4 @@ native_hostileness = 5
 latent_trade_goods = { 
 	coal 
 }
-hre = yes
 is_city = no
