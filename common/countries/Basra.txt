@@ -1,0 +1,96 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 103 121 136 }
+revolutionary_colors = { 10 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Aberikos #0" = 0
+	"Alethia #1" = -1
+	"Asher #1" = 10
+	"Athanasios #0" = 0
+	"Chaelsoñoja #0" = -1
+	"Chofni #1" = 10
+	"Daisai #1" = 10
+	"Eirota #0" = -1
+	"Ephannê #0" = -1
+	"Faruk #1" = 10
+	"Gennatios #0" = 0
+	"Guethenan #2" = 10
+	"Hoassi #0" = 0
+	"Iannia #1" = -1
+	"Ieremias #1" = 10
+	"Kersiami #0" = -1
+	"Kiyomi #0" = 0
+	"Markos #1" = 10
+	"Maththias #0" = 0
+	"Natan #1" = 10
+	"Natroi #1" = 10
+	"Nidinti-Adad #1" = 10
+	"Ninurta-ibni #1" = 10
+	"Papasinkouda #1" = 10
+	"Patrikios #0" = 0
+	"Paulos #1" = 10
+	"Pavlos #0" = 0
+	"Pelagia #0" = -1
+	"Petronia #0" = -1
+	"Rihat-Ninurta #1" = 10
+	"Sentiko #0" = 0
+	"Shahin #1" = 10
+	"Sin-iddin #1" = 10
+	"Sulam #1" = 10
+	"Theodote #0" = 0
+	"Theophania #0" = -1
+	"Theophilia #0" = -1
+	"Yachya #1" = 10
+	"Yeintil #0" = -1
+}
+leader_names = {
+	"Al Humaid"
+	"Al Janah"
+	"Al Saadun"
+	"Al Subaih"
+	"Al-Dhafeer"
+	"Bani Khalid"
+	"Bani Malik"
+	"Bani Sa'id"
+	"Banu 'Amir"
+	"Banu 'Uqayl"
+	"Du'um"
+	"Grusha"
+	"Juboor"
+	"al-Ajwad"
+}
+ship_names = {
+	"Faydhi"
+	"Fazil"
+	"Jamal"
+	"Kadri"
+	"Midhat"
+	"Nadhif"
+	"Nadhim"
+	"Namiq"
+	"Omer"
+	"Sirri"
+}

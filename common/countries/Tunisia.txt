@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 146 134 57 }
+revolutionary_colors = { 8 5 9 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abbar #2" = 10
+	"Abdhamon #1" = 10
+	"Abdosir #0" = -1
+	"Abirami #1" = 10
+	"Adiya #0" = -1
+	"Adonibaal #1" = 10
+	"Agbal #0" = 0
+	"Ahumm #0" = 0
+	"Arishat #0" = -1
+	"Asherah #0" = -1
+	"Baal #0" = 0
+	"Baaliaton #0" = 0
+	"Batnoam #0" = -1
+	"Bodashtart #0" = 0
+	"Bodo #0" = 0
+	"Bomilcar #3" = 10
+	"Boodes #1" = 10
+	"Carthalo #1" = 10
+	"Dido #0" = -1
+	"Eugoras #0" = 0
+	"Gisgo #1" = 10
+	"Hiempsal #1" = 10
+	"Huldu #0" = -1
+	"Juba #1" = 10
+	"Kanmi #0" = 0
+	"Khugurchin #0" = -1
+	"Kilia #0" = -1
+	"Maharbal #1" = 10
+	"Malchus #1" = 10
+	"Melqartpilles #3" = 10
+	"Milkpilles #1" = 10
+	"Muttunbaal #0" = -1
+	"Parvaneh #0" = -1
+	"Philosir #0" = 0
+	"Shayna #0" = -1
+	"Sophonisba #1" = -1
+	"Suhaima #0" = -1
+	"Tabnit #0" = 0
+	"Yapa #0" = -1
+	"Ytab #0" = -1
+	"Yutpan #0" = 0
+	"Zakkai #0" = 0
+	"Гейзерих #1" = 10
+	"Гелимер #1" = 10
+	"Гунерих #1" = 10
+	"Гунтамунд #1" = 10
+	"Тразамунд #1" = 10
+	"Хильдерих #1" = 10
+}
+leader_names = {
+	"Adhoum"
+	"Akimi"
+	"Badra"
+	"Bassir"
+	"Dali"
+	"Hakimi"
+	"Naybet"
+	"Saber"
+	"Sassi"
+	"Taher"
+}
+ship_names = {
+	"Alim"
+	"Aziz"
+	"Bari"
+	"Fattah"
+	"Ghaffar"
+	"Jabbar"
+	"Khaliq"
+	"Malik"
+	"Mu'min"
+	"Muhaymin"
+	"Musawwir"
+	"Mutakabbir"
+	"Qahhar"
+	"Quddus"
+	"Rahim"
+	"Rahman"
+	"Razzaq"
+	"Salam"
+	"Wahhab"
+}

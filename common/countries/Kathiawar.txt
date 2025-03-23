@@ -1,0 +1,108 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 212 84 55 }
+revolutionary_colors = { 2 10 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Alsamgya #0" = -1
+	"Alyonj #0" = -1
+	"Aparâcita #4" = 10
+	"Armaiti #0" = -1
+	"Bhadra #1" = 10
+	"Bradaysaa #0" = 0
+	"Cataiyavarman #1" = 10
+	"Civakkoluntân #1" = 10
+	"Cîvallapa #1" = 10
+	"Dharmadasi #0" = -1
+	"Hvarda #1" = 10
+	"Ikam #1" = 10
+	"Irasamga #0" = 0
+	"Kanakacûriya #2" = 10
+	"Katunkon #1" = 10
+	"Kushtana #0" = 0
+	"Nedum #1" = 10
+	"Nirmala #0" = -1
+	"Pantâram #1" = 10
+	"Praniyata #0" = -1
+	"Presamdha #0" = 0
+	"Pûvânti #1" = -1
+	"Raghu #1" = 10
+	"Safali #0" = -1
+	"Shandramata #0" = -1
+	"Shri #0" = -1
+	"Shudamgula #0" = 0
+	"Tisyarakshita #0" = -1
+	"Uravâkkinân #2" = 10
+	"Vaham #1" = 10
+	"Vidaram #0" = 0
+	"Vikkiramâtitti #1" = -1
+	"Vimala #0" = -1
+	"Âccinataratippan #1" = 10
+}
+leader_names = {
+	"Bhati"
+	"Chavda"
+	"Jadeja"
+	"Jethwa"
+	"Mehar"
+	"Mulraj"
+	"Paramara"
+	"Pargir"
+	"Pratap"
+	"Rathore"
+	"Saran"
+	"Sarvaiya"
+	"Savji"
+	"Shah"
+	"Singh"
+	"Sisodiya"
+	"Solanki"
+	"Soomrah"
+	"Vaghela"
+	"Valas"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

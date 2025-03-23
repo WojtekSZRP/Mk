@@ -1,0 +1,291 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 37 113 207 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	exploration_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	trade_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	scottish_highlander
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Adoyre #1" = 10
+	"Bardas #1" = 10
+	"Christophoros #1" = 10
+	"Eirenaios #1" = 10
+	"Euphemios #1" = 10
+	"Gilberto #1" = 10
+	"Gurlouen #1" = 10
+	"Gurmhaelon #1" = 10
+	"Guruant #1" = 10
+	"Ioustinos #1" = 10
+	"Lucer #1" = 10
+	"Methodios #1" = 10
+	"Moshe #0" = 0
+	"Neophytos #0" = 0
+	"Nikodemos #0" = 0
+	"Petros #1" = 10
+	"Philotheos #1" = 10
+	"Prokopios #0" = 0
+	"Pyrros #1" = 10
+	"Raphail #1" = 10
+	"Riceneu #1" = 10
+	"Richwin #0" = 0
+	"Sabas #1" = 10
+	"Sebastianos #0" = 0
+	"Бруйд #5" = 10
+	"Вуйрп #1" = 10
+	"Ганант #3" = 10
+	"Дрест #2" = 10
+	"Киниод #1" = 10
+	"Маелхон #1" = 10
+	"Найтон #2" = 10
+	"Таран #1" = 10
+	"Телург #1" = 10
+	"Телурган #2" = 10
+	"Унвист #1" = 10
+	"Ургвист #1" = 10
+	"Элпин #1" = 10
+}
+leader_names = {
+	"Airchart"
+	"Ambarsan"
+	"Anrias"
+	"Aonghais"
+	"Arascain"
+	"Banach"
+	"Beitean"
+	"Blacathathir"
+	"Blar"
+	"Braigheach"
+	"Brun"
+	"Buiseid"
+	"Caimbeulach"
+	"Calder"
+	"Camshron"
+	"Canowan"
+	"Cearr"
+	"Ceiteach"
+	"Ciogach"
+	"Cochran"
+	"Colquhoun"
+	"Comyn"
+	"Crobаn"
+	"Dalais"
+	"Deoir"
+	"Druimeanach"
+	"Dughallach"
+	"Dunchad"
+	"Fearghasdan"
+	"Fearsithe"
+	"Fingon"
+	"Flimean"
+	"Folais"
+	"Forsaidh"
+	"Frisealach"
+	"Galbraith"
+	"Geadais"
+	"Gilios"
+	"Giobsan"
+	"Glas"
+	"Gobha"
+	"Grannd"
+	"Greumach"
+	"Guaire"
+	"Guinne"
+	"Gutraidh"
+	"Haig"
+	"Kincaid"
+	"Kinloch"
+	"Kinnaird"
+	"Kinnear"
+	"Kinninmont"
+	"Labhruinn"
+	"Lamont"
+	"Lathurna"
+	"Liobhunn"
+	"Loganach"
+	"Lutair"
+	"Mac-an-toisich"
+	"MacAlasdair"
+	"MacAoidh"
+	"MacAonghais"
+	"MacBeathain"
+	"MacCailein"
+	"MacCoinnich"
+	"MacCruimein"
+	"MacDhomhnaill"
+	"MacDhonnachaidh"
+	"MacDhughaill"
+	"MacDubhghaill"
+	"MacEanruig"
+	"MacEoghainn"
+	"MacEomhair"
+	"MacFhearghuis"
+	"MacGhille Eoin"
+	"MacGilleEathain"
+	"MacGriogair"
+	"MacIntyre"
+	"MacLachlainn"
+	"MacLeoid"
+	"MacMhathain"
+	"MacNab"
+	"MacNeachdainn"
+	"MacPharlain"
+	"MacRaild"
+	"MacTamhais"
+	"Mair"
+	"Marr"
+	"Mcinnearach"
+	"MhicNeacail"
+	"Mhuirich"
+	"Moffat"
+	"Muir"
+	"Munro"
+	"Napier"
+	"Narann"
+	"Niocalsan"
+	"Norval"
+	"O'Duine"
+	"Og"
+	"Ogilvy"
+	"Oliphant"
+	"Paorach"
+	"Parvus"
+	"Patullo"
+	"Peucag"
+	"Pitblado"
+	"Pitcairn"
+	"Pollok"
+	"Preas"
+	"Rait"
+	"Rathais"
+	"Rattray"
+	"Revan"
+	"Roid"
+	"Ros"
+	"Salmond"
+	"Scotach"
+	"Sgian"
+	"Sgot"
+	"Singlear"
+	"Siosalach"
+	"Smios"
+	"Stiubhard"
+	"Strathaen"
+	"Sutherlarach"
+	"Talmhach"
+	"Tod"
+	"Tuairnear"
+	"Tulach"
+	"Uallas"
+	"Udny"
+	"Urchardan"
+	"de Charteris"
+	"de Moravia"
+}
+ship_names = {
+	"Abraruadh"
+	"Abscissa Virescit"
+	"Accendit Cantu"
+	"Alba"
+	"Amo Probos"
+	"Andreas de Atholia"
+	"Aonaibh Ri Chйile"
+	"Asainte"
+	"Audaciter"
+	"Avance"
+	"Baideanach"
+	"Baile Inneraora"
+	"Berowald"
+	"Buaidh No Bas"
+	"Cair Chaladain"
+	"Caisteal Dhuni"
+	"Caledonia"
+	"Calum Cille"
+	"Clar Innes"
+	"Clut"
+	"Confido"
+	"Consilio Non Petu"
+	"Cruachan"
+	"Dalriada"
+	"De Bonnaire"
+	"Deoradh"
+	"Deus Juvat"
+	"Diriget Deus"
+	"Domhnall mac Raghnaill"
+	"Dominus Fecit"
+	"Donnchadh Reamhar"
+	"Donnchadh na-Adh"
+	"Dun Bheagain"
+	"Earra-Ghaidheal"
+	"Fergus Mor"
+	"Feros Ferio"
+	"Fide Et Opera"
+	"Findanus"
+	"Fraoch Eilean"
+	"Freskin"
+	"Fuimus"
+	"Ghift Dhe Agus An Righ"
+	"Gleann Eagas"
+	"Hoc Securior"
+	"Hugh de Paduinan"
+	"Iagan"
+	"Innse Gall"
+	"Invictus Maneo"
+	"Johannes Del Crag"
+	"Lannraig"
+	"Loch Abar"
+	"Loch Laomainn"
+	"Loch Moigh"
+	"Lochiel"
+	"Loyal Au Mort"
+	"Macbeatha"
+	"Marte Suo Tutus"
+	"Merito"
+	"Muriel"
+	"Ne Obliviscaris"
+	"Nectan"
+	"Niseag"
+	"Paratus Sum"
+	"Petit Alta"
+	"Petrus de Haga"
+	"Preseverando"
+	"Qui Conducit"
+	"Raibeart Bruis"
+	"Reviresco"
+	"Salus Per Christum"
+	"Scitis"
+	"Serva Jugum"
+	"Somairle"
+	"Sruighlea"
+	"Tavis"
+	"Toom Tabard"
+	"Tout Jour Prest"
+	"Tulach Ard"
+	"Uilleam Uallas"
+	"Vincit Veritas"
+	"Virtutis Gloria Merces"
+	"Vive Ut Vivas"
+}
+preferred_religion = reformed

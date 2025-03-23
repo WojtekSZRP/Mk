@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = arianism
+primary_culture = lusitanian
+capital = 1120
+add_accepted_culture = mali
+1444.11.11= {
+	add_prestige = 34
+	add_treasury = 63
+}

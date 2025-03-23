@@ -1,0 +1,93 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 113 112 96 }
+revolutionary_colors = { 0 14 0 }
+historical_idea_groups = {
+	maritime_ideas
+	religious_ideas
+	defensive_ideas
+	administrative_ideas
+	trade_ideas
+	quality_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adrianos #1" = 10
+	"Arverus #1" = 10
+	"Bellovesus #0" = 0
+	"Boiorix #1" = 10
+	"Bolgios #1" = 10
+	"Brucetius #1" = 10
+	"Carvilius #1" = 10
+	"Catissena #0" = -1
+	"David #1" = 10
+	"Deiana #0" = -1
+	"Donnus #1" = 10
+	"Gabriel #0" = 0
+	"Georgios #0" = 0
+	"Helias #1" = 10
+	"Herodas #2" = 10
+	"Hierotheos #1" = 10
+	"Huaizhen #0" = 0
+	"Inamarcus #0" = 0
+	"Litavis #0" = -1
+	"Lucterius #1" = 10
+	"Oconea #0" = -1
+	"Pamphilios #1" = 10
+	"Paschalis #1" = 10
+	"Ria #0" = -1
+	"Teutomalius #1" = 10
+	"Theochariste #0" = -1
+	"Theodotos #1" = 10
+	"Theophilos #0" = 0
+	"Theophylaktos #2" = 10
+	"Timotheos #2" = 10
+	"Velbutena #0" = -1
+	"Константин #1" = 10
+	"Феодор #1" = 10
+}
+leader_names = {
+	"Acciajuoli"
+	"Contarini"
+	"Crispo"
+	"Doria"
+	"Fadrigue"
+	"Melissinos"
+	"Palaeologus"
+	"Plethon"
+	"Rendis"
+	"Saraceno"
+	"Tocco"
+	"Zorzi"
+}
+ship_names = {
+	"Agios Thomas"
+	"Athena"
+	"Felves"
+	"Laouses"
+	"Makronisi"
+	"Patroklou"
+	"Petalioi"
+	"Salamina"
+	"Styra"
+	"Ypsili"
+}

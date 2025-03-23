@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 104 207 13 }
+monarch_names = {
+	"Alyonj #0" = -1
+	"Armaiti #0" = -1
+	"Aryamgula #0" = 0
+	"Capastaka #0" = 0
+	"Kharusa #0" = 0
+	"Khivyaina #0" = -1
+	"Maya #0" = -1
+	"Naganpaka #0" = 0
+	"Nipandaka #0" = 0
+	"Nirmala #0" = -1
+	"Shandramata #0" = -1
+	"Vijita #0" = 0
+	"Ysambasta #0" = 0
+}

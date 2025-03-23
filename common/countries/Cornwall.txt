@@ -1,0 +1,188 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 155 56 0 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aedan #1" = 10
+	"Agathe #0" = -1
+	"Alwen #1" = 10
+	"Anthemios #0" = 0
+	"Apollonios #1" = 10
+	"Elaiodora #0" = -1
+	"Eugenia #0" = -1
+	"Eugenios #1" = 10
+	"Euphrosyne #0" = -1
+	"Gueroc #0" = 0
+	"Guriant #1" = 10
+	"Hektorios #1" = 10
+	"Hierotheos #1" = 10
+	"Himerios #1" = 10
+	"Hippolytos #1" = 10
+	"Iordanes #1" = 10
+	"Konstantinos #1" = 10
+	"Kyra #0" = -1
+	"Kyriakos #1" = 10
+	"Lazaros #1" = 10
+	"Leontios #1" = 10
+	"Lysistratos #1" = 10
+	"Maurikios #1" = 10
+	"Melissa #0" = -1
+	"Michael #0" = 0
+	"Niketas #1" = 10
+	"Orestes #1" = 10
+	"Phokas #1" = 10
+	"Riualiernuallon #1" = 10
+	"Romylia #0" = -1
+	"Sergios #2" = 10
+	"Symeon #0" = 0
+	"Tedvil #0" = -1
+	"Theocharistos #1" = 10
+	"Theodotos #0" = 0
+	"Thomine #0" = -1
+	"Tiberios #1" = 10
+	"Treveur #0" = 0
+	"Urbcen #1" = 10
+	"Valerios #2" = 10
+	"Бледрик #1" = 10
+	"Герайнт #1" = 10
+	"Герейнт #2" = 10
+	"Гурваур #1" = 10
+	"Димнарт #1" = 10
+	"Динод #1" = 10
+	"Дониал #1" = 10
+	"Кадван #1" = 10
+	"Кадо #1" = 10
+	"Карадог #1" = 10
+	"Кинан Мериадок #1" = 10
+	"Кинваур #1" = 10
+	"Кистеннин #2" = 10
+	"Клемен #1" = 10
+	"Кордолли #1" = 10
+	"Кулмин #1" = 10
+	"Мейриг #1" = 10
+	"Петрок #1" = 10
+	"Тидуал #1" = 10
+	"Хоэль #1" = 10
+	"Эрбин #1" = 10
+	"Юдикаэль #1" = 10
+}
+leader_names = {
+	"Arthur"
+	"Audley"
+	"Boscawen"
+	"Carew"
+	"Chynoweth"
+	"Clemow"
+	"Collett"
+	"Connor"
+	"Cornish"
+	"Curnow"
+	"Davy"
+	"Drake"
+	"Drew"
+	"Endean"
+	"Flamank"
+	"Furze"
+	"Gwynn"
+	"Hale"
+	"Innes"
+	"Jago"
+	"James"
+	"Jenner"
+	"Jolley"
+	"Joseph"
+	"Keverne"
+	"Lanyon"
+	"Locke"
+	"Lyon"
+	"Menhenick"
+	"Oates"
+	"Pascoe"
+	"Penberthy"
+	"Pendennis"
+	"Penhaligon"
+	"Pentreath"
+	"Pethick"
+	"Polwin"
+	"Quintrell"
+	"Roscarrock"
+	"Rosewarne"
+	"St Aubyn"
+	"Sweet"
+	"Trehearne"
+	"Trelawny"
+	"Trescothick"
+	"Trevelyan"
+	"Trevithick"
+	"Tyrell"
+	"Warren"
+	"Weekes"
+}
+ship_names = {
+	"Arthur"
+	"Bodmin"
+	"Bolster"
+	"Brutus"
+	"Chough"
+	"Corineus"
+	"Cormoran"
+	"Cornishman"
+	"Dumnonia"
+	"Excalibur"
+	"Falmouth"
+	"Galahad"
+	"Gawain"
+	"Guinevere"
+	"Hal-an-Tow"
+	"Helston"
+	"Kernow"
+	"King Mark"
+	"Lancelot"
+	"Launceston"
+	"Lizard"
+	"Lostwithiel"
+	"Lyonesse"
+	"Marazion"
+	"Mousehole"
+	"Pendragon"
+	"Penzance"
+	"Porthleven"
+	"Restormel"
+	"Scillonian"
+	"St Ives"
+	"St Michael"
+	"St Petroc"
+	"St Pirin"
+	"Stannary"
+	"Tamar"
+	"Tintagel"
+	"Trelawny"
+	"Truro"
+	"Whitsand"
+}

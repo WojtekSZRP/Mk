@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 250 237 166 }
+monarch_names = {
+	"Dzatsi #0" = 0
+	"Fevronia #0" = -1
+	"Khina #0" = 0
+	"Khivyaina #0" = -1
+	"Maya #0" = -1
+	"Nirmala #0" = -1
+	"Sham #0" = 0
+	"Shri #0" = -1
+	"Sumtharaka #0" = 0
+	"Utyayka #0" = -1
+	"Vagiti #0" = 0
+	"Varman #0" = 0
+	"Vimalaprabha #0" = -1
+}

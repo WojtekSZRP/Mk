@@ -1,0 +1,55 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = chinese
+religion = tengri_pagan
+primary_culture = oirats
+capital = 714
+fixed_capital = 714
+1444.11.11= {
+	monarch = {
+		name = "Khaidu"
+		dynasty = "Sartuul"
+		adm = 2
+		dip = 0
+		mil = 3
+		birth_date = 1401.5.17
+		religion = tengri_pagan
+		culture = oirats
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Hogelun"
+		adm = 2
+		dip = 4
+		mil = 3
+		country_of_origin = W44
+		birth_date = 1400.8.14
+		death_date = 1460.8.14
+		female = yes
+		religion = tengri_pagan
+		culture = astrakhani
+	}
+	add_queen_personality = bold_fighter_personality
+	add_queen_personality = scholar_personality
+	heir = {
+		name = "Tolui"
+		monarch_name = "Tolui"
+		dynasty = "Sartuul"
+		adm = 2
+		dip = 1
+		mil = 1
+		birth_date = 1439.12.13
+		death_date = 1504.12.13
+		claim = 89
+		religion = tengri_pagan
+		culture = astrakhani
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 23
+	add_treasury = 49
+}

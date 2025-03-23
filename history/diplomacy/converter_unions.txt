@@ -1,0 +1,112 @@
+union=
+{
+	first="Y97"
+	second="Y77"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="MON"
+	second="BOS"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="MON"
+	second="DAL"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="BTL"
+	second="W22"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="BTL"
+	second="W50"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="BTL"
+	second="Y15"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Y05"
+	second="POM"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="LBV"
+	second="TIR"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="ZAZ"
+	second="Z76"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="ARL"
+	second="CRI"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="CHR"
+	second="Z00"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="ABB"
+	second="MAK"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="ABB"
+	second="SOA"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="ABB"
+	second="V07"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

@@ -1,0 +1,8 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 133 170 52 }
+monarch_names = {
+	"Esfandiar #0" = 0
+	"Juba #0" = 0
+	"Urumilki #0" = 0
+}

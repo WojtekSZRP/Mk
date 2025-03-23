@@ -1,0 +1,12 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 238 183 183 }
+monarch_names = {
+	"Achila #0" = 0
+	"Arvirargus #0" = 0
+	"Cata #0" = -1
+	"Celatus #0" = 0
+	"Coilus #0" = 0
+	"Iccius #0" = 0
+	"Sisillius #0" = 0
+}

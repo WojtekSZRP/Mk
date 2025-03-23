@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 49 175 191 }
+revolutionary_colors = { 16 9 16 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
+	diplomatic_ideas
+	defensive_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ariñcaya #0" = 0
+	"Atirâcêntira #0" = 0
+	"Cantirâdêvi #0" = -1
+	"Cinkapâku #0" = 0
+	"Civallapatevi #0" = -1
+	"Civatêvi #0" = -1
+	"Kalacci #0" = -1
+	"Karaikkiyemarrayilaiyân #0" = 0
+	"Karumânikkam #0" = -1
+	"Kañciakkan #0" = -1
+	"Kunavîra #0" = 0
+	"Nirupatunkavarman #0" = 0
+	"Parakesaripanmar #0" = 0
+	"Parântaka #0" = 0
+	"Pennaraciyâr #0" = -1
+	"Pillayâlvi #0" = -1
+	"Pirriccâni #0" = -1
+	"Ranatîran #0" = 0
+	"Tantivarman #0" = 0
+	"Tiruccirrampalapattan #0" = 0
+	"Viranârâyanapattan #0" = 0
+	"Vîracêkara #0" = 0
+	"Vîrôtaya #0" = 0
+	"Zacharria #0" = 0
+}
+leader_names = {
+	"Afghan"
+	"Ambar"
+	"Ardastani"
+	"Astarabadi"
+	"Badakhshi"
+	"Bukhari"
+	"Changezi"
+	"Ghuri"
+	"Gilani"
+	"Hamadani"
+	"Hasanabadi"
+	"Hussaini"
+	"Jurjani"
+	"Kabuli"
+	"Karbali"
+	"Kirmani"
+	"Kurd"
+	"Latif"
+	"Mazandarani"
+	"Qadir"
+	"Qummi"
+	"Safsikhan"
+	"Simnani"
+	"Sistani"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Aurangabad"
+	"Devki"
+	"Fatimah"
+	"Godvari"
+	"Gulbargah"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Yasmine"
+}

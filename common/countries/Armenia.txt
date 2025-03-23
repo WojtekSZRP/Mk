@@ -1,0 +1,121 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 145 30 75 }
+revolutionary_colors = { 5 13 6 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Arsen #1" = 10
+	"Athom #0" = 0
+	"Avag #0" = 0
+	"Benedikt #1" = 10
+	"Datevig #0" = -1
+	"Dobrynia #0" = 0
+	"Feodor #1" = 10
+	"Grigor #1" = 10
+	"Igor #1" = 10
+	"Kamran #1" = 10
+	"Khosrov #1" = 10
+	"Mamigon #2" = 10
+	"Mushegh #2" = 10
+	"Rogvolod #0" = 0
+	"Sevag #0" = 0
+	"Tachat #0" = 0
+	"Timotheos #2" = 10
+	"Vahram #0" = 0
+	"Vartan #1" = 10
+	"Vartouhi #0" = -1
+	"Vasilko #1" = 10
+	"Xenia #0" = -1
+	"Yeremey #0" = 0
+	"Zabel #0" = -1
+	"Zarmihr #1" = 10
+	"Ашот #2" = 10
+	"Григор #2" = 10
+	"Мушель #2" = 10
+	"Нерсех #1" = 10
+	"Сахак #1" = 10
+	"Смбат #2" = 10
+	"Торос #1" = 10
+	"Хамазасп #1" = 10
+}
+leader_names = {
+	"Adamian"
+	"Adomian"
+	"Aghajanian"
+	"Altounyan"
+	"Apkarian"
+	"Babaian"
+	"Babikian"
+	"Bagian"
+	"Bhobanyan"
+	"Chobanian"
+	"Damadian"
+	"Eskandarian"
+	"Kapikian"
+	"Kazanjian"
+	"Kebabian"
+	"Kevorkian"
+	"Khachikyan"
+	"Khatchaturian"
+	"Kirlian"
+	"Mergelyan"
+	"Meymarian"
+	"Orbeli"
+	"Pogosyan"
+	"Sadian"
+	"Sevanian"
+	"Shahinian"
+	"Simjian"
+}
+ship_names = {
+	"Ani"
+	"Aramu"
+	"Ararat"
+	"Argishtis"
+	"Artsakh"
+	"Dvin"
+	"Erimena"
+	"Haik"
+	"Haldi"
+	"Ishpuinis"
+	"Kars"
+	"Lutipri"
+	"Manzikert"
+	"Menuas"
+	"Musasir"
+	"Parisos"
+	"Rusas II"
+	"Sarduri I"
+	"Sarduris II"
+	"Selardi"
+	"Siwini"
+	"Vaspurakan"
+	"Yerevan"
+}

@@ -1,0 +1,5 @@
+discovered_by = BRT
+discovered_by = nomad_group
+add_core = Z13
+owner = Z13
+controller = Z13

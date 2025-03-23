@@ -1,0 +1,66 @@
+dependency=
+{
+	subject_type="tributary_state"
+	first="YUA"
+	second="KOR"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YUA"
+	second="RYU"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YUA"
+	second="CHA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YUA"
+	second="MMA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YUA"
+	second="MJZ"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YUA"
+	second="MHX"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="POL"
+	second="Y31"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

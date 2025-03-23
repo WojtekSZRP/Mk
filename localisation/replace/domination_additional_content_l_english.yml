@@ -1,0 +1,19 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ #Ruler Personalities
+ ###CELESTIAL REFORMS###
+ ###MISSING IMPORTANT STUFF###
+ ASK_FOR_CONTRIBUTION_VAISYAS_level_1:0 "†°¢²ªµª°°ºþ ¢¬®¦"
+ ASK_FOR_CONTRIBUTION_VAISYAS_level_2:0 "†°¢²ªµª°°ºþ ¢¬®¦"
+ ASK_FOR_CONTRIBUTION_VAISYAS_level_3:0 "†°¢²ªµª°°ºþ ¢¬®¦"
+ ASK_FOR_CONTRIBUTION_VAISYAS_level_4:0 "†°¢²ªµª°°ºþ ¢¬®¦"
+ ###POLICIES###
+ ###DEFENDER OF FAITH###
+ ###RNW###
+ ###DUMMY### #Skip

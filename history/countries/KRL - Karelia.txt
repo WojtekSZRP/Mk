@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = norse_pagan_reformed
+primary_culture = karelian
+capital = 33
+1444.11.11 = { 
+	monarch = { 
+		name = "Soini"
+		dynasty = "Auster"
+		adm = 3
+		dip = 2
+		mil = 3
+		birth_date = 1413.3.16
+		religion = norse_pagan_reformed
+		culture = karelian
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = silver_tongue_personality
+	queen = { 
+		name = "Kristina"
+		dynasty = "Þynning"
+		adm = 2
+		dip = 2
+		mil = 3
+		country_of_origin = KRL
+		birth_date = 1411.8.27
+		death_date = 1471.8.27
+		female = yes
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = lawgiver_personality
+	heir = { 
+		name = "Ahvo"
+		monarch_name = "Ahvo"
+		dynasty = "Auster"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1442.6.14
+		death_date = 1507.6.14
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = karelian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11 = { 
+	add_prestige = 20
+	add_treasury = 57
+}

@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = heptadic_pagan_reformed
+primary_culture = persian
+capital = 2218
+mercantilism = 15
+1444.11.11= {
+	monarch = {
+		name = "Jahanshah III"
+		dynasty = "Tripuskar"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 1410.2.8
+		religion = heptadic_pagan_reformed
+		culture = persian
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Shri"
+		dynasty = "Tripuskar"
+		adm = 1
+		dip = 4
+		mil = 2
+		country_of_origin = FRS
+		birth_date = 1406.11.12
+		death_date = 1466.11.12
+		female = yes
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_queen_personality = secretive_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Shayan"
+		monarch_name = "Shayan"
+		dynasty = "Tripuskar"
+		adm = 4
+		dip = 6
+		mil = 4
+		birth_date = 1427.8.2
+		death_date = 1492.8.2
+		claim = 89
+		religion = heptadic_pagan_reformed
+		culture = azerbaijani
+	}
+	add_heir_personality = greedy_personality
+	add_heir_personality = pious_personality
+}
+1444.11.11= {
+	add_prestige = 78
+	add_treasury = 73
+}

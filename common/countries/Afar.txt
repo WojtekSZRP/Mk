@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 125 100 220 }
+revolutionary_colors = { 10 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Adeqenk #1" = 10
+	"Amanikhalika #1" = 10
+	"Atoberhan #1" = 10
+	"Benaim #0" = 0
+	"Birêl #0" = 0
+	"Chaim #1" = 10
+	"Desta #1" = 10
+	"Eirene #1" = -1
+	"Eitou #0" = -1
+	"Gondar #1" = 10
+	"Haeran #1" = 10
+	"Hakiem #0" = 0
+	"Hoassi #1" = 10
+	"Hêlias #1" = 10
+	"Ieremias #1" = 10
+	"Ioseph #1" = 10
+	"Iôannês #0" = 0
+	"Kelile #0" = 0
+	"Mar #1" = 10
+	"Maria #1" = -1
+	"Markos #1" = 10
+	"Megetu #0" = 0
+	"Mellesse #0" = -1
+	"Mena #1" = 10
+	"Merille #0" = 0
+	"Negus #2" = 10
+	"Papasinen #2" = 10
+	"Teka #1" = 10
+	"Tengene #0" = 0
+	"Teru #0" = -1
+	"Theodorake #1" = -1
+	"Theodôros #1" = 10
+	"Tziporah #0" = -1
+	"Yacob #1" = 10
+	"Yuda #1" = 10
+	"Òàëóò #1" = 10
+}
+leader_names = {
+	"Abdelrashid"
+	"Barré"
+	"Bol"
+	"Deng"
+	"Lemn"
+	"Leta"
+	"Semer"
+	"Teka"
+	"Tsige"
+	"Yagoub"
+}
+ship_names = {
+	"Asayita"
+	"Aura"
+	"Awash"
+	"Berahle"
+	"Chifra"
+	"Dallol"
+	"Dubti"
+	"Dulecha"
+	"Elidar"
+	"Ewa"
+	"Gewane"
+	"Koneba"
+	"Mille"
+	"Semera"
+	"Simurobi"
+	"Yalo"
+}

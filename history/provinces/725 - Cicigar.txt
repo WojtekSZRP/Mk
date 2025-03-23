@@ -1,0 +1,13 @@
+owner = MGE
+controller = MGE
+capital = "Cicigar"
+is_city = yes
+religion = tengri_pagan
+trade_goods = naval_supplies
+base_tax = 4
+base_production = 4
+base_manpower = 2
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = MGE
+culture = mongol

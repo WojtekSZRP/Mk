@@ -1,0 +1,14 @@
+owner = TAU
+controller = TAU
+capital = "Toungoo"
+is_city = yes
+culture = burmese
+religion = catholic
+trade_goods = chinaware
+base_tax = 5
+base_production = 5
+base_manpower = 4
+add_core = TAU
+discovered_by = chinese
+discovered_by = indian
+hre = yes

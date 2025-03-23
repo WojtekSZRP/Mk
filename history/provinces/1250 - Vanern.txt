@@ -1,0 +1,10 @@
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+owner = GOT
+controller = GOT
+base_tax = 2
+base_manpower = 2
+base_production = 2
+add_core = GOT

@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = catholic
+capital = 2066
+fixed_capital = 2066
+mercantilism = 15
+add_accepted_culture = khorasani
+add_accepted_culture = tamil
+1444.11.11 = { 
+	add_prestige = 85
+	add_treasury = 74
+}

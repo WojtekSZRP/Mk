@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = grand_duchy_reform
+government_rank = 1
+technology_group = eastern
+religion = norse_pagan_reformed
+primary_culture = finnish
+capital = 4
+add_accepted_culture = swedish
+1444.11.11= {
+	monarch = {
+		name = "Voitto"
+		dynasty = "Hylling"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1406.12.21
+		religion = norse_pagan_reformed
+		culture = finnish
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = conqueror_personality
+	queen = {
+		name = "Berchte"
+		dynasty = "Waiswilteites"
+		adm = 2
+		dip = 5
+		mil = 3
+		country_of_origin = Z59
+		birth_date = 1406.12.20
+		death_date = 1466.12.20
+		female = yes
+		religion = norse_pagan_reformed
+		culture = alsatian
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Kielo"
+		monarch_name = "Kielo"
+		dynasty = "Hylling"
+		adm = 2
+		dip = 5
+		mil = 2
+		birth_date = 1430.3.13
+		death_date = 1495.3.13
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = karelian
+	}
+	add_heir_personality = conqueror_personality
+	add_heir_personality = expansionist_personality
+}
+1444.11.11= {
+	add_prestige = 41
+	add_treasury = 57
+}

@@ -1,0 +1,46 @@
+jewish_ideas = {
+	start = {
+		tolerance_own = 1
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+
+	bonus = {
+		diplomatic_reputation = 1
+		fire_damage_received = -0.1
+	}
+
+	trigger = {
+		tag = ISR
+		religion_group = jewish_group
+	}
+	free = yes
+
+	end_of_diaspora = {
+		global_unrest = -2
+	}
+	national_myths_restored = {
+		discipline = 0.07
+	}
+	return_home = {
+		production_efficiency = 0.2
+	}
+	jewish_trade_tradition = {
+		trade_steering = 0.15
+		trade_efficiency = 0.15
+	}
+	jewish_banking = {
+		interest = -1
+		core_creation = -0.25
+	}
+	people_of_exile = {
+		defensiveness = 0.3
+		hostile_attrition = 1
+	}
+	the_chosen_people = {
+		enemy_core_creation = 1.0
+	}
+}

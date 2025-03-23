@@ -1,0 +1,95 @@
+province_event = {
+	id = flavor_gbr.1488
+	title = flavor_gbr.200.t
+	desc = flavor_gbr.200.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes	#Always when a colony finishes
+	hidden = yes
+	goto = ROOT
+	
+	option = {
+		ai_chance = {
+			factor = 10
+		}
+		name = flavor_gbr.200.iron
+		
+		add_base_production = 3
+		
+		
+	}
+	option = {
+		ai_chance = {
+			factor = 20
+		}
+		name = flavor_gbr.200.iron
+		
+		add_base_production = 4
+	}
+	option = {
+		ai_chance = {
+			factor = 30
+		}
+		name = flavor_gbr.200.iron
+		
+		add_base_production = 5
+	}
+	option = {
+		ai_chance = {
+			factor = 20
+		}
+		name = flavor_gbr.200.iron
+		
+		add_base_production = 6
+	}
+	option = {
+		ai_chance = {
+			factor = 10
+		}
+		name = flavor_gbr.200.iron
+		
+		add_base_production = 7
+	}
+	option = {
+		ai_chance = {
+			factor = 10
+		}
+		name = flavor_gbr.200.iron
+		
+		add_permanent_province_modifier = {
+			name = hab_schwaz_mine
+			duration = -1 
+		}
+	}
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 10000
+				ROOT = { NOT = { trade_goods = gold } }
+			}	
+		}
+		name = flavor_gbr.200.iron
+	}
+}
+
+province_event = {
+	id = flavor_gbr.1489
+	title = flavor_gbr.200.t
+	desc = flavor_gbr.200.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes	#Always when a colony finishes
+	hidden = yes
+	goto = ROOT
+	
+	option = {
+		ai_chance = {
+			factor = 10
+		}
+		name = flavor_gbr.200.iron
+		
+		add_province_modifier = {
+			name = "local_goods_america_30"
+			duration = 10950
+		}
+	}
+}

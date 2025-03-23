@@ -1,0 +1,58 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 134 0 }
+revolutionary_colors = { 8 10 8 }
+historical_idea_groups = { 
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = { 
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	shaybani
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = { 
+	"Alsamgya #0" = -1
+	"Baga #0" = 0
+	"Ceguti #0" = 0
+	"Dharma #0" = 0
+	"Dharmadasi #0" = -1
+	"Haskadatta #0" = 0
+	"Huyi #0" = 0
+	"Hvarda #0" = 0
+	"Kimatcuna #0" = 0
+	"Nirmala #0" = -1
+	"Praniyata #0" = -1
+	"Presamdha #0" = 0
+	"Safali #0" = -1
+	"Shambhava #0" = 0
+	"Shandramata #0" = -1
+	"Shura #0" = 0
+	"Simhyi #0" = 0
+	"Vikrama #0" = 0
+	"Visma #0" = 0
+	"Zambasta #0" = 0
+}
+leader_names = { 
+	"Altan Vachir" "Arigh Gan" "Bayan Checheg" "Boke Arslan" "Bora Chinua" "Chagan Erdene" "Mongke Bayar" "Mongke Enq" "Mongke Nasan" "Qara Temur"
+	"Shria Gal" "Suren Unegen" "Yeke Burilgi" 
+}
+ship_names = { 
+	"Amudarja" "Bajsun" "Chiva" "Chudzand" "Cimkent" "Gizduvan" "Gulistan" "Guzar" "Jangijul" "Karakul"
+	"Karsi" "Kerki" "Mukry" "Syrdarja" 
+}

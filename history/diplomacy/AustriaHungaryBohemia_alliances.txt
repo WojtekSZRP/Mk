@@ -1,0 +1,105 @@
+vassal = {
+	first = HAB
+	second = SLO
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = HAB
+	second = TRA
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = HAB
+	second = LBV
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = ARA
+	second = CAS
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = ARA
+	second = ASU
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = ARA
+	second = LON
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = ARA
+	second = SPI
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = ARA
+	second = NAV
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = ARA
+	second = AQU
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POR
+	second = MOR
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POR
+	second = ADU
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POR
+	second = KNI
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POR
+	second = TMB
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POR
+	second = JOL
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POR
+	second = MAL
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = Z05
+	second = ZAZ
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = pol
+	second = y31
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}

@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 153 138 161 }
+revolutionary_colors = { 5 0 1 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Agathe #0" = -1
+	"Amin #1" = 10
+	"Athanasios #0" = 0
+	"Boethios #0" = 0
+	"Darab #1" = 10
+	"Dauid #0" = 0
+	"Ephannê #2" = 10
+	"Esfandiar #1" = 10
+	"Eulabia #0" = -1
+	"Eôneille #0" = -1
+	"Faramarz #1" = 10
+	"Farhad #1" = 10
+	"Fariborz #1" = 10
+	"Farnaz #0" = -1
+	"Farrukhzad #2" = 10
+	"Humayun #1" = 10
+	"Ieremias #0" = 0
+	"Ishtar-ibni #1" = 10
+	"Jahangir #2" = 10
+	"Jamshid #1" = 10
+	"Kavadh #1" = 10
+	"Keykhosrau #1" = 10
+	"Khosrau #1" = 10
+	"Khurshid #1" = 10
+	"Krisanthos #1" = 10
+	"Lusthammar-Nergal #1" = 10
+	"Manuchihr #1" = 10
+	"Marduk-uballit #1" = 10
+	"Markos #1" = 10
+	"Marzuban #1" = 10
+	"Merkourios #1" = 10
+	"Nezam #1" = 10
+	"Parthena #0" = -1
+	"Penatti #1" = -1
+	"Sarsamas #1" = 10
+	"Stephania #0" = -1
+	"Tanittu-Nergal #1" = 10
+	"Zacharias #0" = 0
+	"Zartosht #1" = 10
+	"Àëü-Ìàíñóð #1" = 10
+	"Àñ-Ñàôôàõ #1" = 10
+	"Ñouddl #0" = -1
+}
+leader_names = {
+	"Agha"
+	"Ahmad"
+	"Akif"
+	"Husain"
+	"Javid"
+	"Necip"
+	"Nuri"
+	"Rahman"
+	"Resid"
+	"Zaki"
+}
+ship_names = {
+	"Faydhi"
+	"Fazil"
+	"Jamal"
+	"Kadri"
+	"Midhat"
+	"Nadhif"
+	"Nadhim"
+	"Namiq"
+	"Omer"
+	"Sirri"
+}

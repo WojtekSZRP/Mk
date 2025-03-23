@@ -1,0 +1,7 @@
+
+
+************ -= The Paradox Game Converters Group =- *****************
+* Converter version 1.0N "de Navarra"
+* Compatible with CK2 [v3.3] and EU4 [v1.37]
+* Built on Tue Oct  1 10:20:01 2024
+*************************** + CK2 To EU4 + ***************************

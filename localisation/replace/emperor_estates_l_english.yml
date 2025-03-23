@@ -1,0 +1,18 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ #Estate Privileges and related
+ #Missing modifier localisations
+ #Generic Estate Agendas
+ #Estate Agenda modifiers and stuff
+ #New Parliamentary Debate
+ #Estate monopoly events 
+ #Agenda Descriptions
+ #Privilege Descriptions
+ no_other_dip_privilege:0 " ª¯² ¦³¥ª ±ª¢ª®¥ªþ ®¢ª¾, ¦½¸ª §Y¨¯¾¶°³½ ¦ª±®¯²ª¶¬³½ ¢®²¿§!"
+ no_other_adm_privilege:0 " ª¯² ¦³¥ª ±ª¢ª®¥ªþ ®¢ª¾, ¦½¸ª §Y¨¯¾¶°º ¦¯ª°ª²²ª¢°º ±®°¯¶ª¾§!"

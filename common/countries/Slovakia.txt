@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 34 131 193 }
+revolutionary_colors = { 0 15 16 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Achigh #0" = 0
+	"Adelheid #0" = -1
+	"Aimeric #1" = 10
+	"Alberich #0" = 0
+	"Amalrich #0" = 0
+	"Arnulf #1" = 10
+	"Berthold #0" = 0
+	"Briachislav #2" = 10
+	"Brunhilde #0" = -1
+	"Dietrich #0" = 0
+	"Ehrenfried #1" = 10
+	"Emich #0" = 0
+	"Emma #0" = -1
+	"Ermengard #2" = -1
+	"Gerberga #0" = -1
+	"Gottfried #0" = 0
+	"Günther #0" = 0
+	"Hartwig #0" = 0
+	"Heinrich #0" = 0
+	"Helga #0" = -1
+	"Ingoald #1" = 10
+	"Irmeltrud #0" = -1
+	"Karlotte #0" = -1
+	"Lambert #0" = 0
+	"Landolf #0" = 0
+	"Liudolf #0" = 0
+	"Liutbrand #0" = 0
+	"Liutpold #0" = 0
+	"Onemiro #2" = 10
+	"Ragesenda #0" = -1
+	"Richenza #0" = -1
+	"Richwara #0" = -1
+	"Riku #0" = 0
+	"Rostislav #1" = 10
+	"Skirbartas #2" = 10
+	"Theudoald #1" = 10
+	"Udalrich #0" = 0
+	"Viacheslav #1" = 10
+	"Íèòðàáîð #1" = 10
+}
+leader_names = {
+	"Balaša"
+	"Beckovský"
+	"Bel"
+	"Benyovszky"
+	"Bosniak"
+	"Elefánthy"
+	"Hatnanský"
+	"Jesenský"
+	"Kollar"
+	"Podmanický"
+	"Pongrac"
+	"Pongrácz"
+	"Stibor"
+	"Veseléni"
+	"Wesselényi"
+}
+ship_names = {
+	"Bebrava"
+	"Belá"
+	"Blava"
+	"Bodrog"
+	"Bodva"
+	"Cierna voda"
+	"Dunajec"
+	"Hornád"
+	"Ipel"
+	"Latorica"
+	"Morava"
+	"Ondava"
+	"Poprad"
+	"Rimava"
+	"Slaná"
+	"Torysa"
+	"Žitava"
+}

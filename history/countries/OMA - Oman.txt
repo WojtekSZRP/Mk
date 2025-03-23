@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = heptadic_pagan_reformed
+primary_culture = saka
+capital = 397
+mercantilism = 15
+add_accepted_culture = mizrahi
+1444.11.11= {
+	monarch = {
+		name = "Dum"
+		dynasty = "nava Ормуз"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1399.4.22
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = kind_hearted_personality
+	queen = {
+		name = "Ghamze"
+		dynasty = "Tripuskar"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = OMA
+		birth_date = 1399.4.25
+		death_date = 1459.4.25
+		female = yes
+		religion = heptadic_pagan_reformed
+		culture = azerbaijani
+	}
+	add_queen_personality = silver_tongue_personality
+	add_queen_personality = well_connected_personality
+	heir = {
+		name = "Presamdha"
+		monarch_name = "Presamdha"
+		dynasty = "nava Ормуз"
+		adm = 5
+		dip = 6
+		mil = 4
+		birth_date = 1420.6.23
+		death_date = 1485.6.23
+		claim = 89
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_heir_personality = fierce_negotiator_personality
+	add_heir_personality = pious_personality
+}
+1444.11.11= {
+	add_prestige = 83
+	add_treasury = 74
+}

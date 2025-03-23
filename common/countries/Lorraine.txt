@@ -1,0 +1,83 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 115 142 205 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Arnold #0" = 0
+	"Berina #0" = -1
+	"Cothilda #0" = -1
+	"Desteilli #0" = -1
+	"Eberhard #0" = 0
+	"Engeltraud #0" = -1
+	"Gemma #0" = -1
+	"Gudesteus #0" = 0
+	"Isentrude #0" = -1
+	"Karl #0" = 0
+	"Kunigunde #0" = -1
+	"Liutbert #0" = 0
+	"Maroe #0" = 0
+	"Ofeig #0" = 0
+	"Osdulfus #0" = 0
+	"Penefreda #0" = -1
+	"Penetrudia #0" = -1
+	"Rechila #1" = 10
+	"Visterlo #0" = -1
+	"Welf #0" = 0
+}
+leader_names = {
+	"Bickling"
+	"Braun"
+	"Detemple"
+	"Fent"
+	"Feyerabend"
+	"Forthober"
+	"Freymuth"
+	"Kathrein"
+	"Krogloth"
+	"Limburg"
+	"Neubert"
+	"Oberlothringen"
+	"Wolferseder"
+	"von Elsass"
+}
+ship_names = {
+	"Toul"
+	"l'Empereur Lothaire"
+	"le Barrois"
+	"le Bera"
+	"le Lorraine"
+	"le Metz"
+	"le René II de Lorraine"
+	"le Scoc"
+	"le Sekjan"
+	"le Skirmjan"
+	"le Verdun"
+	"le Warding"
+}

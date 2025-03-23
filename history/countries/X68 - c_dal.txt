@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = swedish
+capital = 4164
+fixed_capital = 4164
+add_accepted_culture = german
+1444.11.11= {
+	monarch = {
+		name = "Froði"
+		dynasty = "Væni"
+		adm = 5
+		dip = 2
+		mil = 4
+		birth_date = 1420.8.5
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = infertile_personality
+	queen = {
+		name = "Gyrið"
+		dynasty = "Auster"
+		adm = 2
+		dip = 5
+		mil = 2
+		country_of_origin = X68
+		birth_date = 1420.11.3
+		death_date = 1480.11.3
+		female = yes
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = expansionist_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "Ingólfr"
+		monarch_name = "Ingólfr"
+		dynasty = "Væni"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1439.4.22
+		death_date = 1504.4.22
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = -50
+	add_treasury = 66
+}

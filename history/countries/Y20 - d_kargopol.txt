@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = eastern
+religion = norse_pagan_reformed
+primary_culture = holmgardrian
+capital = 1958
+add_accepted_culture = samoyed
+1444.11.11= {
+	monarch = {
+		name = "Guðmundr"
+		dynasty = "Refr"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1400.4.3
+		religion = norse_pagan_reformed
+		culture = holmgardrian
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Bodil"
+		dynasty = "Styr"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = Y20
+		birth_date = 1398.1.27
+		death_date = 1458.1.27
+		female = yes
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = kind_hearted_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Geirr"
+		monarch_name = "Geirr II"
+		dynasty = "Refr"
+		adm = 5
+		dip = 3
+		mil = 6
+		birth_date = 1419.3.9
+		death_date = 1484.3.9
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_heir_personality = strict_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 63
+	add_treasury = 49
+}

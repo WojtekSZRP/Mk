@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 186 91 41 }
+monarch_names = {
+	"Bolkhadar #0" = 0
+	"China #0" = -1
+	"Eionkouda #2" = 10
+	"Gabrielophorou #0" = 0
+	"Kurillos #2" = 10
+	"Marianos #1" = 10
+	"Mouses #1" = 10
+	"Mêlênkouda #1" = 10
+	"Petrou #1" = 10
+	"Ravya #0" = 0
+	"Soizuros #0" = 0
+	"Thadeosi #0" = 0
+	"Theodote #1" = 10
+	"Theodôros #1" = 10
+	"Ñîèçóðîñ #1" = 10
+}

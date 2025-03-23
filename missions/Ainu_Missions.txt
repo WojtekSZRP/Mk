@@ -1,0 +1,224 @@
+anu_conquer_japan_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = ANU
+			#don't put wannabe tags in events
+			#tag = ENC
+			#tag = MSK
+			#tag = SMK
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	anu_hokkaido = {
+		icon = mission_invade_island
+		required_missions = { }
+		provinces_to_highlight = {
+			province_id = 4193
+			NOT = {
+				owned_by = root
+			}
+		}
+		trigger = {
+			4193 = {
+				owned_by = root
+			}
+		}
+		effect = {
+			4193 = {
+				add_core = root
+				change_culture = ainu
+				change_religion = root
+			}
+			thohoku_area = {
+				add_permanent_claim = root
+			}
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	anu_tohoku = {
+		icon = mission_japanese_fort
+		required_missions = { anu_hokkaido }
+		provinces_to_highlight = {
+			area = thohoku_area
+			#probably un-added areas
+			#area = north_tohoku_area
+			NOT = { owned_by = root }
+		}
+		trigger = {
+			thohoku_area = {
+				type = all
+				owned_by = root
+			}
+		    num_of_colonists = 1
+		}
+		effect = {
+			thohoku_area = {
+				add_province_modifier = { #No "permanent" means it goes away on ownership change.
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			kanto_area = {
+				add_permanent_claim = root
+			}
+			eastern_kanto_area = {
+				add_permanent_claim = root
+			}
+		}
+	}
+	
+	anu_kanto = {
+		icon = mission_asian_city
+		required_missions = { anu_tohoku }
+		provinces_to_highlight = {
+			area = kanto_area
+			area = eastern_kanto_area
+			NOT = { owned_by = root }
+		}
+		trigger = {
+			kanto_area = {
+				type = all
+				owned_by = root
+			}
+			eastern_kanto_area = {
+				type = all
+				owned_by = root
+			}
+		}
+		effect = {
+			kanto_area = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			eastern_kanto_area = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			japan_region = {
+				add_permanent_claim = root
+			}
+		}
+	}
+	anu_east_honshu = {
+		icon = mission_unite_home_region
+		required_missions = { anu_kanto }
+		provinces_to_highlight = {
+			area = eastern_chubu_area
+			area = chubu_area
+			area = hokuriku_area
+			NOT = { province_id = 4359 }
+			NOT = { province_id = 1023 }
+			NOT = { owned_by = root }
+		}
+		trigger = {
+			eastern_chubu_area = { owned_by = root }
+			1024 = { owned_by = root }
+			1030 = { owned_by = root }
+			1835 = { owned_by = root }
+			1837 = { owned_by = root }
+		}
+		effect = {
+			add_adm_power = 50
+			add_dip_power = 50
+			eastern_chubu_area = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			1024 = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			1030 = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			1835 = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			1837 = {
+				add_province_modifier = {
+					name = "generic_culture_convert_mod"
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = "anu_pushed_back_yamato"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	
+	anu_end_yamato = {
+		icon = mission_kowtow
+		required_missions = { anu_east_honshu }
+		provinces_to_highlight = {
+			region = japan_region
+			NOT = {
+				province_id = 4651 #Tsushima
+				province_id = 1015 #Ryukyu
+				owned_by = root
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = ANU_OWN_JAPAN
+				japan_region = {
+					type = all
+					OR = {
+						owned_by = root
+						province_id = 4651
+						province_id = 1015
+					}
+				}
+			}
+		}
+		effect = {
+			change_government = monarchy
+			set_country_flag = eastern_monarchy_enabled
+			add_government_reform = eastern_monarchy
+		}
+	}
+	
+	anu_culture_convert = {
+		icon = mission_extent_yasak_to_the_east
+		required_missions = { anu_end_yamato }
+		trigger = {
+			calc_true_if = {
+				japan_region = {
+					culture = ainu
+				}
+				amount = 25
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = "anu_restoration_of_ainu"
+				duration = -1
+			}
+		}
+	}
+}

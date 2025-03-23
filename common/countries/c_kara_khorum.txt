@@ -1,0 +1,6 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 130 132 225 }
+monarch_names = {
+	"Bolkhadar #0" = 0
+}

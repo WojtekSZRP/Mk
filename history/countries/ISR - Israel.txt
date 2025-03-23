@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = peasants_repubic
+government_rank = 1
+technology_group = eastern
+religion = jewish
+capital = 379
+fixed_capital = 379
+mercantilism = 10
+add_accepted_culture = sephardi
+500.11.11 = { 
+	monarch = { 
+		name = "Ha-Kohen"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+add_government_reform = peasants_republic

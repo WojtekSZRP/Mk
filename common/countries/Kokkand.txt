@@ -1,0 +1,85 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 40 75 175 }
+revolutionary_colors = { 4 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	quantity_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	shaybani
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Asi #1" = 10
+	"Bexak #1" = 10
+	"Bhadra #1" = 10
+	"Chika #1" = 10
+	"Haskadatta #1" = 10
+	"Huyi #1" = 10
+	"Hvimdu #1" = 10
+	"Jabgu #1" = 10
+	"Kamnai #1" = 10
+	"Nipandaka #1" = 10
+	"Nirmala #1" = -1
+	"Punarrjam #1" = 10
+	"Samgai #1" = 10
+	"Shambhava #1" = 10
+	"Shikshananda #2" = 10
+	"Shinganca #0" = 0
+	"Shirvamdai #1" = 10
+	"Skunkha #1" = 10
+	"Sthavira #2" = 10
+	"Sumtharaka #1" = 10
+	"Vadhaga #1" = 10
+	"Vasudeva #0" = 0
+	"Vidaram #0" = 0
+	"Vijita #0" = 0
+	"Yavalac #0" = -1
+	"Ysambasta #0" = 0
+	"Алутар #1" = 10
+	"Пай #1" = 10
+	"Салим #1" = 10
+}
+leader_names = {
+	"Alim"
+	"Bachi"
+	"Bahadur"
+	"Erdeni"
+	"Khudayar"
+	"Malla"
+	"Murad"
+	"Quli"
+	"Tura"
+}
+ship_names = {
+	"Alajskij Chrebet"
+	"Amu Darja"
+	"Besharik"
+	"Fergana"
+	"Khamza"
+	"Khavakend"
+	"Kuva"
+	"Kuvasay"
+	"Margilan"
+	"Nar"
+	"Rishdan"
+	"Syr Darja"
+	"Uzeravsan"
+}

@@ -1,0 +1,15 @@
+owner = AYU
+controller = AYU
+capital = "Sukhothai"
+is_city = yes
+religion = catholic
+trade_goods = chinaware
+base_tax = 6
+base_production = 6
+base_manpower = 3
+discovered_by = chinese
+discovered_by = indian
+add_core = AYU
+culture = central_thai
+fort_15th = yes
+hre = yes

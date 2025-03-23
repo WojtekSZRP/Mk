@@ -1,0 +1,16 @@
+capital = "Kaluga"
+religion = orthodox
+trade_goods = grain
+base_tax = 2
+base_production = 1
+base_manpower = 1
+discovered_by = GOL
+discovered_by = KAZ
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = western
+add_core = RYA
+owner = RYA
+controller = RYA
+is_city = no
+culture = ryazanian

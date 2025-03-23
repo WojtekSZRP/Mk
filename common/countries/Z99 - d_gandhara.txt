@@ -1,0 +1,27 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 150 31 }
+monarch_names = { 
+	"Amarapuyankan #4" = 10
+	"Bhadra #2" = 10
+	"Cataiyavarman #4" = 10
+	"Chika #0" = 0
+	"Dharma #2" = 10
+	"Javaneh #0" = -1
+	"Kanakacûriya #2" = 10
+	"Kopperunjozhan #1" = 10
+	"Manohara #1" = 10
+	"Mânaticcuran #1" = 10
+	"Pararâcacêkaran #1" = 10
+	"Parvin #0" = -1
+	"Praniyata #0" = -1
+	"Raghu #1" = 10
+	"Sangrama #0" = 0
+	"Sayausa #1" = 10
+	"Shinganca #0" = 0
+	"Vagiti #0" = 0
+	"Vahana #0" = 0
+	"Varman #0" = 0
+	"Vimalaprabha #0" = -1
+	"Vîrakêcari #1" = 10
+}

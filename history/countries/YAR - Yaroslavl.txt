@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = norse_pagan_reformed
+primary_culture = karelian
+capital = 4259
+add_accepted_culture = mordvin
+1444.11.11= {
+	monarch = {
+		name = "Sarak II"
+		dynasty = "Manvid"
+		adm = 5
+		dip = 2
+		mil = 3
+		birth_date = 1392.7.4
+		religion = norse_pagan_reformed
+		culture = karelian
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	queen = {
+		name = "Skuld"
+		dynasty = "af Orkneyjar"
+		adm = 3
+		dip = 2
+		mil = 3
+		country_of_origin = YAR
+		birth_date = 1401.3.4
+		death_date = 1461.3.4
+		female = yes
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Nabtiko"
+		monarch_name = "Nabtiko"
+		dynasty = "Manvid"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 1423.12.6
+		death_date = 1488.12.6
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = karelian
+	}
+	add_heir_personality = secretive_personality
+	add_heir_personality = silver_tongue_personality
+}
+1444.11.11= {
+	add_prestige = 27
+	add_treasury = 58
+}

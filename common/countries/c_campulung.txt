@@ -1,0 +1,11 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 248 182 69 }
+monarch_names = {
+	"Arnefrith #0" = 0
+	"Bikilis #0" = 0
+	"Kriemhild #0" = -1
+	"Petipor #0" = 0
+	"Pierporus #0" = 0
+	"Ruprecht #0" = 0
+}

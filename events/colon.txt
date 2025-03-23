@@ -1,0 +1,4734 @@
+namespace = colon
+
+country_event = {
+	id = colon.1
+	title = "colon"
+	desc = "colon_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = no_colon
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_country_flag = la_plata_cl}
+		}
+		name = "la_plata_region"
+		country_event = {id = "colon.2"}
+		la_plata_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = brazil_cl}
+		}
+		name = "brazil_region"
+		country_event = {id = "colon.3"}
+		brazil_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = colombia_cl}
+		}
+		name = "colombia_region"
+		country_event = {id = "colon.4"}
+		colombia_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = peru_cl}
+		}
+		name = "peru_region"
+		country_event = {id = "colon.5"}
+		peru_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		upper_peru_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = carribeans_cl}
+		}
+		name = "carribeans_region"
+		country_event = {id = "colon.6"}
+		carribeans_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = central_america_cl}
+		}
+		name = "central_america_region"
+		country_event = {id = "colon.7"}
+		central_america_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = mexico_cl}
+		}
+		name = "mexico_region"
+		country_event = {id = "colon.8"}
+		mexico_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+	
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = rio_grande_cl}
+		}
+		name = "rio_grande_region"
+		country_event = {id = "colon.9"}
+		rio_grande_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		mississippi_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = southeast_america_cl}
+		}
+		name = "southeast_america_region"
+		country_event = {id = "colon.10"}
+		southeast_america_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = northeast_america_cl}
+		}
+		name = "northeast_america_region"
+		country_event = {id = "colon.11"}
+		northeast_america_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+	
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = canada_cl}
+		}
+		name = "canada_region"
+		country_event = {id = "colon.12"}
+		canada_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		hudson_bay_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+	
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = california_cl}
+		}
+		name = "california_region"
+		country_event = {id = "colon.13"}
+		california_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		cascadia_region = {
+			ROOT = {
+				discover_province = PREV
+			}
+		}
+		
+	}
+	option = {
+		name = "Back"
+		remove_country_modifier = colonization_timeout
+		remove_country_modifier = colonization_bumm_2
+		clr_country_flag = no_colon
+	}
+}
+country_event = {
+	id = colon.2
+	title = "colon"
+	desc = "colon_2_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = patagonia_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "patagonia_area"
+		patagonia_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = south_atlantic_islands_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "south_atlantic_islands_area"
+		south_atlantic_islands_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = southern_chile_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "southern_chile_area"
+		southern_chile_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = bahia_blanca_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "bahia_blanca_area"
+		bahia_blanca_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = central_chile_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "central_chile_area"
+		central_chile_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = southern_pampas_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "southern_pampas_area"
+		southern_pampas_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = buenos_aires_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "buenos_aires_area"
+		buenos_aires_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = banda_oriental_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "banda_oriental_area"
+		banda_oriental_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = la_plata_cl
+	}
+}
+country_event = {
+	id = colon.3
+	title = "colon"
+	desc = "colon_3_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = rio_grande_do_sol_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "rio_grande_do_sol_area"
+		rio_grande_do_sol_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = sao_paolo_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "sao_paolo_area"
+		sao_paolo_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = rio_de_janeiro_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "rio_de_janeiro_area"
+		rio_de_janeiro_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = bahia_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "bahia_area"
+		bahia_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = pernambuco_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "pernambuco_area"
+		pernambuco_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = ceara_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "ceara_area"
+		ceara_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = piaui_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "piaui_area"
+		piaui_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = maranhao_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "maranhao_area"
+		maranhao_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = grao_para_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "grao_para_area"
+		grao_para_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = amapa_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "amapa_area"
+		amapa_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = brazil_cl
+	}
+}
+country_event = {
+	id = colon.4
+	title = "colon"
+	desc = "colon_4_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = suriname_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "suriname_area"
+		suriname_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = guyana_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "guyana_area"
+		guyana_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = venezuela_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "venezuela_area"
+		venezuela_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = maracaibo_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "maracaibo_area"
+		maracaibo_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = coquivacoa_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "coquivacoa_area"
+		coquivacoa_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = popayan_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "popayan_area"
+		popayan_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = panama_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "panama_area"
+		panama_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = colombia_cl
+	}
+}
+country_event = {
+	id = colon.5
+	title = "colon"
+	desc = "colon_5_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = quito_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "quito_area"
+		quito_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = chimor_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "chimor_area"
+		chimor_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = huanuco_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "huanuco_area"
+		huanuco_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = peruan_coast
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "peruan_coast"
+		peruan_coast = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = northern_chile_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "northern_chile_area"
+		northern_chile_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = peru_cl
+	}
+}
+country_event = {
+	id = colon.6
+	title = "colon"
+	desc = "colon_6_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = cuba_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "cuba_area"
+		cuba_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = east_cuba_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "east_cuba_area"
+		east_cuba_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = hispaniola_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "hispaniola_area"
+		hispaniola_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = dominica_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "dominica_area"
+		dominica_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = greater_antilles_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "greater_antilles_area"
+		greater_antilles_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = leeward_islands_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "leeward_islands_area"
+		leeward_islands_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = windward_islands_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "windward_islands_area"
+		windward_islands_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = lucayan_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "lucayan_area"
+		lucayan_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = carribeans_cl
+	}
+}
+country_event = {
+	id = colon.7
+	title = "colon"
+	desc = "colon_7_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = guatemala_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "guatemala_area"
+		guatemala_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = honduras_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "honduras_area"
+		honduras_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = nicaragua_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "nicaragua_area"
+		nicaragua_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = yucatan_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "yucatan_area"
+		yucatan_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = east_yucatan_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "east_yucatan_area"
+		east_yucatan_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = chiapas_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "chiapas_area"
+		chiapas_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = guatemala_lowlands_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "guatemala_lowlands_area"
+		guatemala_lowlands_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = costa_rica_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "costa_rica_area"
+		costa_rica_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = campeche_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "campeche_area"
+		campeche_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = central_america_cl
+	}
+}
+country_event = {
+	id = colon.8
+	title = "colon"
+	desc = "colon_8_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = oaxaca_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "oaxaca_area"
+		oaxaca_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = mixteca_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "mixteca_area"
+		mixteca_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = guerrero_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "guerrero_area"
+		guerrero_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = tierra_caliente_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "tierra_caliente_area"
+		tierra_caliente_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = jalisco_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "jalisco_area"
+		jalisco_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = nayarit_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "nayarit_area"
+		nayarit_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = huasteca_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "huasteca_area"
+		huasteca_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = eastern_mexico_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "eastern_mexico_area"
+		eastern_mexico_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = mexico_cl
+	}
+}
+country_event = {
+	id = colon.9
+	title = "colon"
+	desc = "colon_9_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = west_florida_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "west_florida_area"
+		west_florida_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = lower_louisiana_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "lower_louisiana_area"
+		lower_louisiana_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = rio_grande_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "rio_grande_area"
+		rio_grande_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = coastal_prarie_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "coastal_prarie_area"
+		coastal_prarie_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = rio_grande_cl
+	}
+}
+country_event = {
+	id = colon.10
+	title = "colon"
+	desc = "colon_10_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = florida_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "florida_area"
+		florida_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = american_georgia_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "american_georgia_area"
+		american_georgia_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = south_carolina_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "south_carolina_area"
+		south_carolina_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = north_florida_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "north_florida_area"
+		north_florida_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = chesapeake_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "chesapeake_area"
+		chesapeake_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = carolinas_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "carolinas_area"
+		carolinas_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = southeast_america_region
+	}
+}
+country_event = {
+	id = colon.11
+	title = "colon"
+	desc = "colon_11_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = maryland_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "maryland_area"
+		maryland_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = delaware_valley_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "delaware_valley_area"
+		delaware_valley_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = new_york_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "new_york_area"
+		new_york_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = connecticut_valley_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "connecticut_valley_area"
+		connecticut_valley_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = massachusetts_bay_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "massachusetts_bay_area"
+		massachusetts_bay_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = maine_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "maine_area"
+		maine_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = eastern_maine_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "eastern_maine_area"
+		eastern_maine_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = great_woods_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "great_woods_area"
+		great_woods_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+		option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = northeast_america_cl
+	}
+}
+country_event = {
+	id = colon.12
+	title = "colon"
+	desc = "colon_11_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = lower_acadia_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "lower_acadia_area"
+		lower_acadia_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = upper_acadia_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "upper_acadia_area"
+		upper_acadia_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = newfoundland_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "newfoundland_area"
+		newfoundland_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = labrador_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "labrador_area"
+		labrador_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = cote_nord_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "cote_nord_area"
+		cote_nord_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = st_john_valley_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "st_john_valley_area"
+		st_john_valley_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = greenland_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "greenland_area"
+		greenland_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = notre_dame_mountains_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "notre_dame_mountains_area"
+		notre_dame_mountains_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = hudson_bay_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "hudson_bay_area"
+		hudson_bay_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = james_bay_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "james_bay_area"
+		james_bay_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = canada_cl
+	}
+}
+country_event = {
+	id = colon.13
+	title = "colon"
+	desc = "colon_13_desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+
+	}
+	after = {
+		clr_country_flag = no_colon
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = sonora_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "sonora_area"
+		sonora_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = baja_california_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "baja_california_area"
+		baja_california_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = northern_california_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "northern_california_area"
+		northern_california_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = california_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "california_area"
+		california_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = oregon_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "oregon_area"
+		oregon_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = columbia_river_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "columbia_river_area"
+		columbia_river_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = salish_sea_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "salish_sea_area"
+		salish_sea_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = hecate_strait_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "hecate_strait_area"
+		hecate_strait_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = alaska_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "alaska_area"
+		alaska_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = straits_of_georgia_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "straits_of_georgia_area"
+		straits_of_georgia_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {calc_true_if = {
+				all_province = {
+					area = east_alaska_area
+					is_empty = no
+				}
+				amount = 1
+			}
+			}
+		}
+		name = "east_alaska_area"
+		east_alaska_area = {
+			ROOT = {
+				create_colony_mission_reward = {
+				province = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = colonization_payment_1 }
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+			}
+			set_country_flag = colonization_payment_1
+			add_treasury = -1000
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_1
+			}
+		    add_treasury = -2500
+			clr_country_flag = colonization_payment_1
+			set_country_flag = colonization_payment_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = colonization_payment_2
+			}
+			add_treasury = -5000
+
+		}
+	}
+	option = {
+		name = "Back"
+		country_event = {id = "colon.1"}
+		clr_country_flag = california_cl
+		remove_country_modifier = colonization_timeout
+		remove_country_modifier = colonization_bumm_2
+	}
+}

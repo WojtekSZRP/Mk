@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 244 38 38 }
+revolutionary_colors = { 5 14 10 }
+historical_idea_groups = { 
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = { 
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = { 
+	"Aarto #1" = 10
+	"Arvo #1" = 10
+	"Burebista #0" = 0
+	"Engeltraud #0" = -1
+	"Froi #1" = 10
+	"Hannu #3" = 10
+	"Havu #1" = 10
+	"Hell‰ #0" = -1
+	"Ihanti #0" = 0
+	"Ilmatar #0" = -1
+	"Inga #0" = -1
+	"Ingfrid #0" = -1
+	"Jurva #1" = 10
+	"Kettu #0" = 0
+	"Kolli #1" = 10
+	"Kristiina #0" = -1
+	"Kristina #0" = -1
+	"K‰py #0" = -1
+	"Lemmikki #0" = -1
+	"Liekko #0" = -1
+	"Mesi #0" = -1
+	"Mielitty #1" = 10
+	"Miemo #1" = 10
+	"Pilvi #0" = -1
+	"Refil #1" = 10
+	"Riku #1" = 10
+	"Sampo #1" = 10
+	"Soini #1" = 10
+	"Styrkar #1" = 10
+	"Suoma #0" = -1
+	"Susi #1" = 10
+	"Sverker #1" = 10
+	"Turo #1" = 10
+	"Ulfr #1" = 10
+	"Urho #1" = 10
+	"Valdemar #0" = 0
+	"Valteri #1" = 10
+	"Valto #2" = 10
+	"Vanamo #0" = -1
+	"Vesa #0" = 0
+	"Voitto #1" = 10
+	"»ı‡Î‡ #1" = 10
+	"ÀÂÏÂÚÚË #1" = 10
+}
+leader_names = { 
+	"Azegid" "Gachegid" "Irtegid" "Lunegid" "Moshegid" "Rategid" "Syktyvkar" "Yugra" "Zhebegid" "Zhunegid"
+}
+ship_names = { 
+	"Noroava" "Olota" "Ordava" "Pemka" "Poshayka" "Tekay" "Tetyava" "Tundya" "Unzhutka" "Yalgava"
+}

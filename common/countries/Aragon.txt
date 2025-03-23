@@ -1,0 +1,212 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 166 68 72 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	maritime_ideas
+	quantity_ideas
+	religious_ideas
+	trade_ideas
+	naval_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	french_caracolle
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Akakios #0" = 0
+	"Alar #0" = 0
+	"Ancasta #0" = -1
+	"Anna #0" = -1
+	"Anthousa #0" = -1
+	"Arsenios #0" = 0
+	"Athanasia #0" = -1
+	"Banna #0" = -1
+	"Barbara #0" = -1
+	"Basillike #0" = -1
+	"Belisarios #0" = 0
+	"Berthildis #0" = -1
+	"Bolgios #1" = 10
+	"Bronuen #0" = -1
+	"Bughu #0" = 0
+	"Buoëdon #0" = -1
+	"Burkhan #0" = 0
+	"Comux #1" = 10
+	"Demetrios #0" = 0
+	"Eirene #0" = -1
+	"Eitou #0" = -1
+	"Elaiodora #0" = -1
+	"Eupraxia #0" = -1
+	"Eustratios #0" = 0
+	"Evangelos #0" = 0
+	"Evanthia #0" = -1
+	"Eya #0" = -1
+	"Garyphallia #0" = -1
+	"Gregorios #0" = 0
+	"Gremislava #0" = -1
+	"Gueroc #0" = 0
+	"Gurceneu #0" = 0
+	"Gurguaret #2" = 10
+	"Gurguist #0" = 0
+	"Gurmhaelon #1" = 10
+	"Gurthiern #1" = 10
+	"Gwendolen #0" = -1
+	"Helene #0" = -1
+	"Igerna #0" = -1
+	"Ioanna #0" = -1
+	"Iofa #0" = -1
+	"Kogsegu #0" = 0
+	"Konstantia #0" = -1
+	"Konstantios #0" = 0
+	"Kyriakos #0" = 0
+	"Kyrillos #1" = 10
+	"Leontia #0" = -1
+	"Martha #0" = -1
+	"Maximos #0" = 0
+	"Megistos #1" = 10
+	"Melissa #0" = -1
+	"Nikephoros #0" = 0
+	"Niketas #0" = 0
+	"Omer #0" = 0
+	"Orestes #2" = 10
+	"Orson #0" = 0
+	"Pamphilios #0" = 0
+	"Pantoleon #0" = 0
+	"Parthena #0" = -1
+	"Philaretos #0" = 0
+	"Photios #0" = 0
+	"Porphyrios #0" = 0
+	"Predslava #0" = -1
+	"Prokopios #0" = 0
+	"Pulcheria #0" = -1
+	"Pyrros #0" = 0
+	"Raphail #1" = 10
+	"Rhodanthe #0" = -1
+	"Richwin #0" = 0
+	"Ruggiero #0" = 0
+	"Serapion #0" = 0
+	"Shayna #0" = -1
+	"Shimon #0" = 0
+	"Sophia #0" = -1
+	"Sulgubri #0" = -1
+	"Sulleisoc #0" = -1
+	"Symeon #0" = 0
+	"Tanetlowen #0" = -1
+	"Thekla #0" = -1
+	"Theocharistos #0" = 0
+	"Theodoulos #0" = 0
+	"Theophylaktos #1" = 10
+	"Tiziana #0" = -1
+	"Tugdual #0" = 0
+	"Ulita #0" = -1
+	"Ungust #1" = 10
+	"Uriell #0" = -1
+	"Valeria #0" = -1
+	"Valerios #1" = 10
+	"Vincenne #0" = 0
+	"Yefimia #0" = -1
+}
+leader_names = {
+	"Amic"
+	"Arbués"
+	"Balaguer"
+	"Barceló"
+	"Berguedà"
+	"Bielsa"
+	"Cajal"
+	"Colom"
+	"Domènec"
+	"Fernández de Hijar"
+	"Ferrer"
+	"Folc de Cardona"
+	"Franco"
+	"Galindo"
+	"Gil de Biedma"
+	"Gisbert"
+	"Loaisa"
+	"Martorell"
+	"Monteagudo"
+	"Muntaner"
+	"Oliva"
+	"Ordovás"
+	"Peña"
+	"Piquer"
+	"Pérez de Coloma"
+	"Ripoll"
+	"Sastre"
+	"Vallès"
+	"Veldrán"
+	"Vilamarí"
+	"Villarroya"
+	"d'Aragó"
+	"d'Empúries"
+	"d'Ixer"
+	"d'Ors"
+	"d'Urgell"
+	"d'Àustria"
+	"de Alagón"
+	"de Ayerbe"
+	"de Belchite"
+	"de Borja"
+	"de Cabrera"
+	"de Gotor"
+	"de Guimerà"
+	"de Gurrea"
+	"de Luna"
+	"de Montcada"
+	"de Requesens"
+	"de Ripperdá"
+	"de Zaporta"
+	"de la Riba"
+}
+ship_names = {
+	"Blanca Aurora"
+	"Falcó"
+	"Flama"
+	"La Bonaventura"
+	"La Garsa"
+	"La Gasela"
+	"La Reial"
+	"Lleona"
+	"Magnana"
+	"Sant Ambrós"
+	"Sant Antoni"
+	"Sant Bernat"
+	"Sant Climent"
+	"Sant Francesc"
+	"Sant Gabriel"
+	"Sant Jacob"
+	"Sant Joan Evangelista"
+	"Sant Jordi"
+	"Sant Miquel"
+	"Sant Pere de Roma"
+	"Sant Víctor"
+	"Santa Bàrbara"
+	"Santa Caterina"
+	"Santa Coloma"
+	"Santa Creu"
+	"Santa Eulàlia"
+	"Santa Magdalena"
+	"Santa Maria"
+	"Santa Ventura"
+	"Santa Ágata"
+	"Trinitat"
+}
+army_names = {
+	"Terç de $PROVINCE$"
+}

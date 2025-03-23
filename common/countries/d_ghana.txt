@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 62 150 247 }
+monarch_names = {
+	"Buite #0" = 0
+	"Bunama #1" = 10
+	"Carvilius #0" = 0
+	"Cattulanus #0" = 0
+	"Cavarinus #1" = 10
+	"Diakhaba #1" = 10
+	"Diobй #1" = 10
+	"Kukuray #1" = 10
+	"Lugotorix #0" = 0
+	"Mamadi #2" = 10
+	"Musa #0" = 0
+	"Talorc #1" = 10
+	"Tincomarus #1" = 10
+	"Vosenius #2" = 10
+	"Драмане #2" = 10
+	"Дрисса #1" = 10
+	"Сейду #1" = 10
+}

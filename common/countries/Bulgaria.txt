@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 116 107 140 }
+revolutionary_colors = { 0 10 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Andrei #0" = 0
+	"Apollonia #1" = -1
+	"Arsa #0" = 0
+	"Cingetorix #0" = 0
+	"Coilus #0" = 0
+	"Darya #0" = -1
+	"Dobroslava #1" = -1
+	"Elyakim #0" = 0
+	"Fedot #0" = 0
+	"Gorgippos #1" = 10
+	"Helena #1" = -1
+	"Iliya #0" = 0
+	"Ivan #1" = 10
+	"Kirill #1" = 10
+	"Konstantia #0" = -1
+	"Konstantin #0" = 0
+	"Kyriakos #1" = 10
+	"Lovernisca #0" = -1
+	"Maurikios #1" = 10
+	"Mikhail #0" = 0
+	"Mislav #1" = 10
+	"Moshe #0" = 0
+	"Nikita #1" = 10
+	"Piramaccвni #0" = -1
+	"Premyslava #0" = -1
+	"Prvoslav #0" = 0
+	"Putiata #2" = 10
+	"Pyrros #1" = 10
+	"Serapion #1" = 10
+	"Shayna #0" = -1
+	"Sorgo #0" = 0
+	"Staurakios #2" = 10
+	"Terentiy #0" = 0
+	"Trifon #0" = 0
+	"Veleslava #0" = -1
+	"Volodar #0" = 0
+	"Vseslava #0" = -1
+	"Yaoqin #0" = 0
+	"Yekaterina #1" = -1
+	"Yelizaveta #0" = -1
+	"Yevpraxia #1" = -1
+	"Yevstafiy #1" = 10
+	"Zopyrion #1" = 10
+	"Айяр #1" = 10
+	"Аспарух #1" = 10
+	"Винех #1" = 10
+	"Кормесий #1" = 10
+	"Кормисош #1" = 10
+	"Паган #1" = 10
+	"Сабин #1" = 10
+	"Севар #1" = 10
+	"Телериг #1" = 10
+	"Телец #1" = 10
+	"Тервел #1" = 10
+	"Токту #1" = 10
+	"Умор #1" = 10
+}
+leader_names = {
+	"Balina"
+	"Djordjic"
+	"Dobrovski"
+	"Frujin"
+	"Karposh"
+	"Konstantin"
+	"Marinov"
+	"Peyachevich"
+	"Radic"
+	"Rali"
+	"Shishman"
+	"Sorkochovich"
+	"Strahil"
+	"Stratimirovich"
+}
+ship_names = {
+	"Alhtpolo"
+	"Kiten"
+	"Kraymorie"
+	"Lozenets"
+	"Promorsko"
+	"Rezovo"
+	"Sarafovo"
+	"Sinemorets"
+	"Sozopol"
+	"Varara"
+}

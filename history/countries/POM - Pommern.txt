@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = orthodox
+primary_culture = old_lombard
+capital = 48
+add_accepted_culture = prussian
+1444.11.11= {
+	add_prestige = 56
+	add_treasury = 66
+}

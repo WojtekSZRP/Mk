@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 213 51 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aiorix #1" = 10
+	"Ambicatos #0" = 0
+	"Antiochos #1" = 10
+	"Areus #2" = 10
+	"Bricussa #0" = 0
+	"Catugnatus #1" = 10
+	"Comux #1" = 10
+	"Diviciacus #1" = 10
+	"Guiderius #1" = 10
+	"Herakleios #1" = 10
+	"Herodas #1" = 10
+	"Iccius #1" = 10
+	"Inammicus #1" = 10
+	"Kallistos #0" = 0
+	"Mandubracius #1" = 10
+	"Niphon #1" = 10
+	"Pankratios #2" = 10
+	"Theodosios #1" = 10
+	"Христофор #1" = 10
+}
+leader_names = {
+	"Angelus"
+	"Asan"
+	"Branas"
+	"Cantacuzene"
+	"Comnenus"
+	"Ducas"
+	"Mavros"
+	"Notaras"
+	"Palaeologus"
+	"Phocas"
+	"Raoul"
+	"Spagnoli"
+	"Sphrantzes"
+	"Tocco"
+	"Zaccaria"
+}
+ship_names = {
+	"Agios Kyprianos"
+	"Areopoli"
+	"Elika"
+	"Geronlimenas"
+	"Gytheio"
+	"Kardamyli"
+	"Kokkala"
+	"Kotronas"
+	"Skoutari"
+	"Vathia"
+}

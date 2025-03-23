@@ -1,0 +1,14 @@
+owner = KHM
+controller = KHM
+capital = "Khorat"
+is_city = yes
+religion = catholic
+trade_goods = silk
+base_tax = 2
+base_production = 2
+base_manpower = 1
+discovered_by = chinese
+discovered_by = indian
+add_core = KHM
+culture = central_thai
+hre = yes

@@ -1,0 +1,12 @@
+discovered_by = east_african
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = western
+add_core = ARM
+owner = ARM
+culture = armenian
+controller = ARM
+is_city = no
+religion = arianism

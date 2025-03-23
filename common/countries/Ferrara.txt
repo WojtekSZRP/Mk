@@ -1,0 +1,174 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 21 128 21 }
+revolutionary_colors = { 1 0 9 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agustin #1" = 10
+	"Ahumm #1" = 10
+	"Alwen #1" = 10
+	"Ambrogio #1" = 10
+	"Anthimos #0" = 0
+	"Belisarios #0" = 0
+	"Bodashtart #1" = 10
+	"Bostar #1" = 10
+	"Cangrande #1" = 10
+	"Cornelio #1" = 10
+	"Dorotheos #0" = 0
+	"Gueroc #1" = 10
+	"Gurguaret #1" = 10
+	"Gurmael #1" = 10
+	"Is'mail #0" = 0
+	"Markos #0" = 0
+	"Maximos #1" = 10
+	"Melqartpilles #1" = 10
+	"Melqartshama #1" = 10
+	"Milkherem #1" = 10
+	"Prokopios #1" = 10
+	"Riceneu #2" = 10
+	"Richwin #1" = 10
+	"Samuel #1" = 10
+	"Severino #1" = 10
+	"Thefri #1" = 10
+	"Tlesna #1" = 10
+}
+leader_names = {
+	"Allegri"
+	"Araldini"
+	"Ariosto"
+	"Avanzini"
+	"Bacciochi"
+	"Barberini"
+	"Battisti"
+	"Boiardo"
+	"Boncompagni"
+	"Boncompagni-Ludovisi"
+	"Calcagnini"
+	"Catena"
+	"Colonna"
+	"Farini"
+	"Giardini"
+	"Grandi"
+	"Graziosi"
+	"Gualandelli"
+	"Gucciardini"
+	"Loschi"
+	"Malmussi"
+	"Marescalchi"
+	"Menotti"
+	"Mitelli"
+	"Montecuccoli"
+	"Montefeltro"
+	"Nardi"
+	"Nobili"
+	"Ordelaffi"
+	"Pavironica"
+	"Peretti"
+	"Pico"
+	"Pio"
+	"Rangoni"
+	"Rossetti"
+	"Santarosa"
+	"Tassoni"
+	"Tura"
+	"Viridis"
+	"Zini"
+	"d'Appiani d'Aragona"
+	"d'Este"
+	"de Roberti"
+	"de Tolomei"
+	"del Cossa"
+	"della Torre"
+	"di Ardizzone"
+	"di Farnese"
+	"di Ferrari"
+	"di Sauli"
+}
+ship_names = {
+	"Aguscello"
+	"Albarea"
+	"Azzo VI d'Este"
+	"Baura"
+	"Boara"
+	"Borgo Scoline"
+	"Borso"
+	"Bova"
+	"Casaglia"
+	"Cassana"
+	"Castel Trivellino"
+	"Chiesuol del Fosso"
+	"Cocomaro di Cona"
+	"Cocomaro di Focomorto"
+	"Codrea"
+	"Cona"
+	"Contrapò"
+	"Corlo"
+	"Correggio"
+	"Denore"
+	"Ezzelino"
+	"Focomorto"
+	"Francolino"
+	"Gaibana"
+	"Gaibanella Sant'Egidio"
+	"Guglielmo Adelardi"
+	"Malborghetto di Boara"
+	"Malborghetto di Correggio"
+	"Marrara"
+	"Mezzavia"
+	"Monestirolo"
+	"Montalbano"
+	"Niccoló III"
+	"Obizzo II"
+	"Parasacco"
+	"Pescara"
+	"Ponte Travagli"
+	"Pontegradella"
+	"Pontelagoscuro"
+	"Porotto"
+	"Porporana"
+	"Quartesana"
+	"Ravalle"
+	"S.Caterina"
+	"S.Paolo"
+	"Sabbioni"
+	"San Bartolomeo in Bosco"
+	"San Giorgio"
+	"San Martino"
+	"San Mercuriale di Forlì"
+	"San Michele"
+	"Sant'Egidio"
+	"Spinazzino"
+	"Tedaldo"
+	"Torre della Fossa"
+	"Uccellino"
+	"Viconovo"
+	"Villanova"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

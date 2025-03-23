@@ -1,0 +1,37 @@
+pagan = {
+	norse_pagan_reformed = {
+		icon = 21
+		color = { 191 191 191 }
+		country = {
+			
+
+		fort_maintenance_modifier = -0.1
+	
+
+		leader_naval_manuever = 1
+	
+
+		land_morale = 0.05
+	
+		}
+		province = {
+			
+
+		local_defensiveness = 0.1
+	
+		}
+				country_as_secondary = {
+			
+
+		leader_naval_manuever = 1
+	
+
+		land_morale = 0.05
+	
+		}
+		
+		
+		heretic = {  OLD_NORSE  }
+	}
+	
+}

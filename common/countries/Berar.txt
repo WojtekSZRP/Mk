@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 26 207 81 }
+revolutionary_colors = { 1 8 1 }
+historical_idea_groups = {
+	administrative_ideas
+	quantity_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Arikêcari #0" = 0
+	"Ariñcikaippirâttiyâr #0" = -1
+	"Atirâcêntira #0" = 0
+	"Balabhadra #0" = 0
+	"Bhimasena #1" = 10
+	"Cankâni #0" = -1
+	"Ceyavîra #1" = 10
+	"Câramutaiyân #0" = 0
+	"Harekrushna #1" = 10
+	"Irattapadikonda #1" = 10
+	"Irâcâcekara #0" = 0
+	"Jayananda #1" = 10
+	"Kadalan #2" = 10
+	"Madhavaraja #1" = 10
+	"Manamatra #1" = 10
+	"Nâcciyâlvi #0" = -1
+	"Paramananda #1" = 10
+	"Prataparudra #2" = 10
+	"Pulindasena #1" = 10
+	"Puranjaya #0" = 0
+	"Ranatitta #0" = 0
+	"Ranatîran #1" = 10
+	"Santikaradeva #1" = 10
+	"Tirupuvanavîratevar #0" = 0
+	"Vikkirama #1" = 10
+	"Yayati #1" = 10
+	"Zacharria #2" = 10
+	"Äàíòèäóğãà #1" = 10
+	"Èíäğà #1" = 10
+	"Êğèøíà #1" = 10
+}
+leader_names = {
+	"Ardastani"
+	"Astarabadi"
+	"Badakshi"
+	"Banda"
+	"Basri"
+	"Bhosle"
+	"Bukhari"
+	"Changezi"
+	"Dakhni"
+	"Gilani"
+	"Hasanabadi"
+	"Jurjani"
+	"Kabuli"
+	"Khan"
+	"Kirmani"
+	"Kudha"
+	"Majmudar"
+	"Maloji"
+	"Munshi"
+	"Muzzafar"
+	"Parikh"
+	"Qummi"
+	"Shahji"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Arusa"
+	"Bori"
+	"Fatimah"
+	"Girna"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Narmada"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Noor"
+	"Panjhra"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Tapi"
+	"Yasmine"
+	"Zahira"
+}

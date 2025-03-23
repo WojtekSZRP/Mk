@@ -1,0 +1,154 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ ###MONUMENTS###
+ ###MERCENARIES###
+ ###SCRIPTED TRIGGERS###
+ ###SCRIPTED EFFECTS###
+ unlock_estate_qizilbash_tt:0 "Ð©¡®¬ª³þ² ±¯²¿ §Yº©º®¡Œ§!."
+ unlock_estate_ghulams_tt:1 "Ð©¡®¬ª³þ² ±¯²¿ §Y‚ª®¯°§!."
+ CULTURE_WILL_NOT_TAKE_SLOT_UNTIL_DEMOTED_TT:0 "‰®³¶ª² §G+1§! ¯¬ª¯®¿° ±¢ºŒ°ª ¬³®¿²³º ¦ ² ±, ±¬ ¼² §Y¬³®¿²³§! ° ¡³¦² ±°ª¨° ¢ ¦®¨°²ª."
+ ###MISSIONS FOR SWEDEN###
+ ###EVENTS FOR SWEDEN###
+ ###MODIFIERS FOR SWEDEN###
+ ###DECISION FOR SWEDEN###
+ ###NORSE DECISIONS###
+ ###OPINION MODIFIERS###
+ ###WARS###
+ ###PEACE TREATY###
+ ###DIPLO ACTION###
+ ###PRIVILEGES###
+ ###NORSE EVENTS###
+ #New Tooltips#
+ ###IDEAS###
+ ###EVENT MODIFIERS###
+ ###TRIGGERED PROVINCE MODIFIERS###
+ ###KALMAR UNION EVENTS###
+ ###MODIFIERS FOR DENMARK###
+ ###GOVERNMENT REFORMS###
+ ###GOVERNMENT NAMES###
+ ###DANISH MISSIONS###
+ ###DANISH EVENTS###
+ #flavor_dan.100.t: "Swedish Nobles contest the Union!"
+ #flavor_dan.100.desc: "Despite our best efforts, the shifty nobles of Sweden changed their mind on their role within our Union and demand the right to elect their own king."
+ #flavor_dan.100.a: "Curse them!"
+ ###DANISH COUNTRY MODIFIERS###
+ ###DECISIONS FOR DENMARK###
+ ###EVENTS FOR SCANDINAVIA###
+ ###MISSIONS FOR NORWAY###
+ ###EVENTS FOR NORWAY###
+ ###MODIFIERS FOR NORWAY###
+ ####VARIABLES###
+ ###DISASTERS###
+ ###MISSIONS FOR TEUTONIC ORDER###
+ ###EVENTS FOR TEUTONIC ORDER###
+ ###TEUTONIC MISSION MODIFIERS###
+ ###TEUTONIC DECISIONS###
+ ###MISSIONS FOR DANZIG###
+ ###EVENTS FOR DANZIG###
+ ###DANZIG MISSION MODIFIERS###
+ ###MISSIONS FOR LIVONIAN ORDER###
+ ###LIVONIAN MISSION REWARDS###
+ ###LIVONIAN EVENTS###
+ ###LIVONIAN DECISIONS###
+ ###NORSE EVENT MODIFIERS###
+ ###RIG MISSIONS###
+ ###RIGAN MODIFIERS###
+ ###RIGAN DECISIONS###
+ ###RIGAN EVENTS###
+ ###SCANDINAVIAN MISSIONS - SWEDEN###
+ ###SCANDINAVIAN MISSIONS - NORWAY###
+ ###SCANDINAVIAN MISSIONS - DENMARK###
+ ###SCANDINAVIAN MISSIONS###
+ ###SCANDINAVIA MISSION MODIFIERS###
+ ###GOTLANDISH MISSIONS###
+ ###GOTLANDISH EVENTS###
+ ###GUTNISH MODIFIERS###
+ ###GUTNISH DECISOINS###
+ ###COUNTRIES###
+ ###CULTURES###
+ ###IMPERIAL INCIDENTS###
+ ###NEW DECISIONS###
+ ###DIPLOMATIC ACTIONS###
+ ###NEW GOVERNMENT REFORMS REPUBLICS###
+ ###NEW GOVERNMENT REFORMS MONARCHIES###
+ ###NEW GOVERNMENT REFORMS THEOCRACIES###
+ ###NEW GOVERNMENT REFORMS COMMON###
+ ###PARLIAMENTS ISSUES AND BRIBES###
+ ###RANDOM PASSIVE EVENTS###
+ ###CUSTOM NATION IDEAS###
+ ###FINNISH EVENTS###
+ #PLC Localisation#
+ #Missions 
+ ###PLC Missions###
+ #Slot 1#
+ #Slot 2#
+ #Slot 3# 
+ #Slot 4#
+ #Slot 5 Player Chose Lithuanian PU Path#
+ #Slot 5 Player Chose HRE Route#
+ #Slot 5 Continued
+ #Tooltips
+ #Modifiers 
+ #Events
+ #Personality 
+ #Privileges 
+ #Name Change 
+ #National Ideas 
+ #Reforms 
+ #Decisions
+ ###Lithuania###
+ #Slot 1#
+ #Slot 2#
+ #Slot 3#
+ #Slot 4#
+ #Slot 5#
+ #Modifiers
+ #Tooltips
+ #Events 
+ #Flavor Events Detached from the Tree# 
+ #Ideas 
+ #Namechange
+ #Reforms for Lithuania
+ ###PERSONALITIES###
+ ###PIRATE EVENTS###
+ #Missions#
+ #Modifiers
+ #Tooltips 
+ #Name Change 
+ #Lübeck 
+ #Modifiers
+ #Events 
+ #Custom Tooltips
+ #The Hansa#
+ #Name Change 
+ #National Ideas 
+ #BRE / HAM Loc 
+ hun_friendship_yes_tt:0 "\n£yes£ ¥¦, ®ª §YÏ°¥ª¾§! ¾¢®¾²¾ ±¦¦°°º¯ ª®ª ½©°ª¬¯:"
+ hun_friendship_no_tt:0 "\n£no£ ¥¦, ®ª §YÏ°¥ª¾§! ¾¢®¾²¾ ±¦¦°°º¯ ª®ª ½©°ª¬¯:"
+ boh_friendship_yes_tt:0 "\n£yes£ ¥¦, ®ª §Y€¥¯ª¾§! ¾¢®¾²¾ ±¦¦°°º¯ ª®ª ½©°ª¬¯:"
+ boh_friendship_no_tt:0 "\n£no£ ¥¦, ®ª §Y€¥¯ª¾§! ¾¢®¾²¾ ±¦¦°°º¯ ª®ª ½©°ª¬¯:"
+ pol_before_event_goes_tt:0 "…¢Œ°ª ¡º²ª¾ «§Y‰¯°ª¬ Ï®¦ª®¢ III§!» ±¦²¢ª² °¯ ¦±®°ª²®¿°º °¥¦º."
+ pol_potential_cb_on_bohemia_tt:0 "\n™² ±µª¾ ¯¨² ¢¬®½¶ª²¿ §Yˆª¶°ºþ ½©§! CB ±²ª¢ §Y€¥¯ªª§! ¶© '§Y‰®¦²¢ª¾ Ï°º§!' ¯ªª¾"
+ pol_potential_cb_on_hungary_tt:0 "\n™² ±µª¾ ¯¨² ¢¬®½¶ª²¿ §Yˆª¶°ºþ ½©§! CB ±²ª¢ §YÏ°¥ªª§! ¶© '§Y‰®¦²¢ª¾ Ï°º§!' ¯ªª¾"
+ owned_by_ally_or_ally_subject_tt:0 "‰ª°¦®¨ª² °Œ¯³ §Y½©°ª¬³§! ª®ª ¦°¯³ ª© ª §Y±¦¦°°º§!"
+ #Preview Missions
+ teu_prussian_path:0 "±³¬ªþ"
+ teu_crusader_path:0 "¬²°µ"
+ teu_conquest_hre_path:0 "Ô¢¾¸°° ª¯¬ ©¢¢°ª"
+ teu_diplomacy_hre_path:0 "Ô¢¾¸°°¾ Ðª¯¬¾ ¦ª±®¯²ª¾"
+ teu_kingdom_prussia_path:0 "‰³¬ ¬®¢²¢"
+ liv_livonian_path:0 "ˆª¢°¬ªþ"
+ liv_crusader_path:0 "¬²°µ"
+ TEU_preview_prussian:0 "‰¯²ª² ¦¢ ¯ªªþ «§O‰³¬§!»."
+ TEU_preview_crusader:0 "‰¯²ª² ¦¢ ¯ªªþ «§OCrusader§!»."
+ TEU_PRU_preview_hre_conquest:0 "‰¦¢ª²®¿°ºþ ±¯² ¦¢ ¯ªªþ «§OÔ¢¾¸°° ª¯¬ ©¢¢°ª§!»."
+ TEU_PRU_preview_hre_diplomacy:0 "‰¯²ª² ¦¢ ¯ªªþ «§OÔ¢¾¸°°¾ Ðª¯¬¾ ¦ª±®¯²ª¾§!»."
+ TEU_PRU_preview_prussian_kingdom:0 "‰¯²ª² ¦¢ ¯ªªþ «§O‰³¬ ¬®¢²¢§!»."
+ LIV_preview_livonian:0 "‰¯²ª² ¦¢ ¯ªªþ «§Oˆª¢°¬§!»."
+ LIV_preview_crusader:0 "‰¯²ª² ¦¢ ¯ªªþ «§OCrusader§!»."

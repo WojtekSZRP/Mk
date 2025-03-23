@@ -1,0 +1,14 @@
+owner = AYU
+controller = AYU
+capital = "Phra Bang"
+is_city = yes
+religion = catholic
+trade_goods = tropical_wood
+base_tax = 5
+base_production = 5
+base_manpower = 3
+discovered_by = chinese
+discovered_by = indian
+add_core = AYU
+culture = central_thai
+hre = yes

@@ -1,0 +1,1337 @@
+isr_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = ISR
+		has_dlc = "Dharma"
+	}
+	has_country_shield = yes
+	
+	isr_conquer_egypt = {
+		icon = mission_conquer_koch
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4316
+				province_id = 2315
+				province_id = 365
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			4316 = {
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			2315 = {
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			365 = {
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			delta_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			vostani_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			said_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			bahari_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}			
+		}
+		ai_weight = {
+			factor = 500	#Rasonable conquest
+		}
+	}	
+
+	
+	isr_egypt_fealty = {
+		icon = mission_demand_garjat_fealty
+		required_missions = { isr_conquer_egypt}
+		provinces_to_highlight = {
+			OR = {
+				area = delta_area
+				area = vostani_area
+				area = said_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			delta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			vostani_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			said_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "garjat_fealty"
+				duration = 7300
+			}
+			baghelkhand_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			gondwana_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+	
+	isr_conquer_wahat = {
+		icon = mission_conquer_malwa_bng
+		required_missions = { isr_egypt_fealty }
+		provinces_to_highlight = {
+			OR = {
+				area = al_wahat_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			al_wahat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_estate_influence_modifier = {
+				estate = estate_church
+				influence = -10
+				desc = EST_VAL_BNG_RAJPUTS_WEAKENED
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+	
+	isr_conquer_hormuz = {
+		icon = mission_advance_to_the_arabian_sea
+		required_missions = { }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2999
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			2999 = {
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+			add_country_modifier = {
+				name = "bng_arabian_sea_trade"
+				duration = 7300
+			}
+		}
+		ai_weight = {
+			factor = 75	#Far fetched conquest
+		}
+	}
+}
+
+isr_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = ISR
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	isr_conquer_red_sea = {
+		icon = mission_conquer_cuttack
+		required_missions = {  }
+		provinces_to_highlight = {
+			area = gulf_of_arabia_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			gulf_of_arabia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "bng_orissa_conquest"
+				duration = 7300
+			}
+			red_sea_coast_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			aussa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ifat_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			somaliland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reconquest
+		}
+	}
+
+	isr_conquer_nubia = {
+		icon = mission_the_ganges_campaign
+		required_missions = { isr_conquer_red_sea  }
+		provinces_to_highlight = {
+			OR = {
+				area = somaliland_area
+				area = ifat_area
+				area = aussa_area
+				area = red_sea_coast_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			red_sea_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			ifat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			aussa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			somaliland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			upper_nubia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tigray_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			central_ethiopia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			shewa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			damot_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			sennar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+	isr_conquer_ethiopia = {
+		icon = mission_onward_to_lahore
+		required_missions = { isr_conquer_nubia }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = sennar_area
+				area = damot_area
+				area = shewa_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sennar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			damot_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			shewa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_army_tradition = 20
+			kaffa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hadiya_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ogaden_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 100	#Quite far away
+		}
+	}
+
+	isr_grand_trunk_road = {
+		icon = mission_the_grand_trunk_road_bng
+		required_missions = { isr_conquer_ethiopia }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = ifat_area
+				area = aussa_area
+				area = tigray_area
+				area = central_ethiopia_area
+				area = shewa_area
+				area = ogaden_area
+				area = somaliland_area
+				area = red_sea_coast_area
+				area = lower_nubia_area
+				area = dongola_area
+				area = gulf_of_arabia_area
+				area = upper_nubia_area
+				area = said_area
+				area = vostani_area
+				area = bahari_area
+				province_id = 358
+				province_id = 2772
+				province_id = 4346
+			}
+			OR = {
+				NOT = {
+					owned_by = ROOT
+				}
+				province_id = 2772
+				province_id = 358
+				province_id = 4346
+			}
+		}
+		trigger = {
+			2772 = {
+				is_strongest_trade_power = ROOT
+			}
+			358 = {
+				is_strongest_trade_power = ROOT
+			}
+			4346 = {
+				is_strongest_trade_power = ROOT
+			}
+			red_sea_coast_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			lower_nubia_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			dongola_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			gulf_of_arabia_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			upper_nubia_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			said_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			vostani_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			bahari_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			ogaden_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			shewa_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			central_ethiopia_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			tigray_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			aussa_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			ifat_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+			somaliland_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					devastation = 1
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = dlh_grand_trunk_road.tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = ifat_area
+							area = aussa_area
+							area = tigray_area
+							area = central_ethiopia_area
+							area = shewa_area
+							area = ogaden_area
+							area = somaliland_area
+							area = red_sea_coast_area
+							area = lower_nubia_area
+							area = dongola_area
+							area = gulf_of_arabia_area
+							area = upper_nubia_area
+							area = said_area
+							area = vostani_area
+							area = bahari_area
+						}
+					}
+					add_province_modifier = {
+						name = "dlh_grand_trunk_road_modifier"
+						duration = -1
+					}
+				}
+			}
+			egypt_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			horn_of_africa_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 100	#Quite far away
+		}
+	}
+}
+
+isr_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = ISR
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	isr_conquer_tabuk = {
+		icon = mission_end_arakan_piracy
+		required_missions = {  }
+		provinces_to_highlight = {
+			area = arakan_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			tabuk_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			num_of_light_ship = 10
+			navy_size_percentage = 1
+		}
+		effect = {
+			add_navy_tradition = 25
+			medina_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			mecca_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tihama_al_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 75	#For the love of everything what is holy, Bengal should stop trying to go east...
+		}
+	}
+	
+	isr_conquer_basra = {
+		icon = state_of_the_presidi
+		required_missions = { isr_conquer_tabuk }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = medina_area
+				area = mecca_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			medina_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			mecca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			nafud_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			bahrain_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			qasim_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yamamah_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			asir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}						
+		}
+		ai_weight = {
+			factor = 500	#Rasonable conquest
+		}
+	}	
+	
+	isr_conquer_aden = {
+		icon = dalmatian_conquest
+		required_missions = { isr_conquer_basra }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = qasim_area
+				area = yamamah_area
+				area = asir_area
+				area = bahrain_area
+				area = nafud_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			nafud_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			bahrain_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			asir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			yamamah_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			qasim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			upper_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			mahra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			dhofar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			pirate_coast_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			oman_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			mascat_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}			
+		}
+		ai_weight = {
+			factor = 500	#Rasonable conquest
+		}
+	}	
+	
+
+	isr_conquer_arabia = {
+		icon = mission_conquer_burma
+		required_missions = { isr_conquer_aden }
+		position = 4
+		provinces_to_highlight = {
+			region = arabia_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			arabia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			custom_tooltip = bng_burma.tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						region = arabia_region
+					}
+					add_province_modifier = {
+						name = "bng_conquest_burma"
+						duration = 7300
+					}
+				}
+			}
+		add_country_modifier = {	
+				name = "expelled_minority_home"
+				duration = 36500
+			}
+		}
+		ai_weight = {
+			factor = 50	#For the love of everything what is holy, Bengal should stop trying to go east...
+		}
+	}
+	isr_tiger_mission = {
+		icon = mission_the_tiger_triumphant
+		required_missions = { isr_conquer_arabia isr_grand_trunk_road  }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				region = arabia_region
+				region = egypt_region
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			stability = 2
+			arabia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			egypt_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			hidden_effect = {
+				country_event = { id = flavor_bng.12 }
+			}
+			tooltip = {
+				if = {
+					limit = {
+						NOT = {
+							government_rank = 3
+						}
+					}
+					set_government_rank = 3
+				}			
+				add_prestige = 20
+				capital_scope = {
+					add_base_tax = 4
+					add_base_production = 3
+					add_base_manpower = 3
+				}
+				add_country_modifier = {
+					name = "tiger_triumphant"
+					duration = 18250
+				}
+			}
+		}
+		ai_weight = {
+			factor = 500	#That one is fine, however (doubt AI will do this one though)
+		}
+	}
+}
+
+isr_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = ISR
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	isr_army = {
+		icon = mission_gunpowder_warfare
+		required_missions = {  }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			mil_tech = 4
+			army_size_percentage = 1
+			total_development = 200
+		}
+		effect = {
+			al_jazira_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			iraq_arabi_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			syrian_desert_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			aleppo_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			basra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+	
+	isr_conquer_assyria = {
+		icon = mission_conquer_assam
+		required_missions = { isr_army }
+		provinces_to_highlight = {
+			OR = {
+				area = al_jazira_area
+				area = iraq_arabi_area
+				area = basra_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			al_jazira_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			iraq_arabi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			basra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_yearly_manpower = 1
+			shahrizor_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Rasonable conquest
+		}
+	}
+	isr_conquer_china = {
+		icon = mission_defy_the_dragon
+		required_missions = { isr_conquer_assyria }
+		position = 4
+		provinces_to_highlight = {
+			area = shahrizor_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			shahrizor_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			NOT = {
+				is_subject_of_type = tributary_state
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "bng_defied_china"
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 0	#Bengal should focus more on Indian stuff
+		}
+	}
+	isr_conversion = {
+		icon = mission_convert_bengal
+		required_missions = { isr_clear_delta }
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+				area = syria_area
+				area = aleppo_area
+				province_id = 4268
+			}
+			NOT = {
+				religion = ROOT
+			}
+		}
+		trigger = {
+			palestine_area = {
+				type = all
+				religion = ROOT
+			}
+			syria_area = {
+				type = all
+				religion = ROOT
+			}
+			aleppo_area = {
+				type = all
+				religion = ROOT
+			}
+			4268 = {
+				religion = ROOT
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_country_modifier = {	
+				name = "converted_bengal"
+				duration = 7300
+			}
+		}
+		ai_weight = {
+			factor = 500	#Historical
+		}
+	}
+}
+
+isr_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = ISR
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	isr_mint_towns = {
+		icon = mission_establish_mint_towns
+		required_missions = {  }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			treasury = 1000
+			workshop = 10
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "mint_towns_bng"
+				duration = 7300
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+	isr_manufactories = {
+		icon = mission_modernize_production
+		required_missions = { isr_mint_towns }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			textile = 5
+			plantations = 5
+		}
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = "bng_textiles"
+				duration = 7300
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+	isr_sufis = {
+		icon = mission_patronize_sufi_scholars
+		required_missions = {  }
+		position = 3
+		provinces_to_highlight = {
+		}
+		trigger = {
+			temple = 5
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 60
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "bng_sufi_mystic_settlers"
+				duration = 7300
+			}	
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+	isr_clear_delta = {
+		icon = mission_clear_the_delta
+		required_missions = { isr_sufis }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4268
+				province_id = 379
+				province_id = 364
+				province_id = 1854
+				province_id = 1855
+				province_id = 381
+				province_id = 380
+			}
+			NOT = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+		}
+		trigger = {
+			4268 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			379 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			364 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			1854 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			1855 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			381 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			380 = {
+				owned_by = ROOT
+				custom_trigger_tooltip = {
+					tooltip = clear_delta_tooltip
+					OR = {
+						has_building = temple
+						has_building = cathedral
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							province_id = 4268
+							province_id = 379
+							province_id = 364
+							province_id = 1854
+							province_id = 1855
+							province_id = 381
+							province_id = 380
+						}
+					}
+					add_base_production = 1
+					add_province_modifier = {
+						name = "bng_delta_reclaimed"
+						duration = -1
+					}
+				}
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+	isr_shipyards = {
+		icon = mission_grand_bengali_shipyards
+		required_missions = { isr_clear_delta }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			grand_shipyard = 10
+			num_of_heavy_ship = 50
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Rule Britannia"
+				}
+				add_innovativeness_big_effect = yes
+			}
+			add_country_modifier = {
+				name = "bng_proto_industrial_shipyards"
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ ASK_KNOWLEDGE_SHARING_TITLE:0 "¡¯° ©°°ª¾¯ª"
+ ASK_KNOWLEDGE_SHARING_SETUP:1 "¥¦ °µª¾ ±ª² ° ¡ ¡¯° ©°°ª¾¯ª"
+ ASK_KNOWLEDGE_SHARING_HEADER:0 "Ï²°ª¬ ª©"
+ ASK_KNOWLEDGE_SHARING_1:0 "$ACTOR_COUNTRY$"
+ ASK_KNOWLEDGE_SHARING_2:0 "$MONARCHTITLE$, ³ ° $TYPE$ °¢²ª"
+ ASK_KNOWLEDGE_SHARING_3:1 "º"
+ ASK_KNOWLEDGE_SHARING_4:0 "Œ°°ºþ"
+ ASK_KNOWLEDGE_SHARING_5:1 "° $RESULT$ ©± ° ¡¯° ©°°ª¾¯ª ² $RECIPIENT_COUNTRY$."
+ ASK_KNOWLEDGE_SHARING_6:0 "$EFFECT$"
+ ASK_KNOWLEDGE_SHARING_LOG:1 "º Œª®ª $RESULT$ ©±ª²¿ ¡¯° ©°°ª¾¯ª ² $RECIPIENT_COUNTRY$."
+ ASK_KNOWLEDGE_SHARING_BTN1:0 "ÛÐ÷"
+ ASK_KNOWLEDGE_SHARING_BTN2:0 "ÛÐ÷"
+ ASK_KNOWLEDGE_SHARING_BTN3:0 "†¦²ª ¬"
+ EMBRACEINST_OTHER_6:0 "$EFFECT$"
+ EMBRACEINST_5:0 "$EFFECT$"

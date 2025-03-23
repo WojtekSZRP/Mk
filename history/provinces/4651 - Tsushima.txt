@@ -1,0 +1,16 @@
+owner = YMN
+controller = YMN
+capital = "Tsushima"
+is_city = yes
+culture = kyushuan
+religion = shinto
+trade_goods = chinaware
+base_tax = 2
+base_production = 1
+base_manpower = 1
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese
+add_core = YMN

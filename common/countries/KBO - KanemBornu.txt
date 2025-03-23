@@ -1,0 +1,78 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 30 131 162 }
+revolutionary_colors = { 13 8 16 }
+historical_idea_groups = { 
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = { 
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	bantu_plains_warfare
+	niger_kongolese_tribal_warfare
+	westernized_adal
+}
+monarch_names = { 
+	"Abebe #0" = 0
+	"Aisha #0" = -1
+	"Berhane #0" = -1
+	"Bi #0" = -1
+	"Dawit #1" = 10
+	"Deli #1" = 10
+	"Dexiu #0" = -1
+	"Gebereal #0" = 0
+	"Genat #0" = -1
+	"Getachew #0" = 0
+	"Gir #0" = -1
+	"Hadurah #0" = -1
+	"Halima #1" = -1
+	"Hishi #0" = 0
+	"Idris #1" = 10
+	"Iskander #0" = 0
+	"Iskinder #0" = 0
+	"Issa #1" = 10
+	"Kasu #2" = 10
+	"Kelyle #0" = -1
+	"Kubra #0" = -1
+	"Lebna #0" = 0
+	"Mahmoud #1" = 10
+	"Mounah #0" = -1
+	"Ning #0" = -1
+	"Nishan #0" = -1
+	"Omer #0" = 0
+	"Rachel #0" = -1
+	"Senouthios #0" = 0
+	"Shabsai #0" = 0
+	"Shadia #1" = -1
+	"Sophia #0" = -1
+	"Sora #1" = 10
+	"Sumah #0" = -1
+	"Tor #2" = 10
+	"Tugule #0" = 0
+	"Udure #0" = 0
+	"Yahya #0" = 0
+	"Yaqub #1" = 10
+	"Yehudis #0" = -1
+	"Yusuf #1" = 10
+}
+leader_names = { 
+	"Ahmat" "Ardoum" "Deby" "Djammous" "Kabadi" "Malloum" "Nahor" "Oueddai" "Terap" "Yorassem"
+}
+ship_names = { 
+	"Abd al-Djel Selma" "Aritso" "Arki" "Ayoma" "Bad al-Djel" "Biri" "Birkoru" "Bulu" "Dari" "Djil"
+	"Dugu" "Dunama" "Dunama Dibbalem" "Fune" "Hume" "Kachim Biri" "Kade" "Kature" "Kure Gana" "Kure Kura"
+	"Shu" 
+}

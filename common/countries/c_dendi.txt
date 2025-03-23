@@ -1,0 +1,24 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 186 106 114 }
+monarch_names = {
+	"Avitus #0" = 0
+	"Boduognatus #0" = 0
+	"Boiorix #0" = 0
+	"Bricussa #0" = 0
+	"Cingetessa #0" = -1
+	"Coilus #0" = 0
+	"Cunsa #0" = -1
+	"Diseta #0" = -1
+	"Huanghua #0" = -1
+	"Iamcilla #0" = -1
+	"Litavis #0" = -1
+	"Lugotorix #0" = 0
+	"Mandubracius #0" = 0
+	"Segovax #0" = 0
+	"Senila #0" = -1
+	"Sentica #0" = -1
+	"Sisillius #0" = 0
+	"Vassura #0" = -1
+	"Venutius #0" = 0
+}

@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = tamil
+capital = 4520
+add_accepted_culture = tangut
+add_accepted_culture = zhangzhung
+1444.11.11= {
+	monarch = {
+		name = "Kotukulapattan II"
+		dynasty = "Kotolik"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1421.12.16
+		religion = hinduism
+		culture = tamil
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+	queen = {
+		name = "Malapâti"
+		dynasty = "Kotolik"
+		adm = 2
+		dip = 3
+		mil = 2
+		country_of_origin = Y51
+		birth_date = 1421.8.15
+		death_date = 1481.8.15
+		female = yes
+		religion = hinduism
+		culture = malayalam
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 81
+	add_treasury = 54
+}

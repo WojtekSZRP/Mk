@@ -1,0 +1,14 @@
+capital = "Vyshny Volochyok"
+religion = orthodox
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 1
+base_manpower = 1
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = western
+owner = TVE
+controller = TVE
+is_city = no
+culture = russian
+add_core = TVE

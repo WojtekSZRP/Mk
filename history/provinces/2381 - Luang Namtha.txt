@@ -1,0 +1,15 @@
+owner = DAI
+controller = DAI
+capital = "Luang Namtha"
+is_city = yes
+religion = catholic
+trade_goods = tea
+base_tax = 4
+base_production = 4
+base_manpower = 4
+add_core = LUA
+discovered_by = chinese
+discovered_by = indian
+add_core = DAI
+culture = vietnamese
+hre = yes

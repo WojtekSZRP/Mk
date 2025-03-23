@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = heptadic_pagan_reformed
+primary_culture = saka
+capital = 1968
+1444.11.11= {
+	monarch = {
+		name = "Shudamgula"
+		dynasty = "Tripuskar"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1413.10.3
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Dharmadasi"
+		dynasty = "Tripuskar"
+		adm = 1
+		dip = 3
+		mil = 2
+		country_of_origin = Y26
+		birth_date = 1409.5.12
+		death_date = 1469.5.12
+		female = yes
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_queen_personality = careful_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Sumtharaka"
+		monarch_name = "Sumtharaka II"
+		dynasty = "Tripuskar"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1433.2.12
+		death_date = 1498.2.12
+		claim = 89
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_heir_personality = craven_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 93
+	add_treasury = 70
+}

@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 135 215 235 }
+monarch_names = {
+	"Addedomarus #0" = 0
+	"Anastasios #1" = 10
+	"Archelaos #1" = 10
+	"Cavarus #2" = 10
+	"Celatus #0" = 0
+	"Dumnorix #0" = 0
+	"Gertrude #0" = -1
+	"Iamcilla #0" = -1
+	"Irmele #0" = -1
+	"Isaias #0" = 0
+	"Kriemhild #0" = -1
+	"Lugotorix #0" = 0
+	"Mallaius #1" = 10
+	"Tasciovanus #0" = 0
+	"Venutius #0" = 0
+	"Vodenos #0" = 0
+	"Vrocata #0" = -1
+}

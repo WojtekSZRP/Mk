@@ -1,0 +1,10 @@
+colonization_timeout = {}
+colonization_bumm = {
+	colonists = 1
+	may_explore = yes
+}
+colonization_bumm_2 = {
+	colonists = 1
+	may_explore = yes
+	trade_range_modifier = 10.0
+}

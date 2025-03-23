@@ -1,0 +1,7 @@
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese
+culture = filipino
+religion = catholic

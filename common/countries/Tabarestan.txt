@@ -1,0 +1,100 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 217 144 88 }
+revolutionary_colors = { 13 10 5 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Armaiti #0" = -1
+	"Asi #0" = 0
+	"Daisai #1" = 10
+	"Dharma #2" = 10
+	"Dharmadasi #0" = -1
+	"Dzatsi #0" = 0
+	"Golshan #0" = -1
+	"Gostana #0" = 0
+	"Haskadatta #0" = 0
+	"Huyi #1" = 10
+	"Hvam #2" = 10
+	"Jajahasa #0" = 0
+	"Kamnai #0" = 0
+	"Keykhosrau #1" = 10
+	"Kharmandar #0" = 0
+	"Kimashana #1" = 10
+	"Kushtana #1" = 10
+	"Manohara #1" = 10
+	"Nirmala #0" = -1
+	"Osroes #1" = 10
+	"Parvaneh #1" = -1
+	"Praniyata #0" = -1
+	"Safali #0" = -1
+	"Samgaka #0" = 0
+	"Shinganca #1" = 10
+	"Shri #0" = -1
+	"Sudhana #1" = 10
+	"Sumtharaka #1" = 10
+	"Tisyarakshita #0" = -1
+	"Vali #1" = 10
+	"Vijita #0" = 0
+	"Vimala #0" = -1
+	"Vishirapumna #1" = 10
+	"Zambasta #0" = 0
+	"Гавбарих #1" = 10
+	"Дабуя #1" = 10
+	"Дадбурзмир #1" = 10
+	"Сорхаб #1" = 10
+	"Фаррухан #1" = 10
+	"Хуршид #1" = 10
+}
+leader_names = {
+	"Ardashir"
+	"Buzurg"
+	"Dabuya"
+	"Dadhburzmihr"
+	"Farrukhan"
+	"Hassan"
+	"Kamal"
+	"Khurshid"
+	"Kiya"
+	"Mazyar"
+	"Qarin"
+	"Quhyar"
+	"Rida"
+	"Rustam"
+	"Shahriyar"
+	"Vindadhhurmuzd"
+}
+ship_names = {
+	"Amol"
+	"Ardashir"
+	"Astarabad"
+	"Chalus"
+	"Farim"
+	"Kelar"
+	"Lahican"
+	"Mazyar"
+	"Natel"
+	"Rustam"
+	"Vindadhhurmuzd"
+}

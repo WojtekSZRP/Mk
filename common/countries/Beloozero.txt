@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 66 32 81 }
+revolutionary_colors = { 0 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Aatos #0" = 0
+	"Ahvo #0" = 0
+	"Amalberga #0" = -1
+	"Arni #0" = 0
+	"Atpälha #0" = -1
+	"Bo #0" = 0
+	"Dyre #0" = 0
+	"Einarr #2" = 10
+	"Elin #0" = -1
+	"Engeltraud #0" = -1
+	"Fedot #1" = 10
+	"Frirek #0" = 0
+	"Gnupa #0" = 0
+	"Gremislava #1" = -1
+	"Haraldr #1" = 10
+	"Hrane #1" = 10
+	"Ilme #0" = -1
+	"Inga #0" = -1
+	"Iziaslav #1" = 10
+	"Kezhapa #1" = 10
+	"Kolik #0" = 0
+	"Kolli #1" = 10
+	"Kuuti #1" = 10
+	"Lev #1" = 10
+	"Maer #0" = -1
+	"Marina #1" = -1
+	"Ngeva #0" = -1
+	"Olavi #0" = 0
+	"Päiviö #1" = 10
+	"Refr #1" = 10
+	"Rikissa #0" = -1
+	"Rogvolod #1" = 10
+	"Sif #0" = -1
+	"Skuli #0" = 0
+	"Soini #1" = 10
+	"Styrkar #1" = 10
+	"Suoma #0" = -1
+	"Sverker #1" = 10
+	"Sviatopolk #1" = 10
+	"Sviatoslav #1" = 10
+	"Syrka #1" = 10
+	"Totil #0" = 0
+	"Tyyne #0" = -1
+	"Uru #1" = 10
+	"Valdemar #0" = 0
+	"Viacheslav #1" = 10
+	"Yaropolk #1" = 10
+	"Yaroslav #2" = 10
+	"Yevstafiy #1" = 10
+	"Zabava #1" = -1
+	"Àéìî #1" = 10
+	"Álgen #0" = -1
+	"Âîëîäàðü #1" = 10
+	"Þora #0" = -1
+	"Þordr #0" = 0
+}
+leader_names = {
+	"Andomsky"
+	"Beloselsky"
+	"Chernyatinsky"
+	"Dorogobushsky"
+	"Dyabrinsky"
+	"Kargolomsky"
+	"Kashinsky"
+	"Kemsky"
+	"Kholmsky"
+	"Mikulinsky"
+	"Sheleshpansky"
+	"Sugorsky"
+	"Telyatevsky"
+	"Ukhtomsky"
+	"Vadbolsky"
+}
+ship_names = {
+	"Brosno"
+	"Dmitry"
+	"Kashin"
+	"Kholmsky"
+	"Mikhail"
+	"Rzev"
+	"Startsa"
+	"Toropets"
+	"Torzhok"
+	"Tvertsa"
+	"Valdai"
+	"Volga"
+	"Vyshniy Voloche"
+	"Yaroslavich"
+	"Zubtsov"
+}

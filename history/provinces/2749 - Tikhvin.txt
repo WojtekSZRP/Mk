@@ -1,0 +1,14 @@
+capital = "Tikhvin"
+religion = orthodox
+trade_goods = iron
+base_tax = 4
+base_production = 5
+base_manpower = 2
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = western
+add_core = NOV
+owner = NOV
+controller = NOV
+is_city = no
+culture = Mordva

@@ -1,0 +1,64 @@
+country_decisions = {
+	modfiers_decision = {
+		major = yes
+		potential = {
+			adm_tech = 10
+			NOT = { has_country_flag = no_colon }
+			NOT = { has_country_modifier = colonization_timeout }
+		}
+		allow = {
+			adm_tech = 10
+		}
+		effect = {
+			country_event = {id = "colon.1"}
+			if = {
+				limit = {
+					NOT = { has_country_flag = colonization_payment_2 }
+				}
+				add_country_modifier = {
+					name = "colonization_timeout"
+					duration = 1825
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = colonization_payment_2
+				}
+				add_country_modifier = {
+					name = "colonization_timeout"
+					duration = -1
+				}
+				add_country_modifier = {
+					name = "colonization_bumm_2"
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+country_decisions = {
+	victory_over_malaria = {
+		potential = {
+			num_of_ports = 1
+			dip_tech = 10
+			NOT = { has_country_modifier = colonization_bumm }
+		}
+		allow = {
+			navy_size_percentage = 0.5
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonization_bumm"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			# England, France, Barbary Coast
+		}
+	}
+}

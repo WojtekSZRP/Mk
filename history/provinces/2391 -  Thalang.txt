@@ -1,0 +1,16 @@
+owner = AYU
+controller = AYU
+capital = "Thalang"
+is_city = yes
+religion = catholic
+trade_goods = fish
+base_tax = 4
+base_production = 4
+base_manpower = 2
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+add_core = AYU
+culture = central_thai
+hre = yes

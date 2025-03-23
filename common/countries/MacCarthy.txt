@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 150 231 150 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Alaricos #2" = 10
+	"Alor #0" = 0
+	"Bosporios #1" = 10
+	"Cancor #2" = 10
+	"Dionysios #0" = 0
+	"Georgios #1" = 10
+	"Gurlouen #1" = 10
+	"Ilija #0" = 0
+	"Iouliana #0" = -1
+	"Ioulianos #1" = 10
+	"Kaisarios #0" = 0
+	"Martin #0" = 0
+	"Paschalis #1" = 10
+	"Pavlos #1" = 10
+	"Petronia #0" = -1
+	"Petros #1" = 10
+	"Philippos #0" = 0
+	"Prvoslav #1" = 10
+	"Riccilo #0" = -1
+	"Sisenando #1" = 10
+	"Symeon #1" = 10
+	"Witiges #1" = 10
+	"Zacharias #1" = 10
+	"Zenobios #1" = 10
+	"Алилл #1" = 10
+	"Амальгаид #1" = 10
+	"Гарбан #1" = 10
+	"Катал Ку-Кен-Матайр #1" = 10
+	"Катуссах #1" = 10
+	"Кетал #2" = 10
+	"Койрпре Кромм #1" = 10
+	"Колгу #1" = 10
+	"Коналл Корк #1" = 10
+	"Кормак #1" = 10
+	"Кримтанн #1" = 10
+	"Куан #1" = 10
+	"Маэль-Дуин #1" = 10
+	"Маэнах #1" = 10
+	"Над-Фройх #1" = 10
+	"Оенгус #1" = 10
+	"Файльбе Фланн #1" = 10
+	"Фейдельиид #1" = 10
+	"Фейдельмид #2" = 10
+	"Фергус Скандал #1" = 10
+	"Финген #1" = 10
+	"Фингуйне #1" = 10
+	"Эд Беннан #1" = 10
+	"Эошейд #1" = 10
+	"Эчерскель #1" = 10
+}
+leader_names = {
+	"Caomhanach"
+	"Conchobhair"
+	"Mac Amhalghaidh"
+	"Mac Cochlбin"
+	"Mac Coibheanaigh"
+	"Mac Conshnбmha"
+	"Mac Fhlannchaidh"
+	"Mac Fionbhair"
+	"Mac Giolla Phadraig"
+	"Mac Raghnaill"
+	"Mac Tighearnбin"
+	"Mac an tSionnaigh"
+	"Mag Eochagбin"
+	"У Braoin"
+	"У Cairbre"
+	"У Caoindealbhбin"
+	"У Catharnaigh"
+	"У Ceallaigh"
+	"У Cearbhaill"
+	"У Ciardha"
+	"У Comhraidhe"
+	"У Congalaig"
+	"У Cosraigh"
+	"У Diubhgeannбin"
+	"У Doinn"
+	"У Donnchadha"
+	"У Dubhghaill"
+	"У Dubhuidhe"
+	"У Faolain"
+	"У Fhearghaill"
+	"У Finntighearn"
+	"У Fionnalбin"
+	"У Lorcбin"
+	"У Maolmhuaidh"
+	"У Ruairc"
+	"У Seaghdha"
+	"У Seanбin"
+	"У Tuathail"
+	"У hAimheirgin"
+	"У hAonghusa"
+}
+ship_names = {
+	"Carlow"
+	"Dublin"
+	"Kildare"
+	"Kilkenny"
+	"Laios"
+	"Longford"
+	"Louth"
+	"Meath"
+	"Offaly"
+	"Westmeath"
+	"Wexford"
+	"Wicklow"
+}

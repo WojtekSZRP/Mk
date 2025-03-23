@@ -1,0 +1,127 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 231 224 107 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	quantity_ideas
+	administrative_ideas
+	innovativeness_ideas
+	defensive_ideas
+	maritime_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Atittapitâri #1" = -1
+	"Avaniyâlappirantâr #1" = 10
+	"Beejpal #0" = 0
+	"Celiyancentan #1" = 10
+	"Câmuntappai #0" = -1
+	"Cîvallapan #1" = 10
+	"Durlabharaja #0" = 0
+	"Eccavarâkan #0" = 0
+	"Eccumantai #1" = -1
+	"Irâcakecaripanmar #1" = 10
+	"Irâcêntira #0" = 0
+	"Kunavîra #2" = 10
+	"Mâravarman #2" = 10
+	"Mârkantaiyan #1" = 10
+	"Pantâram #0" = 0
+	"Pañcavan #1" = 10
+	"Perunar #1" = 10
+	"Piramârâyan #0" = 0
+	"Pâkkilân #1" = 10
+	"Ranatîran #1" = 10
+	"Ranojirao #2" = 10
+	"Saramma #0" = -1
+	"Tiruccirrampalapattan #0" = 0
+	"Têvânrâl #0" = -1
+	"Utaiyaval #1" = -1
+	"Varakunan #0" = 0
+	"Âàíàğàéÿ #1" = 10
+	"Âè÷àÿëàéÿ #1" = 10
+	"Ãóõàñåíà #1" = 10
+	"Äğîíàñèìõà #1" = 10
+	"Äõàğàïàòòà #1" = 10
+	"Äõàğàñåíà #3" = 10
+	"Äõğóâàñåíà #3" = 10
+	"Êõàğàãğàõà #2" = 10
+	"Ñèëàäèòüÿ #4" = 10
+}
+leader_names = {
+	"Bahadur"
+	"Begada"
+	"Bhilala"
+	"Changezi"
+	"Chattari"
+	"Chudasama"
+	"Desai"
+	"Farooqi"
+	"Gauri"
+	"Ghuri"
+	"Gilani"
+	"Haji"
+	"Jurjani"
+	"Kanjar"
+	"Khan"
+	"Khorasani"
+	"Lakhaji"
+	"Latif"
+	"Malik"
+	"Mori"
+	"Munshi"
+	"Muzzafar"
+	"Naru"
+	"Pahore"
+	"Paramara"
+	"Parikh"
+	"Patel"
+	"Patidar"
+	"Ravalji"
+	"Shah"
+	"Solanki"
+	"Sultan"
+	"Tomara"
+	"Turani"
+	"Uzbek"
+}
+ship_names = {
+	"Ambika"
+	"Auranga"
+	"Bhadar"
+	"Damanganga"
+	"Devki"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khari"
+	"Lal Jahazi"
+	"Luni"
+	"Mahi"
+	"Mithi"
+	"Narmada"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Purna"
+	"Sabarmati"
+	"Sagar"
+	"Saraiya"
+	"Saraswati"
+	"Shetrunji"
+	"Tapi"
+	"Yasmin"
+}

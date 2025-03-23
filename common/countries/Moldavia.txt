@@ -1,0 +1,114 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 136 157 23 }
+revolutionary_colors = { 15 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Andrei #0" = 0
+	"Antonija #1" = -1
+	"Arsa #0" = 0
+	"Cingetorix #0" = 0
+	"Coilus #0" = 0
+	"Darya #1" = -1
+	"Davyd #1" = 10
+	"Dmitriy #1" = 10
+	"Dobroslava #1" = -1
+	"Elyakim #0" = 0
+	"Fedot #0" = 0
+	"Galizov #1" = 10
+	"Grigoriy #1" = 10
+	"Iliya #0" = 0
+	"Ivan #1" = 10
+	"Kirill #1" = 10
+	"Konstantia #0" = -1
+	"Konstantin #1" = 10
+	"Lovernisca #0" = -1
+	"Mikhail #0" = 0
+	"Mitrofan #1" = 10
+	"Moshe #0" = 0
+	"Nikita #1" = 10
+	"Nikolitza #1" = 10
+	"Piramaccâni #0" = -1
+	"Premyslava #0" = -1
+	"Prvoslav #0" = 0
+	"Rodislav #3" = 10
+	"Shayna #0" = -1
+	"Sorgo #0" = 0
+	"Stefan #1" = 10
+	"Svetozar #2" = 10
+	"Terentiy #0" = 0
+	"Tiverzoslav #1" = 10
+	"Trifon #0" = 0
+	"Veleslava #0" = -1
+	"Vladislav #1" = 10
+	"Volodar #0" = 0
+	"Vseslava #0" = -1
+	"Yaoqin #0" = 0
+	"Yefimiy #3" = 10
+	"Yekaterina #1" = -1
+	"Yelizaveta #0" = -1
+	"Îëåñü #1" = 10
+}
+leader_names = {
+	"Callimachi"
+	"Campineanu"
+	"Cantacuzino"
+	"Cantemir"
+	"Caragea"
+	"Craiovescu"
+	"Duca"
+	"Ghica"
+	"Ilias"
+	"Lupu"
+	"Mavrocordat"
+	"Moruzi"
+	"Movila"
+	"Musatin"
+	"Norocea"
+	"Racovita"
+	"Ruset"
+	"Sturdza"
+	"Sutu"
+	"Voda"
+}
+ship_names = {
+	"Athleta Christi"
+	"Baia"
+	"Bogdan I"
+	"Iuga"
+	"Moldova"
+	"Râul Prut"
+	"Stefan cel Mare"
+	"Suceava"
+	"Târgul Moldovei"
+	"Vaslui"
+}
+army_names = {
+	"Oastea de $PROVINCE$"
+}

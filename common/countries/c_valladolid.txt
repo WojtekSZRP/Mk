@@ -1,0 +1,14 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 248 202 18 }
+monarch_names = {
+	"Addedomarus #0" = 0
+	"Andecombogius #0" = 0
+	"Britivenda #0" = -1
+	"Cassivellaunus #0" = 0
+	"Chiomara #0" = -1
+	"Iacus #0" = 0
+	"Kimarcus #0" = 0
+	"Litavis #0" = -1
+	"Tristan #0" = 0
+}

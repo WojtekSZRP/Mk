@@ -1,0 +1,15 @@
+owner = DAI
+controller = DAI
+capital = "Cao Bang"
+is_city = yes
+culture = hubei
+religion = catholic
+trade_goods = grain
+base_tax = 4
+base_production = 4
+base_manpower = 4
+add_core = DAI
+add_core = TOK
+discovered_by = chinese
+discovered_by = indian
+hre = yes

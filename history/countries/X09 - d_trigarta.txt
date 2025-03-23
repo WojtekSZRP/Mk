@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = rajput_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = rajput
+capital = 2101
+add_accepted_culture = tamil
+1444.11.11= {
+	monarch = {
+		name = "Laxmidevi"
+		dynasty = "Vinayakapalid"
+		adm = 2
+		dip = 3
+		mil = 2
+		birth_date = 1405.10.28
+		female = yes
+		religion = hinduism
+		culture = rajput
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Kanakacûriya"
+		dynasty = "Kotolik"
+		adm = 3
+		dip = 5
+		mil = 4
+		country_of_origin = X09
+		birth_date = 1407.8.15
+		death_date = 1467.8.15
+		religion = hinduism
+		culture = malayalam
+	}
+	add_queen_personality = secretive_personality
+	add_queen_personality = silver_tongue_personality
+}
+1444.11.11= {
+	add_prestige = 75
+	add_treasury = 60
+}

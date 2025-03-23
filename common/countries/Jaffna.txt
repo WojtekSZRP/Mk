@@ -1,0 +1,77 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 237 139 0 }
+revolutionary_colors = { 6 0 6 }
+historical_idea_groups = {
+	quantity_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Christophoros #0" = 0
+	"Euphemios #0" = 0
+	"Kale #0" = -1
+	"Kallinikos #0" = 0
+	"Markos #0" = 0
+	"Naracimmavarman #0" = 0
+	"Nikoletta #0" = -1
+	"Paramêsvaravarman #0" = 0
+	"Philippos #0" = 0
+	"Uravâkkinân #0" = 0
+}
+leader_names = {
+	"Chetty"
+	"Dalawa"
+	"Mudaliar"
+	"Nayak"
+	"Rajapopalachari"
+	"Saluva"
+	"Saraf"
+	"Sastri"
+	"Senji"
+	"Thondaiman"
+}
+ship_names = {
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Kaveri"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Palar"
+	"Parvati"
+	"Pennar"
+	"Ponnaiyar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+	"Vaigai"
+}

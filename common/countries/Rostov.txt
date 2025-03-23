@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 227 221 77 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Anlaufr #0" = 0
+	"Auni #0" = -1
+	"Azyren #1" = 10
+	"Borkvard #1" = 10
+	"Dyre #1" = 10
+	"Emich #0" = 0
+	"Gandalfr #1" = 10
+	"Gloð #0" = -1
+	"Guðmundr #1" = 10
+	"Henri #2" = 10
+	"Ingjald #0" = 0
+	"Karl #1" = 10
+	"Kat #0" = -1
+	"Kichay #1" = 10
+	"Koshel #2" = 10
+	"Margareta #0" = -1
+	"Naruchad #1" = 10
+	"Ormr #1" = 10
+	"Tikshayka #1" = 10
+	"Tolir #1" = 10
+	"Tunya #1" = 10
+	"Tylmache #1" = 10
+	"Uchva #1" = 10
+	"Vagn #0" = 0
+	"Veli #1" = 10
+	"Walpurga #0" = -1
+	"Êàðäàç #2" = 10
+	"Örvar #1" = 10
+	"Þorfinn #0" = 0
+}
+leader_names = {
+	"Andomsky"
+	"Beloselsky"
+	"Chernyatinsky"
+	"Dorogobushsky"
+	"Dyabrinsky"
+	"Kargolomsky"
+	"Kashinsky"
+	"Kemsky"
+	"Kholmsky"
+	"Mikulinsky"
+	"Sheleshpansky"
+	"Sugorsky"
+	"Telyatevsky"
+	"Ukhtomsky"
+	"Vadbolsky"
+}
+ship_names = {
+	"Brosno"
+	"Dmitry"
+	"Kashin"
+	"Kholmsky"
+	"Mikhail"
+	"Rzev"
+	"Startsa"
+	"Toropets"
+	"Torzhok"
+	"Tvertsa"
+	"Valdai"
+	"Volga"
+	"Vyshniy Voloche"
+	"Yaroslavich"
+	"Zubtsov"
+}

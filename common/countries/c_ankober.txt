@@ -1,0 +1,14 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 147 90 48 }
+monarch_names = {
+	"Berhane #0" = -1
+	"Ioseph #0" = 0
+	"Kuriakos #0" = 0
+	"Kurillos #0" = 0
+	"Leon #0" = 0
+	"Raphael #0" = 0
+	"Tewodros #0" = 0
+	"Tziporah #0" = -1
+	"Zacharias #0" = 0
+}

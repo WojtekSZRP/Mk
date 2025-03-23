@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 97 102 135 }
+revolutionary_colors = { 10 0 5 }
+historical_idea_groups = {
+	administrative_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	religious_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Alfrið #0" = -1
+	"Anzi #1" = 10
+	"Aune #0" = -1
+	"Balgor #1" = 10
+	"Beata #0" = -1
+	"Bothildr #0" = -1
+	"Botulfr #0" = 0
+	"Chindyapa #0" = -1
+	"Elin #0" = -1
+	"Faste #1" = 10
+	"Fredrik #1" = 10
+	"Geirr #1" = 10
+	"Gorm #1" = 10
+	"Gurli #0" = -1
+	"Gyrið #0" = -1
+	"Hakon #1" = 10
+	"Halla #0" = -1
+	"Hildeburg #0" = -1
+	"Hrolfr #0" = 0
+	"Hroðulfr #0" = 0
+	"Ildey #1" = 10
+	"Inga #0" = -1
+	"Ipa #1" = 10
+	"Ipaos #1" = 10
+	"Irmgard #0" = -1
+	"Ivar #1" = 10
+	"Kabuksin #1" = 10
+	"Kegen #2" = 10
+	"Korkutan #3" = 10
+	"Kostas #1" = 10
+	"Kugel #3" = 10
+	"Mandak #0" = 0
+	"Naça #0" = -1
+	"Sarkhan #1" = 10
+	"Sati #0" = -1
+	"Songul #0" = -1
+	"Steinn #0" = 0
+	"Sturla #0" = 0
+	"Suni #0" = 0
+	"Suru #1" = 10
+	"Svanhildr #0" = -1
+	"Teudileova #0" = -1
+	"Toke #1" = 10
+	"Ulfr #0" = 0
+	"Ute #0" = -1
+	"Yar #0" = -1
+	"Yngvar #1" = 10
+	"Öysteinn #0" = 0
+	"Þora #0" = -1
+	"Þorfinn #0" = 0
+	"Þorgil #1" = 10
+}
+leader_names = {
+	"Cälil"
+	"Göbäydullina"
+	"Isxaqi"
+	"Märcani"
+	"Nasiri"
+	"Nigmät"
+	"Nurgäli"
+	"Näcmetdin"
+	"Qamay"
+	"Qol-Gäli"
+	"Qursawi"
+	"Tuqay"
+	"Yusupow"
+}
+ship_names = {
+	"Alat"
+	"Arca"
+	"Cöri"
+	"Ghiasetdin"
+	"Gärec"
+	"Nugay"
+	"Qazan"
+	"Qazansu"
+	"Qazgan"
+	"Qazi"
+	"Säyet"
+	"Säyex"
+	"Söyembikä"
+	"Tas Ayaq"
+}

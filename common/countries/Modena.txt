@@ -1,0 +1,148 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 241 252 151 }
+revolutionary_colors = { 5 13 5 }
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	spy_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abdhamon #1" = 10
+	"Alor #1" = 10
+	"Anastasia #0" = -1
+	"Angelo #1" = 10
+	"Batnoam #1" = 10
+	"Bronuen #0" = -1
+	"Daniel #1" = 10
+	"Eshmounhilles #1" = 10
+	"Gerasimos #1" = 10
+	"Germelqart #1" = 10
+	"Gurguaret #1" = 10
+	"Iakobos #0" = 0
+	"Kanmi #1" = 10
+	"Libero #1" = 10
+	"Margarita #0" = -1
+	"Meletios #1" = 10
+	"Melqartpilles #1" = 10
+	"Milkyaton #1" = 10
+	"Nikolaos #1" = 10
+	"Pamphilios #1" = 10
+	"Pankratios #0" = 0
+	"Pantoleon #0" = 0
+	"Petros #0" = 0
+	"Philippos #0" = 0
+	"Severino #1" = 10
+	"Symeon #0" = 0
+	"Theodoulos #1" = 10
+	"Urbcen #1" = 10
+}
+leader_names = {
+	"Allegri"
+	"Araldini"
+	"Ariosto"
+	"Avanzini"
+	"Bacciochi"
+	"Barberini"
+	"Battisti"
+	"Boiardo"
+	"Boncompagni"
+	"Boncompagni-Ludovisi"
+	"Calcagnini"
+	"Catena"
+	"Colonna"
+	"Farini"
+	"Giardini"
+	"Grandi"
+	"Graziosi"
+	"Gualandelli"
+	"Gucciardini"
+	"Loschi"
+	"Malmussi"
+	"Marescalchi"
+	"Menotti"
+	"Mitelli"
+	"Montecuccoli"
+	"Montefeltro"
+	"Nardi"
+	"Nobili"
+	"Ordelaffi"
+	"Pavironica"
+	"Peretti"
+	"Pico"
+	"Pio"
+	"Rangoni"
+	"Rossetti"
+	"Santarosa"
+	"Tassoni"
+	"Tura"
+	"Viridis"
+	"Zini"
+	"d'Appiani d'Aragona"
+	"d'Este"
+	"de Roberti"
+	"de Tolomei"
+	"del Cossa"
+	"della Torre"
+	"di Ardizzone"
+	"di Farnese"
+	"di Ferrari"
+	"di Sauli"
+}
+ship_names = {
+	"Albareto"
+	"Anselmo da Campione"
+	"Baggiovara"
+	"Borso d'Este"
+	"Ca'Fusara"
+	"Cicerone"
+	"Cittanova"
+	"Cognento"
+	"Collegara"
+	"Este"
+	"Fiumi Panaro"
+	"Fiumi Secchia"
+	"Ganaceto"
+	"Lanfranco"
+	"Leodoino"
+	"Lesignana"
+	"Marzaglia"
+	"Navicello"
+	"Nonantola"
+	"Obizzo d'Este"
+	"Portile"
+	"San Damaso"
+	"San Donnino"
+	"San Francesco"
+	"San Geminiano"
+	"Sant'Agostino"
+	"Sant'Ambrogio"
+	"Santa Maria della Pomposa"
+	"Santo Anselmo"
+	"Tre Olmi"
+	"Villanova"
+	"re Enzo"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

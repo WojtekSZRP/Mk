@@ -1,0 +1,8 @@
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+controller = TRO
+is_city = no
+religion = arianism
+culture = portugese

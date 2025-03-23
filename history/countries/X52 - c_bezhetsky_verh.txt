@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = grand_duchy_reform
+government_rank = 1
+technology_group = eastern
+religion = norse_pagan_reformed
+primary_culture = estonian
+capital = 1961
+fixed_capital = 1961
+1444.11.11= {
+	monarch = {
+		name = "Aopelg"
+		dynasty = "Auster"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1406.2.28
+		religion = norse_pagan_reformed
+		culture = estonian
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Gyla"
+		dynasty = "Strúgr"
+		adm = 3
+		dip = 2
+		mil = 4
+		country_of_origin = X52
+		birth_date = 1404.6.12
+		death_date = 1464.6.12
+		female = yes
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Pikne"
+		monarch_name = "Pikne"
+		dynasty = "Auster"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1435.1.17
+		death_date = 1500.1.17
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = estonian
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 38
+	add_treasury = 58
+}

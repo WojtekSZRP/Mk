@@ -1,0 +1,11 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ CALLDESC_ALREADY_INVITED:0 "‰ª©º¢ ¬ ³¨ª½ ³¨ ¨ª¦²¾"
+ SET_PAPACY_ACTIVE_EFFECT_YES:0 "Ï¬®½¶ª² $RELIGION$ ±±²¢"
+ SET_PAPACY_ACTIVE_EFFECT_NO:0 "²¬®½¶ª² $RELIGION$ ‰±²¢."

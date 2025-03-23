@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = muslim
+religion = heptadic_pagan_reformed
+primary_culture = saka
+capital = 401
+fixed_capital = 401
+add_accepted_culture = mahri_culture
+1444.11.11= {
+	monarch = {
+		name = "Aryamgula"
+		dynasty = "Юттина"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1400.6.25
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Alyonj"
+		dynasty = "Виша"
+		adm = 3
+		dip = 3
+		mil = 2
+		country_of_origin = X75
+		birth_date = 1400.5.4
+		death_date = 1460.5.4
+		female = yes
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = righteous_personality
+	heir = {
+		name = "Nipandaka"
+		monarch_name = "Nipandaka"
+		dynasty = "Юттина"
+		adm = 4
+		dip = 5
+		mil = 4
+		birth_date = 1418.6.15
+		death_date = 1483.6.15
+		claim = 89
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = righteous_personality
+}
+1444.11.11= {
+	add_prestige = -25
+	add_treasury = 67
+}

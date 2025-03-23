@@ -1,0 +1,10 @@
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+culture = tibetan
+is_city = no
+base_tax = 3
+base_manpower = 2
+base_production = 4
+religion = catholic
+hre = yes

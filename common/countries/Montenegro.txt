@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 39 108 140 }
+revolutionary_colors = { 5 14 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	maritime_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adelgrima #0" = -1
+	"Adelperga #1" = -1
+	"Alo #0" = 0
+	"Amalberga #0" = -1
+	"Arnefrith #0" = 0
+	"Bardas #1" = 10
+	"Bojana #0" = -1
+	"Carola #0" = -1
+	"Comes #1" = 10
+	"Descia #2" = -1
+	"Dumnocoveros #0" = 0
+	"Epiphania #1" = -1
+	"Gaatha #0" = -1
+	"Gabriel #1" = 10
+	"Garibald #1" = 10
+	"Gerasimos #1" = 10
+	"Geretrudis #0" = -1
+	"Giso #0" = -1
+	"Guaimar #0" = 0
+	"Ioannikios #1" = 10
+	"Kaisarios #1" = 10
+	"Laurenzo #1" = 10
+	"Leon #1" = 10
+	"Litavis #0" = -1
+	"Makarios #1" = 10
+	"Maroe #1" = 10
+	"Matheus #1" = 10
+	"Maximos #1" = 10
+	"Nikodemos #1" = 10
+	"Prokopios #1" = 10
+	"Romanos #1" = 10
+	"Sikard #0" = 0
+	"Simmias #1" = 10
+	"Sunigilda #0" = -1
+	"Theodarada #0" = -1
+	"Timotheos #1" = 10
+	"Walderada #0" = -1
+	"Wechthari #0" = 0
+	"Воислав #1" = 10
+}
+leader_names = {
+	"Balsic"
+	"Baulica"
+	"Berici"
+	"Bivolici"
+	"Boljevic"
+	"Buca"
+	"Crnojevic"
+	"Drago"
+	"Grblji"
+	"Komanin"
+	"Kornecanin"
+	"Kosaca"
+	"Lukovici"
+	"Martinovitci"
+	"Njegos"
+	"Pastrovici"
+	"Petrovici"
+	"Radari"
+	"Srdjici"
+	"Sundecic"
+}
+ship_names = {
+	"Balsa I"
+	"Cetinje"
+	"Crna Gora"
+	"Duklja"
+	"Jadransko more"
+	"Jovan Vladimir"
+	"Mihajlo I"
+	"Podgorica"
+	"Vojislavljevic"
+	"Zeta"
+}

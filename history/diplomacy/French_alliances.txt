@@ -1,0 +1,54 @@
+alliance = {
+	first = z06
+	second = PIC
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = CHP
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = BRB
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = Z17
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = BOU
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = d_K41
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = Z22
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = Z24
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+alliance = {
+	first = z06
+	second = x15
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}

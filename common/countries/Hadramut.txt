@@ -1,0 +1,87 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 16 142 49 }
+historical_idea_groups = {
+	defensive_ideas
+	maritime_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Amram #1" = 10
+	"Bartholomaios #0" = 0
+	"Chiyya #1" = 10
+	"Efrayim #1" = 10
+	"Eliezer #1" = 10
+	"Geôrgios #1" = 10
+	"Guthela #0" = -1
+	"Hellene #0" = -1
+	"Hoase #1" = 10
+	"Hêlias #1" = 10
+	"Ieremias #1" = 10
+	"Ioseph #1" = 10
+	"Iêsousyko #0" = -1
+	"Mandera #0" = -1
+	"Mar #1" = 10
+	"Maria #1" = -1
+	"Marianou #0" = -1
+	"Markos #1" = 10
+	"Paulos #0" = 0
+	"Sheba #0" = -1
+	"Shoinlin #1" = -1
+	"Thoma #0" = 0
+	"Tzemach #1" = 10
+	"Zacharias #0" = 0
+	"Ñašša #1" = -1
+}
+leader_names = {
+	"Ali"
+	"Ibrahim"
+	"Issa"
+	"Jomaa"
+	"Khalil"
+	"Mansour"
+	"Saab"
+	"Saad"
+	"Saleh"
+	"Shammas"
+}
+ship_names = {
+	"Al-Kawd"
+	"Ali ibn Rasul"
+	"At-Tubah"
+	"Dhubab"
+	"Ibb"
+	"Jabal Kharaz"
+	"Jabal Thamar"
+	"Jabal al-Hasha"
+	"Malik al-Mujahid"
+	"Mansur Umar"
+	"Mawiyah"
+	"Musaymir"
+	"Muzaffar Yusuf"
+	"Qa'tabah"
+	"Shaykh Uthman"
+	"Ta'izz"
+	"Wadi Bana"
+	"Whaqra"
+	"Zabid"
+	"Zaizz"
+}

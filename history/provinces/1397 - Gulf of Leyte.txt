@@ -1,0 +1,7 @@
+discovered_by = chinese
+add_core = MAS
+owner = MAS
+controller = MAS
+culture = filipino
+religion = catholic
+hre = yes

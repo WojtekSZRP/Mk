@@ -1,0 +1,14 @@
+owner = KNG
+controller = KNG
+capital = "Say"
+is_city = yes
+religion = arianism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = KNG
+discovered_by = sub_saharan
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9

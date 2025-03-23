@@ -1,0 +1,65 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 77 231 25 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+	quantity_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Allauna #1" = -1
+	"Bankanu #1" = 10
+	"Cantisena #0" = -1
+	"Carvilius #0" = 0
+	"Catugnatus #0" = 0
+	"Deiana #0" = -1
+	"Etitovius #0" = 0
+	"Lucterius #3" = 10
+	"Mandubracius #2" = 10
+	"Ouali #2" = 10
+	"Samsou-Keïna #1" = 10
+}
+leader_names = {
+	"Addy"
+	"Afrifa"
+	"Akoto"
+	"Donkor"
+	"Moyoyo"
+	"Offei"
+	"Sabah"
+	"Sadami"
+	"Sribor"
+	"Zakari"
+}
+ship_names = {
+	"Asase Yaa"
+	"Benada"
+	"Bia"
+	"Dwoada"
+	"Fiada"
+	"Kwasiada"
+	"Memeneda"
+	"Nyame"
+	"Tano"
+	"Wukuada"
+	"Yawoada"
+}

@@ -1,0 +1,15 @@
+owner = DAI
+controller = DAI
+capital = "Sibsongbanna"
+is_city = yes
+religion = catholic
+trade_goods = tea
+base_tax = 4
+base_production = 4
+base_manpower = 4
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_core = DAI
+culture = hubei
+hre = yes

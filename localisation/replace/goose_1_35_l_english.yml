@@ -1,0 +1,21 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ OURSIDETRUCEENDS_TITLE:0 "‰¯ªª ©¬°¶ª®¿"
+ OURSIDETRUCEENDS_SETUP:0 "¥¦ ¦°²°° ±¯ªª ¯¨¦³ ¢Œþ ²°þ ª ¦³¥þ °µªþ ©¬°¶ª¢²¾."
+ OURSIDETRUCEENDS_HEADER:0 "Œ ¬°µ® ¡¸²"
+ OURSIDETRUCEENDS_1:0 "Ô¬ ¦°²°°¥ ±¯ªª¾ ª²¬"
+ OURSIDETRUCEENDS_2:1 "Œ ±¯ªª  $RECIPIENT$ ©¬°¶ª®¿."
+ OURSIDETRUCEENDS_5:1 "Ù±¿ ¯º ¯¨¯ ¡¹¾¢ª²¿ ª¯ ¢þ°³ ¡© ¦±®°ª²®¿°º °¬©°ªþ."
+ OURSIDETRUCEENDS_6:0 "™² ¡º® ¦°²°° ±¯ªª."
+ OURSIDETRUCEENDS_LOG:0 "‰¯ªª ¯¨¦³ $ACTOR$ ª $RECIPIENT$ ©¬°¶ª®¿."
+ OURSIDETRUCEENDS_BTN1:0 "ÛÐ÷"
+ OURSIDETRUCEENDS_BTN2:0 "ÛÐ÷"
+ OURSIDETRUCEENDS_BTN3:0 "†¦²ª ¬"
+ DominationDLC:0 "ƒ¯ª°ª¢°ª"
+ KingOfKingsDLC:0 "¬®¿ ¬®þ"

@@ -1,0 +1,4 @@
+discovered_by = chinese
+culture = filipino
+religion = catholic
+hre = yes

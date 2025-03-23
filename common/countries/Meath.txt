@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 15 128 253 }
+revolutionary_colors = { 14 6 14 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Artemios #1" = 10
+	"Damianos #0" = 0
+	"Gerasimos #1" = 10
+	"Germanos #1" = 10
+	"Guethencor #1" = 10
+	"GuethenwoRichard #1" = 10
+	"Gurheter #1" = 10
+	"Gurlouen #0" = 0
+	"Iakobos #1" = 10
+	"Kaisarios #1" = 10
+	"Komitas #0" = 0
+	"Kyriakos #0" = 0
+	"Laurentios #1" = 10
+	"Pamphilios #1" = 10
+	"Prokopios #1" = 10
+	"Pytheas #1" = 10
+	"Simonides #1" = 10
+	"Symmachos #1" = 10
+	"Theophanes #1" = 10
+	"Tristan #0" = 0
+	"Urvod #1" = 10
+	"Valerios #1" = 10
+}
+leader_names = {
+	"Mac Anna"
+	"Mac Artian"
+	"Mac Cearbhaill"
+	"Mac Dhomhnaill"
+	"Mac Lochlainn"
+	"Mac Mathghamha"
+	"Mac Suibhne"
+	"Mac Árdghail"
+	"Mag Aonghusa"
+	"Mag Uidhir"
+	"Ó Banain"
+	"Ó Baoghill"
+	"Ó Caiside"
+	"Ó Canannain"
+	"Ó Caoinnigh"
+	"Ó Ceallaigh"
+	"Ó Cleireigh"
+	"Ó Corcráin"
+	"Ó Cuileannáin"
+	"Ó Cuinn"
+	"Ó Daimhín"
+	"Ó Dochartaigh"
+	"Ó Doibhilin"
+	"Ó Duacháin"
+	"Ó Duibheamhna"
+	"Ó Faracháin"
+	"Ó Flaithre"
+	"Ó Flannagáin"
+	"Ó Longáin"
+	"Ó Lorcáin"
+	"Ó Maolagáin"
+	"Ó Maoldúin"
+	"Ó Neill"
+	"Ó Raithbheartiagh"
+	"Ó fLaithbheartaigh"
+	"Ó hAnluain"
+	"Ó hAodhagáin"
+	"Ó hInneirghe"
+	"Ó hÉignigh"
+	"Ó hÍr"
+}
+ship_names = {
+	"Aedh"
+	"Baedan"
+	"Colman"
+	"Cookstown"
+	"Donal"
+	"Eocha"
+	"Eogan"
+	"Fergal"
+	"Fergus"
+	"Niall"
+	"Omagh"
+	"Strabane"
+	"Suibne"
+}

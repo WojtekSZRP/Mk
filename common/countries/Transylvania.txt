@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 211 207 173 }
+revolutionary_colors = { 13 16 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Benes #1" = 10
+	"Borzywoj #0" = 0
+	"Cenek #1" = 10
+	"Chananel #0" = 0
+	"Czeckypanoviec #1" = 10
+	"Daniel #0" = 0
+	"Erlembald #1" = 10
+	"Gierolt #0" = 0
+	"Ivan #0" = 0
+	"Konstancja #0" = -1
+	"Litold #1" = 10
+	"Liutbrand #1" = 10
+	"Ludmila #0" = -1
+	"Milosz #0" = 0
+	"Piskla #0" = 0
+	"Radgis #0" = 0
+	"Rodolf #3" = 10
+	"Ryksa #0" = -1
+	"Siemomysl #0" = 0
+	"Slavomír #1" = 10
+	"Sobieslav #1" = 10
+	"Strachkvas #1" = 10
+	"Strasz #0" = 0
+	"Vsebor #1" = 10
+	"Wojuta #0" = 0
+	"Závis #0" = 0
+	"Àëüçåê #1" = 10
+	"Äóêóì #1" = 10
+	"Çàáåğãàí #1" = 10
+	"Éèëûã #1" = 10
+	"ßíû #1" = 10
+}
+leader_names = {
+	"Alvinczy"
+	"Apafi"
+	"Bethlen"
+	"Bocskai"
+	"Báthory"
+	"Dózsa"
+	"Gyulai"
+	"Kemény"
+	"Lackovic"
+	"Lázár"
+	"Rhédey"
+	"Rákóczy"
+	"Sasul"
+	"Thököly"
+	"Zabanius"
+	"Zrinyi"
+	"Zápolya"
+	"von Brukenthal"
+	"von Harteneck"
+}
+ship_names = {
+	"Antal Budai Nagy"
+	"Gyula"
+	"Hunyadi Janos"
+	"Ladislas Kan"
+	"Legforus"
+	"Leustachius"
+	"Mercurius"
+	"Roland Borsza"
+	"Varna"
+	"Vaskapu"
+}

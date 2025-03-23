@@ -1,0 +1,9 @@
+capital = "Cape Verde"
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = POR
+owner = POR
+controller = POR
+is_city = no

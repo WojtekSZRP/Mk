@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 59 126 59 }
+revolutionary_colors = { 0 9 0 }
+historical_idea_groups = {
+	diplomatic_ideas
+	economic_ideas
+	defensive_ideas
+	influence_ideas
+	offensive_ideas
+	trade_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelberga #0" = -1
+	"Alahis #1" = 10
+	"Amalfrida #1" = -1
+	"Ansa #1" = -1
+	"Ansprand #0" = 0
+	"Cleph #3" = 10
+	"Erelieva #0" = -1
+	"Gudeliva #0" = -1
+	"Hermenfred #1" = 10
+	"Liutbrand #0" = 0
+	"Lupus #1" = 10
+	"Maria #1" = -1
+	"Pandulf #0" = 0
+	"Rivai #0" = 0
+	"Sico #0" = 0
+	"Sigisbrand #0" = 0
+	"Wechthari #2" = 10
+}
+leader_names = {
+	"Absenger"
+	"Allmer"
+	"Almer"
+	"Altmann"
+	"Amtmann"
+	"Andreitsch"
+	"Arlitz"
+	"Fuchs"
+	"Herndler"
+	"Hierzegger"
+	"Kroha"
+	"Lanz"
+	"Maxa"
+	"Messner"
+	"Potetz"
+	"Ruckenstuhl"
+	"Schmidtberger"
+	"Steinegger"
+	"Teubenbacher"
+	"Trenkler"
+	"Wergals"
+	"Zingl"
+}
+ship_names = {
+	"Bruck"
+	"Eisenerz"
+	"Graz"
+	"Greim"
+	"Kapfenberg"
+	"Leibnitz"
+	"Leoben"
+	"Mürztal"
+	"Steiermark"
+	"Weiz"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

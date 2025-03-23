@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 37 57 }
+revolutionary_colors = { 8 1 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ahthari #0" = 0
+	"Amalberga #0" = -1
+	"Amedeo #0" = 0
+	"Anselm #1" = 10
+	"Bernard #1" = 10
+	"Daufer #3" = 10
+	"Gaitelgrima #0" = -1
+	"Giso #0" = -1
+	"Glismoda #0" = -1
+	"Gundoald #1" = 10
+	"Indulf #3" = 10
+	"Kakko #2" = 10
+	"Lando #2" = 10
+	"Liutprand #0" = 0
+	"Pandenulf #0" = 0
+	"Petrus #0" = 0
+	"Poppo #0" = 0
+	"Serenahilt #0" = -1
+	"Sunilda #0" = -1
+	"Theodo #1" = 10
+	"Theodota #0" = -1
+	"Vodenos #1" = 10
+	"Ãîòôğèä #1" = 10
+	"Ëàíòôğèä #2" = 10
+	"Òåîáàëüä #1" = 10
+	"Õíàáè #1" = 10
+}
+leader_names = {
+	"Gundelsheim"
+	"Imhoff"
+	"Lotzer"
+	"Schappeler"
+	"Schenck"
+	"Schulthaiss"
+	"Strigel"
+	"Vöhlin"
+	"Zangmeister"
+	"von Berg"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Andechs"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Kempten"
+	"König Arnulf"
+	"Lindau"
+	"Memmingen"
+	"Mindel"
+	"Oettingen"
+	"Otto"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Straubing"
+	"Tassilo III"
+	"Wittelsbach"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

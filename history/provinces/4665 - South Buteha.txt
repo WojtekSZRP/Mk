@@ -1,0 +1,13 @@
+owner = MGE
+controller = MGE
+capital = "West Buteha"
+is_city = yes
+religion = tengri_pagan
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = MGE
+culture = mongol

@@ -1,0 +1,268 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ #Missions
+ #Events
+ #Modifiers
+ desc_fra_french_supremacy2_modifier:0 "Œ ³¢°ª²² °¦ ©¯®¾¯ª ‚¯°ªª ²±¿ ° ±¦®¨ª² ¯°°ª½. ‰ ¯ ²¥ ¬¬ °Œª ¢þ¬ ¯Œª³½² ° Ï²¬, ¯º ¡³¦¯ ²¯ª²¿¾ ¢¬®½¶ª²¿ °¦¢° ±¡¸°°º ®½¦þ ¢ °Œ ±¢¸°° ¡¸²¢."
+ #Tooltips 
+ #fra_if_15_prov_tt:1 "If we complete this mission while we or a subject own at least §Y15§! provinces in the §YIberian§! Region:"
+ #Event Insights
+ #Personalities  
+ #CB 
+ #Name Change  
+ #National Ideas 
+ #Privileges
+ #Ideas
+ # haguenot_rebellions:0 "Huguenot Rebellions"
+ # haguenot_rebellions_desc:0 "The rebellions during the §YFrench Wars of Religion§! have left deep scars within our nation. We shall strive to prevent this disaster from happening ever again via any means necessary!"
+ #Revolutionary Ideas 
+ #China-related Localisation 
+ #Tooltips
+ #mng_passing_reforms_costs_less_tt:0 "Passing §YImperial Reforms§! will now cost §Y10§! Mandate §Gless§!"
+ #Personalities 
+ #Insights# #Expermental way to explain events for players#
+ #Modifiers 
+ #Events 
+ #Grand Coordinator Offices 
+ #Reforms 
+ #Privileges 
+ #Estates
+ country_estate_eunuchs_name:0 "[This.GetEunuchsName]"
+ #Estate Agendas 
+ #Decrees 
+ improved_expand_bureaucracy_decree:0 "Ð©¢°³²¿ ƒ¢µ¢³½ ¡½¬²ª½"
+ #Imperial Reforms 
+ #Decisions
+ #Qing-related Loc Starts here
+ #Missions 
+ #Tooltips
+ #Event Insight for Qing/MCH/MJZ 
+ #Modifiers 
+ #Events 
+ #Privileges / Reforms / Estates etc 
+ #General Traits
+ #Later Jin
+ #Qing New Missions Loc
+ #Modifiers 
+ #Tooltips 
+ # qng_during_this_era_events_may_fire_tt:0 "\n§YDuring this era, several events may be triggered, telling the story of flourishing art, opera and culture flourishing within our realm§!"
+ #Event Insight
+ #Events 
+ #Reforms
+ #Edicts
+ #Missions 
+ #Modifiers 
+ #Tooltips 
+ ###COUNTRY NAMES###
+ ###COMMON STRINGS###
+ ###SCRIPTED EFFECTS###
+ bribe_effect_scales_with_estate_qizilbash_tt:0 "Œ²¡ª³²¾ ¡²° ±±µª°®¿° ®¾®¿°²ª §Y[Root.GetQizilbashName]§! ([Root.GetQizilbashLoyaltyStatus])"
+ bribe_effect_scales_with_estate_ghulams_tt:1 "Œ²¡ª³²¾ ¡²° ±±µª°®¿° ®¾®¿°²ª §Y[Root.GetGhilmanName]§! ([Root.GetGhulamsLoyaltyStatus])"
+ issue_effects_with_estate_qizilbash_influence_tt:0 "§YŒ²¡ª³²¾ ±¦ ¢®ª¾°ª¯ [Root.GetQizilbashName]§!"
+ issue_effects_with_estate_ghulams_influence_tt:1 "§YŒ²¡ª³²¾ ±¦ ¢®ª¾°ª¯ [Root.GetGhilmanName]§!"
+ ###SCRIPTED TRIGGERS###
+ ###GOVERNMENT REFORMS###
+ mechanic_gain_devotion_from_force_converting_yes:0 "‰¦°°²¿ ª®¢¯³ ¡¸°ª½ ¦³¥ª ²° ° 20 ©¢ª²ª¾: §G+1,0§!"
+ ###GOVERNMENT NAMES###
+ ###GOVERNMENT EVENTS###
+ ###GOVERNMENT ABILITIES###
+ ###GOVERNMENT MODIFIERS###
+ ###HOLY ORDERS###
+ ###OTTOMAN MISSIONS###
+ ###OTTOMAN FLAVOR EVENTS###
+ flavor_tur.204.a.tt:0 "Ô²°º §Y[151.GetName]§! ³°³², ¬¬ ²®¿¬ °Œª ¢þ¬ °¶°³² ¨¦²¿ ¥¦."
+ eyalet_cores_only_on_owned_provinces_tt:0 "§Y×¦ ±ª¯°¾½²¾ ²®¿¬ ¬ ±¢ª°µª¾¯, ±ª°¦®¨¸ª¯ [Root.GetName].§!"
+ ###OTTOMAN MODIFIERS###
+ ###OTTOMAN DECISIONS###
+ ###MERC COMPANIES###
+ ###VARIABLES###
+ ###OPINION MODIFIERS###
+ ###ESTATES###
+ country_estate_janissaries_name:0 "[This.GetJanissariesName]"
+ ###MODIFIERS###
+ ###SUBJECT TYPES###
+ ###PEACE TREATIES###
+ ###WAR GOALS###
+ ###CASUS BELLI###
+ ###DIPLOMATIC ACTIONS###
+ ###DIPLOMATIC ACTION REQUIREMENTS###
+ REQUIRES_8_SPY_NETWORK_TT:0 "§R- ¯ °³¨° Œ±ª°¬¾ ²¿ ©¯¯ ° ¯° §Y8§! ¢ §Y[From.GetName] §!.§!"
+ REQUIRES_48_SPY_NETWORK_TT:0 "§R- ¯ °³¨° Œ±ª°¬¾ ²¿ ©¯¯ ° ¯° §Y48§! ¢ §Y[From.GetName] §!.§!"
+ ###AI REASONS###
+ ###POWER PROJECTIONS###
+ ###HRE EVENTS###
+ ###DISASTERS###
+ ###ESTATE PRIVILEGES###
+ ####BRHAMINS PRIVILEGES###
+ ###CLERGY PRIVILEGES###
+ ####NOBLE PRIVILEGES###
+ ####MARATHA PRIVILEGES###
+ ####RAJPUTS PRIVILEGES###
+ ####BURGHERS PRIVILEGES###
+ ####VAISYA PRIVILEGES###
+ ####COSSACKS PRIVILEGES###
+ ####NOMADIC TRIBES PRIVILEGES###
+ ####DHIMMI PRIVILEGES###
+ ####JAINS PRIVILEGES###
+ ###NOBLE PRIVILEGES###
+ ###BURGHERS PRIVILEGES###
+ ###JANISSARY PRIVILEGES###
+ ###JANISSARY AGENDAS###
+ ###AGENDA MODIFIERS###
+ ###REBELS###
+ ###BUILDING###
+ ###NAVAL DOCTRINES###
+ ###DISASTER EVENTS###
+ ###DISASTER MODIFIERS###
+ ###ESTATE EVENTS###
+ ###ESTATE EVENT MODIFIERS###
+ ###ESTATE DISASTER EVENTS###
+ ###RANDOM EVENTS###
+ ###KOREAN DECISIONS###
+ ###RUSSIAN MISSIONS###
+ ###RUSSIAN MODIFIERS###
+ ###RUSSIAN DISASTER###
+ ###RUSSIAN EVENTS###
+ ###MUSCOVY EVENTS###
+ ###DECISIONS###
+ ###PROVINCE TRIGGERD MODIFIER###
+ ###ENGLISH MISSIONS###
+ ###BRITISH FLAVOR EVENTS###
+ ###DECISIONS###
+ ###BRITISH MODIFIERS###
+ ###BRITISH DECISIONS###
+ ###OPINION MODIFIERS###
+ ###COUNTRIES###
+ ###CULTURES###
+ ###PARLIAMENT ISSUES###
+ ###PARLIAMENT DECISIONS###
+ ###PARLIAMENT BRIBES###
+ ###PARLIAMENT ACTIONS###
+ ###PARLIAMENT ACTS###
+ ###BUILDING DESCRIPTION LOCALIZATION###
+ # Unused as we do not intend to add description to buildings.
+ # However, this section has been added so modders know what string they would have to use to localize a building description.
+ #building_marketplace_desc: ""
+ #building_workshop_desc: ""
+ #building_temple_desc: ""
+ #building_barracks_desc: ""
+ #building_shipyard_desc: ""
+ #building_fort_15th_desc: ""
+ #building_coastal_defence_desc: ""
+ #building_courthouse_desc: ""
+ #building_dock_desc: ""
+ #building_regimental_camp_desc: ""
+ #building_fort_16th_desc: ""
+ #building_naval_battery_desc: ""
+ #building_cathedral_desc: ""
+ #building_trade_depot_desc: ""
+ #building_grand_shipyard_desc: ""
+ #building_training_fields_desc: ""
+ #building_fort_17th_desc: ""
+ #building_stock_exchange_desc: ""
+ #building_counting_house_desc: ""
+ #building_town_hall_desc: ""
+ #building_drydock_desc: ""
+ #building_conscription_center_desc: ""
+ #building_fort_18th_desc: ""
+ #building_manufactory_desc: ""
+ #building_farm_estate_desc: ""
+ #building_ramparts_desc: ""
+ #building_soldier_households_desc: ""
+ #building_impressment_offices_desc: ""
+ #building_state_house_desc: ""
+ ###RANDOM EVENTS###
+ ###CHURCH ASPECTS###
+ ###KOREAN EVENTS###
+ ###KOREAN DECISIONS###
+ ###GENERIC GOVERNMENT EVENTS###
+ ###DECADENCE EVENTS###
+ #Japan#
+ #Custom Tooltips
+ #Divine Empire Loc 
+ #Event Insight
+ #Modifiers 
+ #Reforms 
+ monthly_christian_japan_1:0 "¨¯¾¶° £adm£ ‰¢ª²®¿²¢°°º ±®°¯¶ª¾"
+ christian_japan_1_gain_modifier:0 "£adm£ ¦ª´ª¬² ±ª² ¢®²ª ±¢ª²®¿²¢"
+ monthly_christian_japan_2:0 "¨¯¾¶° £dip£ ‰¢ª²®¿²¢°°º ±®°¯¶ª¾"
+ christian_japan_2_gain_modifier:0 "£dip£ ¦ª´ª¬² ±ª² ¢®²ª ±¢ª²®¿²¢"
+ monthly_christian_japan_3:0 "¨¯¾¶° £mil£ ‰¢ª²®¿²¢°°º ±®°¯¶ª¾"
+ christian_japan_3_gain_modifier:0 "£mil£ ¦ª´ª¬² ±ª² ¢®²ª ±¢ª²®¿²¢"
+ #Events 
+ #Extra Event Tooltips etc 
+ #Modifiers
+ #Diplomatic Actions
+ #Japan EoC Loc 
+ #Korean EoC Loc
+ #New Mil Reforms Localisation
+ #New Iberian content# 
+ #Castile and Spain
+ #Slot 1 
+ #Colonial Slot 1 
+ #Slot 2
+ #Colonial Slot 2 
+ #Slot 3 
+ #Colonial Slot 3
+ #Slot 4
+ #Colonial Slot 4
+ #Slot 5
+ #Colonial Slot 5
+ #Modifiers 
+ #Events 
+ #Recurring events for the System of Councils mechanic
+ #Event Insights 
+ #Reforms
+ #Privileges 
+ #Disaster
+ #New Holy Orders
+ #Tooltips 
+ #Aragon
+ #Missions 
+ #Slot 1
+ #Slot 2
+ #Slot 3 
+ #Slot 4 
+ #Slot 5
+ #Events 
+ #Tooltips 
+ #ara_access_iberian_special_units_tt:0 "\nGain access to the Portuguese special naval unit '§YCaravel§!'"
+ #Modifiers
+ #Personality 
+ #Estate Privilege 
+ #Reforms  
+ #Navarra
+ #Reforms  
+ #Naval Doctrine 
+ #New Navarran Ideas 
+ #Portugal
+ #New Missions 
+ #Tooltip Keys 
+ #Modifiers 
+ #Missions
+ #Prussia
+ #Modifiers
+ #Militarization Loc 
+ #
+ #
+ #
+ #Buttons 
+ #Effects
+ #Events
+ #Stiopa's events 
+ #New Monuments 
+ #
+ #
+ #
+ #
+ #
+ #
+ #Missing Loc 
+ #Change Name and Color Decisions
+ #Ship-related loc 

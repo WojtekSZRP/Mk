@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 125 224 105 }
+monarch_names = {
+	"Aiorix #1" = 10
+	"Alatucca #0" = -1
+	"Buite #0" = 0
+	"Cingetessa #0" = -1
+	"Cingetorix #2" = 10
+	"Concolitanus #0" = 0
+	"Donnus #0" = 0
+	"Etitovius #0" = 0
+	"Galan #3" = 10
+	"Marganus #1" = 10
+	"Ria #0" = -1
+	"Salah #0" = 0
+	"Titocuna #0" = -1
+}

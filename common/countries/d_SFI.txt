@@ -1,0 +1,19 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 100 90 1 }
+monarch_names = {
+	"Airmed #0" = -1
+	"Aneroestes #0" = 0
+	"Avitus #3" = 10
+	"Banna #1" = -1
+	"Bellicianus #2" = 10
+	"Boduognatus #0" = 0
+	"Bolgios #1" = 10
+	"Buite #0" = 0
+	"Cailtram #1" = 10
+	"Carssouna #0" = -1
+	"Concolitanus #2" = 10
+	"Guiderius #1" = 10
+	"Illica #0" = -1
+	"Togodumnus #1" = 10
+}

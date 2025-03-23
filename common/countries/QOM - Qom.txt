@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 107 107 225 }
+historical_idea_groups = { 
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = { 
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = { 
+	"Alysanna #1" = 10
+	"Ardeshir #1" = 10
+	"Armaiti #0" = -1
+	"Arsaces #1" = 10
+	"Aryamgula #0" = 0
+	"Banafsheh #0" = -1
+	"Behnaz #0" = -1
+	"Dharma #0" = 0
+	"Ghamze #1" = -1
+	"Gostana #0" = 0
+	"Hormoz #2" = 10
+	"Humayun #1" = 10
+	"Keykhosrau #2" = 10
+	"Khivyaina #0" = -1
+	"Khuradatta #0" = 0
+	"Mahdokht #0" = -1
+	"Marzuban #1" = 10
+	"Maya #0" = -1
+	"Nanda #0" = -1
+	"Noor #0" = -1
+	"Parvaneh #0" = -1
+	"Praniyata #0" = -1
+	"Roxana #0" = -1
+	"Salomeh #1" = -1
+	"Samgaka #0" = 0
+	"Samgalaka #0" = 0
+	"Shahrokh #1" = 10
+	"Shahruz #1" = 10
+	"Shri #0" = -1
+	"Sihya #0" = 0
+	"Skunkha #0" = 0
+	"Sudarrjam #0" = 0
+	"Sumauna #0" = 0
+	"Touran #0" = -1
+	"Vadhaga #0" = 0
+	"Vahid #1" = 10
+	"Varman #3" = 10
+	"Vimala #0" = -1
+	"Vimalaprabha #0" = -1
+	"Yasaman #0" = -1
+	"Yavalac #0" = -1
+	"Zambasta #0" = 0
+	"Аль-Мансур #1" = 10
+}
+leader_names = { 
+	"Ahrari" "Ansari" "Azizi" "Daei" "Dalwand" "Fatemi" "Jalili" "Qazai" "Sabet" "Sabiri"
+	"Shahy" 
+}
+ship_names = { 
+	"Abathur" "Adamn Kasia" "Aesma Daeva" "Agas" "Ahaka" "Ahriman" "Ahura" "Ahura Mazda" "Ahurani" "Airyaman"
+	"Aka Manah" "Aladdin" "Allatum" "Amashaspan" "Ameratat" "Amesha Spentas" "Anahita" "Angra Mainyu" "Anjuman" "Apam-natat"
+	"Apaosa" "Aredvi" "Arishtat" "Armaiti" "Arsaces" "Asha vahista" "Asman" "Asto Vidatu" "Astvat-Ereta" "Atar"
+	"Azi Dahaka" "Baga" "Bahram" "Burijas" "Bushyasta" "Buyasta" "Camros" "Daena" "Daevas" "Dahhak"
+	"Dena" "Dev" "Diwe" "Drug" "Drvaspa" "Frashegird" "Fravashis" "Gandarewa" "Gao-kerena" "Gayomard"
+	"Gayomart" "Geus-Tasan" "Geus-Urvan" "Haoma" "Haurvatat" "Humay" "Hvar" "Hvarekhshaeta" "Indar" "Indra"
+	"Izha" "Jamshid" "Jeh" "Karshipta" "Kavi" "Khara" "Khshathra vairya" "Kundrav" "Mah" "Mahre"
+	"Mahrianag" "Manu" "Manuchihir" "Mao" "Mashyane" "Mashye" "Menog" "Mithra" "Nairyosangha" "Nanghaithya"
+	"Neriosang" "Ormazd" "Peris" "Peshdadians" "Rapithwin" "Rashnu" "Rustam" "Saurva" "Simurgh" "Spenta Mainyu"
+	"Sraosa" "Srosh" "Tawrich" "Thunaupa" "Tistrya" "Tushnamatay" "Vanant" "Vata" "Verethragna" "Vohu Manah"
+	"Vouruskasha" "Yam" "Yasht" "Yazata" "Yezidi" "Yima" "Zal" "Zam" "Zam-Armatay" "Zarathustra"
+	"Zarich" "Zend-Avesta" "Zurvan" 
+}

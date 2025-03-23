@@ -1,0 +1,27 @@
+vassal = {
+	first = BRI
+	second = MCM
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = BRI
+	second = Z45
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = BRI
+	second = CNN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = BRI
+	second = ULS
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}

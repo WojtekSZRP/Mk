@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = arianism
+primary_culture = punic
+capital = 382
+fixed_capital = 382
+mercantilism = 15
+add_accepted_culture = al_suryah_arabic
+1444.11.11= {
+	add_prestige = 64
+	add_treasury = 39
+}

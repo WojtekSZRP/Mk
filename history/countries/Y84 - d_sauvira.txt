@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = heptadic_pagan_reformed
+primary_culture = saka
+capital = 504
+1444.11.11= {
+	add_prestige = 48
+	add_treasury = 67
+}

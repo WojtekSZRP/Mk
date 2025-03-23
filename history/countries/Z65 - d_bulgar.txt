@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = norse_pagan_reformed
+primary_culture = holmgardrian
+capital = 1081
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 56
+}

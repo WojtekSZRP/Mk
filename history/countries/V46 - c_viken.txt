@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = german
+capital = 16
+fixed_capital = 16
+1444.11.11= {
+	monarch = {
+		name = "Rutger"
+		dynasty = "фон Эзелсберг"
+		adm = 1
+		dip = 2
+		mil = 3
+		birth_date = 1417.12.12
+		religion = norse_pagan_reformed
+		culture = german
+	}
+	add_ruler_personality = calm_personality
+	add_ruler_personality = just_personality
+	queen = {
+		name = "Henrike"
+		dynasty = "Brunswick"
+		adm = 1
+		dip = 3
+		mil = 2
+		country_of_origin = V46
+		birth_date = 1416.7.10
+		death_date = 1476.7.10
+		female = yes
+		religion = norse_pagan_reformed
+		culture = alsatian
+	}
+	add_queen_personality = kind_hearted_personality
+	add_queen_personality = lawgiver_personality
+	heir = {
+		name = "Alois"
+		monarch_name = "Alois"
+		dynasty = "фон Эзелсберг"
+		adm = 1
+		dip = 2
+		mil = 3
+		birth_date = 1436.12.20
+		death_date = 1501.12.20
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = alsatian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 5
+	add_treasury = 67
+}

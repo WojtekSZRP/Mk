@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 40 121 66 }
+revolutionary_colors = { 1 8 1 }
+historical_idea_groups = {
+	defensive_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+	offensive_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ariñcikai #0" = -1
+	"Arulmolinankaiyâr #0" = -1
+	"Atirâcêntira #0" = 0
+	"Atittapatâriyâr #0" = -1
+	"Bhimasena #1" = 10
+	"Brahmamârâyar #0" = 0
+	"Cantirâdêvi #0" = -1
+	"Irattapadikonda #1" = 10
+	"Katunkon #0" = 0
+	"Kilân #0" = 0
+	"Kotukulapattan #2" = 10
+	"Kutitânkinâl #0" = -1
+	"Kûttâtunâcci #0" = -1
+	"Manappâkkîlan #2" = 10
+	"Mutasiva #3" = 10
+	"Mâmpâkkamutaiyân #3" = 10
+	"Mânaticcuran #1" = 10
+	"Mânikkam #0" = -1
+	"Mârapanmar #2" = 10
+	"Mâtevipattan #0" = 0
+	"Naracimmavarman #4" = 10
+	"Nâcciyâlvi #0" = -1
+	"Nârani #0" = -1
+	"Periyanâcci #0" = -1
+	"Periyapillai #0" = 0
+	"Peruñcintevar #2" = 10
+	"Pirriccâni #0" = -1
+	"Pulindasena #1" = 10
+	"Pâkkilân #0" = 0
+	"Pâlarâvâyan #1" = 10
+	"Raahelamma #0" = -1
+	"Ranatitta #0" = 0
+	"Varakunan #0" = 0
+	"Vikkiramâtitti #1" = -1
+}
+leader_names = {
+	"Ardastani"
+	"Astarabadi"
+	"Badakshi"
+	"Basri"
+	"Bhosle"
+	"Bukhari"
+	"Changezi"
+	"Gawan"
+	"Gaznavi"
+	"Gilani"
+	"Hasanabadi"
+	"Jurjani"
+	"Kabuli"
+	"Kirmani"
+	"Madhu"
+	"Quadari"
+	"Qummi"
+	"Sadhwani"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Fatimah"
+	"Godvari"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Mahanadi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Yasmine"
+}

@@ -1,0 +1,14 @@
+owner = DAI
+controller = DAI
+capital = "Kengtung"
+is_city = yes
+religion = catholic
+trade_goods = tropical_wood
+base_tax = 4
+base_production = 4
+base_manpower = 4
+discovered_by = chinese
+discovered_by = indian
+add_core = DAI
+culture = vietnamese
+hre = yes

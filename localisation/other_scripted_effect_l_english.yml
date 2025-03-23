@@ -1,0 +1,42 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 15.11.2023 22:01:15
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ add_or_upgrade_trade_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² ¢ §Y²¥¢ ©¦°ª§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §YÐº°¬§!,  ®ª ²¿ §YÊ°¦¢¾ ¡ª¨§!, ±®³¶ª² §G1§! €©¢ºþ °®¥ ª §G1§! €©¢ ±ª©¢¦²¢ ¢ §Y[This.GetName]§!."
+ add_or_upgrade_tax_building_tt:0 "§Y[This.GetName]§! ¡°¢ª®ª §Y°®¥¢ ©¦°ª§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §YÛ¯§!,  ®ª ²¿ §YÔ¡§!, ±®³¶ª² §G2§! €©¢ºþ °®¥ ¢ §Y[This.GetName]§!."
+ add_or_upgrade_production_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² ¢ §Y±ª©¢¦²¢°° ©¦°ª§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §Y²¬³½§!,  ®ª ²¿ §YÔ¶²°¾ ±®²§!, ±®³¶ª² §G2§!  €©¢ ±ª©¢¦²¢ ¢ §Y[This.GetName]§!."
+ add_or_upgrade_dock_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² §Y¦¬¢ ©¦°ª§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §Yƒ¬ª§!,  ®ª ²¿ §YÔ³ª ¦¬ª§!, ±®³¶ª² §G500§! ¾¬ª."
+ add_or_upgrade_shipyard_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² §Y¬¡®¿° ©¦°ª§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §YÏ´¿§!,  ®ª ²¿ §YÏ®ª¬¾ ¢´¿§!, ±®³¶ª² §G500§! ¾¬¢."
+ add_or_upgrade_manpower_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² ¢ §Y©¦°ª ¬³²¢§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §Y©¯º§!,  ®ª ²¿ §YÙ°ª¢¶°º ±®¾§!, ±®³¶ª² §G1§! €©¢ ±ª©¢¦²¢ ª §G1§! €©¢¾ ¡¶¾ ª® ¢ §Y[This.GetName]§!."
+ add_or_upgrade_forcelimit_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² ¢ §YForcelimit Building§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §Y‰®¬¢ºþ ®¥¿§!,  ®ª ²¿ §Y‰ª©º¢°þ µ°²§!, ±®³¶ª² §G2§! €©¢¾ ¡¶¾ ª® ¢ §Y[This.GetName]§!."
+ add_or_upgrade_university_building_tt:0 "®ª §Y‹°ª¢ª²²§! ²³²²¢³², ¦¡¢¿² §Y‹°ª¢ª²²§!,  ®ª ° ²¿, ±®³¶ª² §G1§!] €©¢ºþ °®¥, §G1§! €©¢ ±ª©¢¦²¢ ª §G1§! €©¢ ¶ª® ¬³²¢ ¢ §Y[This.GetName]§!."
+ add_or_upgrade_courthouse_building_tt:0 "§Y[This.GetName]§! ¡°¢ª®ª ¢ §Y©¦°ª ³¦§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §Y…¦°ª ³¦§!,  ®ª ²¿ §YÐ²³Œ§!, ±®³¶ª² §G1§ €©¢ºþ °®¥, §G1§! €©¢ ±ª©¢¦²¢ ª §G1§! €©¢ ¶ª® ¬³²¢ ¢ §Y[ This.GetName]§!."
+ add_or_upgrade_fort_building_tt:0 "§Y[This.GetName]§! ³®³¶Œ½² ¢ §Y©¦°ª ´²§!. ®ª ©¦°ª¾ °², ¦¡¢¿² §Y…¯¬§!,  ®ª ²¿ §Y±²¿§!, ±®³¶ª² §G3§! €©¢¥ ¶ª® ¬³²¢ ¢ §Y[This.GetName]§!."
+ ME_yes:0 "£yes£"
+ ME_no:0 "£no£"
+ set_center_level_2_center_of_trade_tt:0 "§Y[This.GetName]§! gets their §YCenter of Trade§! upgraded to Level §G2§!. If no §YCenter of Trade§! is present, add a Level §G2§! §YCenter of Trade§!, and if level §G2§! §YCenter of Trade§! is present, gain §G2§! Base Production in §Y[This.GetName]§!."
+ set_center_level_3_center_of_trade_tt:0 "§Y[This.GetName]§! gets their §YCenter of Trade§! upgraded to Level §32§!. If no §YCenter of Trade§! is present, add a Level §G3§! §YCenter of Trade§!, if level §G2§! §YCenter of Trade§! is present, gain §G2§! Base Production in §Y[This.GetName]§! and set it to level §G3§!, and if level §G3§! §YCenter of Trade§! is present, gain §G4§! Base Production in §Y[This.GetName]§!."
+ add_or_upgrade_naval_defense_building_tt:0 "§Y[This.GetName]§! gets their §YCoastal Defense Building§! upgraded. If no building is present, add §YCoastal Defense§!, and if §YNaval Battery§! is, gain §G2§! Base Production in §Y[This.GetName]§!."
+ upgrade_trade_building_tt:0 "§Y[This.GetName]§! gets their §YTrade Building§! upgraded. If §YStock Exchange§! is present, gain §G1§! Base Tax and §G1§! Base Production in §Y[This.GetName]§!."
+ upgrade_tax_building_tt:0 "§Y[This.GetName]§! gets their §YTax Building§! upgraded. If §YCathedral§! is present, gain §G2§! Base Tax in §Y[This.GetName]§!."
+ upgrade_production_building_tt:0 "§Y[This.GetName]§! gets their §YProduction Building§! upgraded. If §YCounting House§! is present, gain §G2§! Base Production in §Y[This.GetName]§!."
+ upgrade_dock_building_tt:0 "§Y[This.GetName]§! gets their §YDock Building§! upgraded. If §YDrydocks§! is present, gain §G500§! Sailors."
+ upgrade_shipyard_building_tt:0 "§Y[This.GetName]§! gets their §YShipyard Building§! upgraded. If §YGrand Shipyard§! is present, gain §G500§! Sailors."
+ upgrade_manpower_building_tt:0 "§Y[This.GetName]§! gets their §YManpower Building§! upgraded. If §YTraining Fields§! is present, gain §G1§! Base Production and §G1§! Base Manpower in §Y[This.GetName]§!."
+ upgrade_forcelimit_building_tt:0 "§Y[This.GetName]§! gets their §YForcelimit Building§! upgraded. If §YConscription Center§! is present, gain §G2§! Base Manpower in §Y[This.GetName]§!."
+ upgrade_courthouse_building_tt:0 "§Y[This.GetName]§! gets their §YCourthouse Building§! upgraded. If §YTown Hall§! is present, gain §G1§! Base Tax, §G1§! Base Production and §G1§! Base Manpower in §Y[This.GetName]§!."
+ upgrade_fort_building_tt:0 "§Y[This.GetName]§! gets their §YFort Building§! upgraded. If §YFortress§! is present, gain §G3§! Base Manpower in §Y[This.GetName]§!."
+ upgrade_naval_defense_building_tt:0 "§Y[This.GetName]§! gets their §YCoastal Defense Building§! upgraded. If §YNaval Battery§! is present, gain §G2§! Base Production in §Y[This.GetName]§!."
+ set_trade_power_requirement_of_propogate_religion_5_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y5§!."
+ set_trade_power_requirement_of_propogate_religion_10_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y10§!."
+ set_trade_power_requirement_of_propogate_religion_15_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y15§!."
+ set_trade_power_requirement_of_propogate_religion_20_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y20§!."
+ set_trade_power_requirement_of_propogate_religion_25_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y25§!."
+ set_trade_power_requirement_of_propogate_religion_30_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y30§!."
+ set_trade_power_requirement_of_propogate_religion_35_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y35§!."
+ set_trade_power_requirement_of_propogate_religion_40_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y40§!."
+ set_trade_power_requirement_of_propogate_religion_45_tt:0 "Set the required Trade Power for the '§YPropagate Religion§!' Trading Policy to §Y45§!."

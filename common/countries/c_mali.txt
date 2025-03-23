@@ -1,0 +1,13 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 108 170 48 }
+monarch_names = {
+	"Deiana #0" = -1
+	"Divico #0" = 0
+	"Duratios #0" = 0
+	"Exuperata #0" = -1
+	"Marganus #0" = 0
+	"Sisillius #0" = 0
+	"Totia #0" = -1
+	"Viridorix #0" = 0
+}

@@ -1,0 +1,20 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ #ab_spain_tercio:0 "Spanish Tercios"
+ #ab_persia_reinforce:0 "Persian Reinforcement"
+ #ab_france_fire_damage:0 "French Musketeers"
+ #ab_dutch_anti_corruption:0 "Dutch Officials"
+ #ab_austria_rep:0 "Austrian Diplomacy"
+ RightsOfManDLC:0 "‰¢ ¶®¢¬"
+ MandateOfHeavenDLC:0 "°¦² ¡"
+ CradleOfCivilizationDLC:0 "®º¡®¿ µª¢ª®ª©µªª"
+ LeviathanDLC:1 "ˆ¢ª´°"
+ WomenInHistoryDLC:0 "„°¸ª°º ¢ ª²ªª"
+ #
+ #

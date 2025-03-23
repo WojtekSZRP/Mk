@@ -1,0 +1,15 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 130 120 60 }
+monarch_names = {
+	"Kharuchi #0" = 0
+	"Nabtiko #0" = 0
+	"Nga #0" = 0
+	"Ngeva #0" = -1
+	"Ngënoh #0" = 0
+	"Sirtya #0" = 0
+	"Tadane #0" = -1
+	"Tolik #0" = 0
+	"Wayngachi #0" = 0
+	"Öshkamöshka #0" = -1
+}

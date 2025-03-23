@@ -1,0 +1,8 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 181 155 75 }
+monarch_names = {
+	"Atitta #0" = 0
+	"Kantarâtitta #0" = 0
+	"Tripuvanacakkaravattikal #0" = 0
+}

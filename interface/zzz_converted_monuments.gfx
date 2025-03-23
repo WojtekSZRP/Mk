@@ -1,0 +1,279 @@
+spriteTypes = {
+	##Predefined Monuments
+	#Pyramids, Stonehenge and Mausoleum are in base game
+	spriteType = {
+		name = "GFX_great_project_lighthouse_of_alexandria"
+		texturefile = "gfx//interface//great_projects//great_project_golden_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_hindu_konark"
+		texturefile = "gfx//interface//great_projects//great_project_prambanan_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_apostolic_palace"
+		texturefile = "gfx//interface//great_projects//great_project_saint_peters_cathedral.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_house_of_wisdom"
+		texturefile = "gfx//interface//great_projects//great_project_ait_benhaddou.dds"
+	}
+	#Petra, Hagia and Notre are in the base game
+
+	##Dynamic Monuments
+spriteType = {
+		name = "GFX_great_project_wonder_garden_34"
+		texturefile = "gfx//interface//great_projects//great_project_ambras_castle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_temple_pagan_2"
+		texturefile = "gfx//interface//great_projects//great_project_heddal_stave_church.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_23"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_library_46"
+		texturefile = "gfx//interface//great_projects//great_project_temple_of_confucius.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_wall_55"
+		texturefile = "gfx//interface//great_projects//great_project_the_great_wall_of_china.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_wall_53"
+		texturefile = "gfx//interface//great_projects//great_project_the_great_wall_of_china.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_40"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_7"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_21"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_harbor_28"
+		texturefile = "gfx//interface//great_projects//great_project_doges_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_garden_51"
+		texturefile = "gfx//interface//great_projects//great_project_ambras_castle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_garden_1"
+		texturefile = "gfx//interface//great_projects//great_project_ambras_castle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_41"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_library_24"
+		texturefile = "gfx//interface//great_projects//great_project_temple_of_confucius.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_33"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_mausoleum_9"
+		texturefile = "gfx//interface//great_projects//great_project_mausoleum_at_halicarnassus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_temple_pagan_10"
+		texturefile = "gfx//interface//great_projects//great_project_heddal_stave_church.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_statue_ruler_6"
+		texturefile = "gfx//interface//great_projects//great_project_gomateshwara_statue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_harbor_14"
+		texturefile = "gfx//interface//great_projects//great_project_doges_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_synagogue_11"
+		texturefile = "gfx//interface//great_projects//great_project_kiev_pechersk_lavra.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_statue_horse_8"
+		texturefile = "gfx//interface//great_projects//great_project_easter_island_statues.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_27"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_lighthouse_15"
+		texturefile = "gfx//interface//great_projects//great_project_belem_tower.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_45"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_32"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_statue_ruler_39"
+		texturefile = "gfx//interface//great_projects//great_project_gomateshwara_statue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_library_20"
+		texturefile = "gfx//interface//great_projects//great_project_temple_of_confucius.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_26"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_cathedral_52"
+		texturefile = "gfx//interface//great_projects//great_project_cologne_cathedral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_mausoleum_54"
+		texturefile = "gfx//interface//great_projects//great_project_mausoleum_at_halicarnassus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_44"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_49"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_16"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_pagan_stones_18"
+		texturefile = "gfx//interface//great_projects//great_project_ait_benhaddou.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_42"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_statue_ruler_48"
+		texturefile = "gfx//interface//great_projects//great_project_gomateshwara_statue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_library_56"
+		texturefile = "gfx//interface//great_projects//great_project_temple_of_confucius.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_garden_57"
+		texturefile = "gfx//interface//great_projects//great_project_ambras_castle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_25"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_50"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_22"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_38"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_mausoleum_37"
+		texturefile = "gfx//interface//great_projects//great_project_mausoleum_at_halicarnassus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_lighthouse_29"
+		texturefile = "gfx//interface//great_projects//great_project_belem_tower.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_58"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_17"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_university_43"
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_19"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_35"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_garden_4"
+		texturefile = "gfx//interface//great_projects//great_project_ambras_castle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wonder_palace_30"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_palace.dds"
+	}
+
+	
+}

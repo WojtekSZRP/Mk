@@ -1,0 +1,58 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ #
+ #
+ #
+ #
+ #
+ # Hegemon
+ # Coastal Fortresses
+ # Marines
+ # Imperial CB loc
+ # Assign Heir
+ ASSIGN_HEIR_TT_PERSONAL_UNIONS:0 "‰¬®¿¬³ °Œ ®ª¥ª¾ ¦±³¬² ®ª¶°º ½©º, ¢¯ °¦¯, ¢²³±ª¢Œª¯ ¢ §Y¬®¢¬ªþ ¡¬§!  °¯ª, ¡³¦² ±¦²¢®° ±¢¦ «§YÏ²°¢®°ª ½©§!». €®®ª"
+ # Military Access Mapmode
+ # Expand Administration
+ # Council of Trent
+ # Curia tithe
+ # Call ecumenical council
+ # Buy Indulgence
+ # Appoint Cardinal diplomatic action
+ # Golden Bulls
+ # Provoke revolts
+ # Cardinal mapmode
+ # Revolution
+ # Curia
+ # DotF
+ # Macrobuilder
+ # Imperial Diet Rework
+ estate_privileges_and_agendas_events.3.n: "‰¦®¨°ª [Root.GetQizilbashName]"
+ estate_privileges_and_agendas_events.3.o:1 "‰¦®¨°ª [Root.GetGhilmanName]"
+ estate_privileges_and_agendas_events.6.o:0 "‰¦þ² ¥ [Root.GetQizilbashOrFallbackName]"
+ estate_privileges_and_agendas_events.6.p:0 "‰¦þ² ¥ [Root.GetGhulamsOrFallbackName]"
+ estate_privileges_and_agendas_events.7.o:0 "…¢²ª² ¥ ³ [Root.GetQizilbashOrFallbackName]"
+ estate_privileges_and_agendas_events.7.p:0 "…¢²ª² ¥ ³ [Root.GetGhulamsOrFallbackName]"
+ estate_privileges_and_agendas_events.8.t:0 "Ï®ª¬ªþ ¢ª©ª¿ [Root.GetName]"
+ estate_privileges_and_agendas_events.8.desc:0 "€½¬²ª¾ ¥³¦²¢ Œ °²®¿¬, °¬®¿¬ Œ  Ï®ª¬ªþ Ïª©ª¿, ¢ºŒªþ ¢²°ª¬ ¦¢. ‰ªŒ® ¢¯¾ °¯ ª©¡²¿ ¦° ª© °Œª ±¯²ªþ °¢º¯ Ï®ª¬ª¯ Ïª©ª¯."
+ estate_privileges_and_agendas_events.8.a:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetChurchOrFallbackName]"
+ estate_privileges_and_agendas_events.8.b:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetBurghersOrFallbackName]"
+ estate_privileges_and_agendas_events.8.c:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetNobilityOrFallbackName]"
+ estate_privileges_and_agendas_events.8.d:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetDhimmiOrFallbackName]"
+ estate_privileges_and_agendas_events.8.e:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetCossacksOrFallbackName]"
+ estate_privileges_and_agendas_events.8.f:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetTribesOrFallbackName]"
+ estate_privileges_and_agendas_events.8.g:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetBrahminsOrFallbackName]"
+ estate_privileges_and_agendas_events.8.h:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetRajputOrFallbackName]"
+ estate_privileges_and_agendas_events.8.i:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetMarathaOrFallbackName]"
+ estate_privileges_and_agendas_events.8.j:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetVaisyasOrFallbackName]"
+ estate_privileges_and_agendas_events.8.k:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetJainsOrFallbackName]"
+ estate_privileges_and_agendas_events.8.l:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetJanissariesOrFallbackName]"
+ estate_privileges_and_agendas_events.8.m:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetEunuchsOrFallbackName]"
+ estate_privileges_and_agendas_events.8.n:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetQizilbashOrFallbackName]"
+ estate_privileges_and_agendas_events.8.o:0 "Ïº¡ª² Ï®ª¬¥ Ïª©ª¾ ª© [Root.GetGhulamsOrFallbackName]"
+ estate_privileges_and_agendas_events.8.zzz:0 "Ï °²¾¸ ¢¯¾ °¯ ° °³¨° Ï®ª¬ªþ Ïª©ª¿."

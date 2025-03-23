@@ -1,0 +1,99 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 210 175 60 }
+revolutionary_colors = { 10 1 10 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	quality_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	shaybani
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Alyonj #0" = -1
+	"Alysanna #2" = 10
+	"Aryamgula #0" = 0
+	"Bahram #1" = 10
+	"Behnaz #0" = -1
+	"Dharma #1" = 10
+	"Dum #1" = 10
+	"Goshtasb #0" = 0
+	"Huyi #1" = 10
+	"Hvam #1" = 10
+	"Jajahasa #1" = 10
+	"Olga #0" = -1
+	"Padatcaina #2" = 10
+	"Pourandokht #0" = -1
+	"Presamdha #1" = 10
+	"Punekula #1" = 10
+	"Raghu #0" = 0
+	"Safali #0" = -1
+	"Samgalaka #1" = 10
+	"Shri #0" = -1
+	"Shtrugize #1" = 10
+	"Shudamgula #1" = 10
+	"Siddharthe #0" = 0
+	"Sudarsane #0" = -1
+	"Sumtharaka #1" = 10
+	"Tisyarakshita #0" = -1
+	"Vardhana #1" = 10
+	"Varman #1" = 10
+	"Varvara #0" = -1
+	"Vijita #0" = 0
+}
+leader_names = {
+	"Arighqan"
+	"Batulun"
+	"Batutai"
+	"Bayan Arslan"
+	"Bayarnai"
+	"Bokejin"
+	"Bora Tolui"
+	"Burilgiteni"
+	"Mongke Bayar"
+	"Mongke Cheren"
+	"Oyugun Nasan"
+	"Qadancher"
+	"Subegene"
+	"Suren Chinua"
+	"Tegusdai"
+	"Yekedei"
+}
+ship_names = {
+	"Abu Hasan Ali"
+	"Abu Mamun"
+	"Ahmed Sanjar"
+	"Ala Aziz"
+	"Ala Takish"
+	"Altun Yash"
+	"Amu Darya"
+	"Anush Tigin"
+	"Bukhara"
+	"Din Muhammad"
+	"Harun"
+	"Ismail Khandan"
+	"Jalal Mingburnu"
+	"Jaxartes"
+	"Khwarezm"
+	"Kunya"
+	"Syr Darya"
+	"Urganj"
+	"Yelu Dashi"
+}

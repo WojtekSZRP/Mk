@@ -1,0 +1,11 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 28 240 63 }
+monarch_names = {
+	"Diseta #0" = -1
+	"Dumnacus #0" = 0
+	"Inamarcus #0" = 0
+	"Lucterius #0" = 0
+	"Marganus #0" = 0
+	"Oconea #0" = -1
+}

@@ -1,0 +1,24 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 108 227 142 }
+monarch_names = {
+	"Agathe #0" = -1
+	"Chaelsoñoja #0" = -1
+	"Dauid #0" = 0
+	"Desta #0" = 0
+	"Eirota #0" = -1
+	"Epiphanios #0" = 0
+	"Gennatios #0" = 0
+	"Ioseph #0" = 0
+	"Iôannês #0" = 0
+	"Keudonia #0" = -1
+	"Kurake #0" = -1
+	"Leon #0" = 0
+	"Madrona #0" = -1
+	"Mariana #0" = 0
+	"Phyllis #0" = -1
+	"Solomôn #0" = 0
+	"Staurophania #0" = -1
+	"Theipisthe #0" = -1
+	"Ñilesa #0" = -1
+}

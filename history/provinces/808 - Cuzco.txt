@@ -1,0 +1,17 @@
+capital = "Cuzco"
+is_city = yes
+culture = inca
+religion = inti
+trade_goods = gold
+base_tax = 10
+base_production = 10
+base_manpower = 10
+extra_cost = 8
+center_of_trade = 3
+add_core = CSU
+discovered_by = andean
+discovered_by = high_american
+discovered_by = mesoamerican
+discovered_by = north_american
+discovered_by = south_american
+fort_15th = yes

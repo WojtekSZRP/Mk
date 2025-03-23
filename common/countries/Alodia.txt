@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 135 144 180 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Adanech #0" = -1
+	"Alethia #1" = -1
+	"Benaim #0" = 0
+	"Berhane #0" = -1
+	"Berta #0" = 0
+	"Emmanouel #1" = 10
+	"Fannah #0" = -1
+	"Fasilidas #0" = 0
+	"Guta #0" = -1
+	"Hoasse #2" = 10
+	"Hoassi #0" = 0
+	"Hкlias #1" = 10
+	"Iyasu #0" = 0
+	"Kollouthos #0" = 0
+	"Kurillos #1" = 10
+	"Leontios #1" = 10
+	"Louama #0" = -1
+	"Marianos #0" = 0
+	"Markos #1" = 10
+	"Maththias #1" = 10
+	"Menankouda #1" = 10
+	"Mouses #1" = 10
+	"Nyala #0" = -1
+	"Petros #1" = 10
+	"Philemon #0" = 0
+	"Raphael #2" = 10
+	"Sotinkouda #1" = 10
+	"Teferi #1" = 10
+	"Tewodros #0" = 0
+	"Theodote #1" = 10
+	"Theodфros #1" = 10
+	"Асабисос #1" = 10
+	"Габриэль #1" = 10
+	"Дауид #1" = 10
+	"Шамумун #1" = 10
+}
+leader_names = {
+	"Abboud"
+	"Fung"
+	"Garang"
+	"Kayra"
+	"Keira"
+	"Kelueljang"
+	"Lugor"
+	"Nuer"
+	"Shol"
+	"Taha"
+}
+ship_names = {
+	"Amenirdis"
+	"Amon"
+	"Apedemak"
+	"Arensnuphis"
+	"Bes"
+	"Dedwen"
+	"Khnum"
+	"Mandulis"
+	"Mut"
+	"Taweret"
+	"Tefnut"
+}

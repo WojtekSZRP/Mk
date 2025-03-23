@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = norwegian
+capital = 315
+add_accepted_culture = sapmi
+1444.11.11= {
+	monarch = {
+		name = "Olafr"
+		dynasty = "af Orkneyjar"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1398.3.14
+		religion = norse_pagan_reformed
+		culture = norwegian
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Hafrid"
+		dynasty = "af Raumariki"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = Z95
+		birth_date = 1403.11.28
+		death_date = 1463.11.28
+		female = yes
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = silver_tongue_personality
+	heir = {
+		name = "Alfgeir"
+		monarch_name = "Alfgeir III"
+		dynasty = "af Orkneyjar"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1431.10.18
+		death_date = 1496.10.18
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_heir_personality = kind_hearted_personality
+	add_heir_personality = naive_personality
+}
+1444.11.11= {
+	add_prestige = 0
+	add_treasury = 57
+}

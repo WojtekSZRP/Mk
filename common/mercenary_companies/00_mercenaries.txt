@@ -1,0 +1,80 @@
+merc_mongol_banner = {
+    regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0.4
+    artillery_weight = 0.2
+	cavalry_cap = 6
+	home_province = 718
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = MJZ
+			tag = MHX
+			tag = MYR
+			tag = MCH
+			tag = QNG
+			tag = EJZ
+		}
+		mission_completed = mch_khan_of_the_mongols
+	}
+	cost_modifier = 1.1
+	modifier = {
+        cavalry_shock =1.0
+	}
+}
+
+merc_swiss_canton_mercenaries = {
+    regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 165
+	sprites = {  dlc103_swi_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		tag = SWI
+		mission_completed = emp_swi_mercenaries
+	}
+	cost_modifier = 0.75
+	modifier = {
+		discipline = 0.05
+	}
+}
+
+merc_japanese_volunteers = {
+    regiments_per_development = 0.02
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0.1
+	artillery_weight = 0.3
+	cavalry_cap = 2
+    home_province = 600
+	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		mission_completed = mnd_siam_japan
+	}
+	modifier = {
+		infantry_power = 0.1
+        discipline = 0.025
+	}
+}
+
+merc_byz_varangian_guard = {
+    regiments_per_development = 0.02 #1 regiment every 50 dev. Reaches max at 400 dev.
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+    home_province = 151 # Constantinople
+	cavalry_weight = 0 #Pure infantry
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_cap = 0 
+	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		mission_completed = BYZ_varangian_guard
+	}
+	modifier = { 
+		fire_damage_received = -0.33 #very powerful, but very limited numbers.
+		shock_damage_received = -0.33
+		morale_damage_received = -0.33
+	}
+}

@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = noble_elite_reform
+government_rank = 1
+technology_group = western
+religion = arianism
+primary_culture = breton
+capital = 210
+add_accepted_culture = basque
+1444.11.11= {
+	monarch = {
+		name = "Gurmhaelon"
+		adm = 2
+		dip = 2
+		mil = 1
+		birth_date = 1393.8.3
+		religion = arianism
+		culture = breton
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = tactical_genius_personality
+}

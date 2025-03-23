@@ -1,0 +1,9 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 248 207 18 }
+monarch_names = {
+	"Athanasios #0" = 0
+	"Guethencar #0" = 0
+	"Guethencor #0" = 0
+	"Tiberios #0" = 0
+}

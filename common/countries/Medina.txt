@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 191 68 86 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	influence_ideas
+	diplomatic_ideas
+	quantity_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abba #1" = 10
+	"Abeba #0" = -1
+	"Acha #1" = 10
+	"Achunai #1" = 10
+	"Alaworld #0" = -1
+	"Azariah #1" = 10
+	"BalÙ #0" = 0
+	"Chaninai #1" = 10
+	"Chisdai #1" = 10
+	"Dauid #1" = 10
+	"Eionkouda #0" = 0
+	"Eudosia #0" = -1
+	"Fatima #0" = -1
+	"Gabrielkouda #0" = 0
+	"Gebiha #1" = 10
+	"Gedalyah #2" = 10
+	"Hillel #2" = 10
+	"Iordanes #0" = 0
+	"Ioseph #0" = 0
+	"Kahana #2" = 10
+	"Kalinikos #0" = 0
+	"Kalonymos #1" = 10
+	"Kelile #0" = -1
+	"Kuriakos #0" = 0
+	"Malcha #1" = 10
+	"Mariana #0" = 0
+	"Marios #0" = 0
+	"Markos #1" = 10
+	"Matiyahu #1" = 10
+	"Maya #0" = -1
+	"Meir #1" = 10
+	"Mishael #1" = 10
+	"Mubarak #1" = 10
+	"Natan #2" = 10
+	"Natroi #2" = 10
+	"Panigiros #0" = 0
+	"Petronia #0" = -1
+	"Sherira #2" = 10
+	"Shlomo #0" = 0
+	"Stephanos #0" = 0
+	"Sulam #2" = 10
+	"Tekle #0" = 0
+	"Theophilia #0" = -1
+	"Tirsakouni #0" = 0
+	"Tzadok #2" = 10
+	"Yachya #0" = 0
+	"Yechiel #1" = 10
+	"Zakkai #1" = 10
+	"Zeina #0" = -1
+	"—oltou #0" = -1
+	"—onnen #0" = -1
+	"’‡Ò‡Ì #1" = 10
+}
+leader_names = {
+	"Abbas"
+	"Chammas"
+	"Farhat"
+	"Hammoud"
+	"Ibrahim"
+	"Khalil"
+	"Mansour"
+	"Saleh"
+	"Taleb"
+	"Youssef"
+}
+ship_names = {
+	"Harrat Al-Buqum"
+	"Harrat Al-Kishb"
+	"Harrat Hadan"
+	"Harrat Khaybar"
+	"Harrat Kurama"
+	"Harrat Nawasif"
+	"Harrat Rahat"
+	"Harrat al-Unayyir"
+	"Hijaz"
+	"Jabal Abu Hasan"
+	"Jabal Baydan"
+	"Jabal Sawda"
+	"Jabal al-Jurayrah"
+	"Jeddah"
+	"Mecca"
+	"Medina"
+}

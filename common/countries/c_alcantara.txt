@@ -1,0 +1,9 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 230 232 25 }
+monarch_names = {
+	"Caractacus #0" = 0
+	"Comux #0" = 0
+	"Donnus #0" = 0
+	"Tincomarus #0" = 0
+}

@@ -1,0 +1,25 @@
+government = republic
+add_government_reform = noble_elite_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = saxon
+capital = 2964
+1444.11.11= {
+	monarch = {
+		name = "Lothar"
+		dynasty = "Walding"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1392.3.18
+		religion = norse_pagan_reformed
+		culture = saxon
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+}
+1444.11.11= {
+	add_prestige = 0
+	add_treasury = 62
+}

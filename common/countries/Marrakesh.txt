@@ -1,0 +1,80 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 84 242 223 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Adminius #1" = 10
+	"Ariovistus #0" = 0
+	"Avitus #1" = 10
+	"Bellicianus #0" = 0
+	"Billica #1" = -1
+	"Cailtram #2" = 10
+	"Comux #0" = 0
+	"Correus #0" = 0
+	"Crixus #1" = 10
+	"Cunobelinus #0" = 0
+	"Epatticus #1" = 10
+	"Kutalmis #0" = 0
+	"Litavis #1" = -1
+	"Lugotorix #1" = 10
+	"Qamara #0" = -1
+	"Sthavira #0" = 0
+	"Tawenza #0" = -1
+	"Tincomarus #0" = 0
+	"Venedario #1" = 10
+	"Vinoma #1" = -1
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 205 103 80 }
+revolutionary_colors = { 8 5 0 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalhard #1" = 10
+	"Alamiro #1" = 10
+	"Alarich #1" = 10
+	"Amadeus #1" = 10
+	"Anila #1" = 10
+	"Ansprand #0" = 0
+	"Arbalaikiz #1" = 10
+	"Audeca #1" = 10
+	"Baldur #1" = 10
+	"Bernhard #0" = 0
+	"Ehrenfried #1" = 10
+	"Godehoc #0" = 0
+	"Gundoald #0" = 0
+	"Landenulf #0" = 0
+	"Ludwig #1" = 10
+	"Marozia #1" = -1
+	"Mechthild #0" = -1
+	"Olena #0" = -1
+	"Radbot #0" = 0
+	"Rodwald #1" = 10
+	"Siegfried #0" = 0
+	"Siegmund #1" = 10
+	"Sigbjörn #1" = 10
+	"Spoderigo #1" = 10
+	"Waldemar #1" = 10
+	"Walther #2" = 10
+	"Wechthari #0" = 0
+}
+leader_names = {
+	"Boelken"
+	"Dönhoff"
+	"Engels"
+	"Enste"
+	"Helff"
+	"Kempf"
+	"Krefting"
+	"Köhne"
+	"Meyer"
+	"Wachsmuth"
+	"de Dornach"
+	"de Kircheim"
+	"de Turckheim"
+	"von Cossel"
+}
+ship_names = {
+	"Graf von Hoya"
+	"Greven"
+	"Hiltrup"
+	"Liebfrauenkirche"
+	"Liudger"
+	"Mauritz"
+	"Roxel"
+	"Senden"
+	"St. Lamberti"
+	"Wolbeck"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

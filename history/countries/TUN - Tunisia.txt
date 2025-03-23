@@ -1,0 +1,41 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+technology_group = muslim
+religion = arianism
+primary_culture = punic
+capital = 341
+mercantilism = 25
+1444.11.11= {
+	monarch = {
+		name = "Sophonisba"
+		dynasty = "Baalhannid"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1399.9.9
+		female = yes
+		religion = arianism
+		culture = punic
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Zakkai"
+		dynasty = "of Аварвади"
+		adm = 5
+		dip = 4
+		mil = 3
+		country_of_origin = TUN
+		birth_date = 1392.2.7
+		death_date = 1452.2.7
+		religion = jewish
+		culture = knaanic
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 82
+	add_treasury = 106
+}

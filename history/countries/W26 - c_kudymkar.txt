@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = muslim
+religion = heptadic_pagan_reformed
+primary_culture = saka
+capital = 4266
+fixed_capital = 4266
+add_accepted_culture = uralic
+1444.11.11= {
+	monarch = {
+		name = "Dzatsi"
+		dynasty = "Tripuskar"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1408.7.19
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Maya"
+		dynasty = "Tripuskar"
+		adm = 2
+		dip = 5
+		mil = 3
+		country_of_origin = W26
+		birth_date = 1420.8.26
+		death_date = 1480.8.26
+		female = yes
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = infertile_personality
+	heir = {
+		name = "Sumtharaka"
+		monarch_name = "Sumtharaka"
+		dynasty = "Tripuskar"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1433.6.3
+		death_date = 1498.6.3
+		claim = 89
+		religion = heptadic_pagan_reformed
+		culture = saka
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11= {
+	add_prestige = 79
+	add_treasury = 57
+}

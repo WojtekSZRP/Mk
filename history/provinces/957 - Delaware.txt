@@ -1,0 +1,17 @@
+capital = "Delaware"
+culture = delaware
+religion = totemism
+trade_goods = tobacco
+base_tax = 10
+base_production = 7
+base_manpower = 7
+discovered_by = andean
+discovered_by = high_american
+discovered_by = mesoamerican
+discovered_by = north_american
+discovered_by = south_american
+native_size = 10
+native_ferocity = 2
+7 = { 
+}
+is_city = no

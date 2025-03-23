@@ -1,0 +1,12 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 45 192 79 }
+monarch_names = {
+	"Cavarinus #0" = 0
+	"Donnus #0" = 0
+	"Dumnorix #0" = 0
+	"Exuperata #0" = -1
+	"Huldu #0" = -1
+	"Melqartpilles #0" = 0
+	"Totia #0" = -1
+}

@@ -1,0 +1,493 @@
+merc__local_independent_army_merc_ideas = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 100
+			full_idea_group = mercenary_ideas
+		}
+    }
+	modifier = {
+		shock_damage_received = -0.20
+		fire_damage_received = -0.20
+		morale_damage_received = -0.2
+		assault_fort_ability = 0.5
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_100_merc_ideas = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 200
+			full_idea_group = mercenary_ideas
+		}
+    }
+	modifier = {
+		shock_damage_received = -0.20
+		fire_damage_received = -0.20
+		morale_damage_received = -0.2
+		assault_fort_ability = 0.5
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_100 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 100
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_200 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 200
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_300 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 300
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_400 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 400
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_500 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 500
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+merc__local_independent_army_600 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 600
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+
+merc__local_independent_army_700 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 700
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+merc__local_independent_army_800 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 800
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+merc__local_independent_army_900 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 900
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+merc__local_independent_army_1000 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1000
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1100 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1100
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1200 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1200
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1300 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1300
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1400 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1400
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1500 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1500
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1600 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1600
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1700 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1700
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_1800 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1800
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+merc__local_independent_army_1900 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 1900
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army_2000 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		AND = {
+			land_forcelimit = 2000
+			is_allowed_to_recruit_mercenaries = yes
+		}
+    }
+    # No home province means local mercenary company
+}
+
+
+#
+# Example mercenary companies
+#
+
+merc__local_free_company = {
+    regiments_per_development = 0.025
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        total_development = 150
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_small_company = {
+    regiments_per_development = 0.07
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    trigger = {
+        NOT = { total_development = 150 }
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    cost_modifier = 0.3
+    modifier = {
+        reinforce_speed = -0.25
+        recover_army_morale_speed = -0.1
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_small_company_2 = {
+    regiments_per_development = 0.07
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    trigger = {
+        NOT = { total_development = 150 }
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    cost_modifier = 0.3
+    modifier = {
+        reinforce_speed = -0.25
+        recover_army_morale_speed = -0.1
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_small_company_3 = {
+    regiments_per_development = 0.07
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    trigger = {
+        NOT = { total_development = 150 }
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    cost_modifier = 0.3
+    modifier = {
+        reinforce_speed = -0.25
+        recover_army_morale_speed = -0.1
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_free_city_company = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    trigger = {
+        has_reform = free_city
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    cost_modifier = 0.3
+    modifier = {
+        reinforce_speed = -0.25
+        recover_army_morale_speed = -0.1
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_grand_company = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        total_development = 150
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    # No home province means local mercenary company
+}
+
+merc__local_independent_army = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        total_development = 150
+        is_allowed_to_recruit_mercenaries = yes
+    }
+    # No home province means local mercenary company
+}
+
+merc_local_all_female_company = {
+	regiments_per_development = 0.025
+	cavalry_weight = 0.1
+    artillery_weight = 0.1
+    cavalry_cap = 2
+	trigger = {
+		has_country_flag = female_mercs
+        is_allowed_to_recruit_mercenaries = yes
+	}
+	modifier = {
+		shock_damage_received = 0.05
+		land_morale = 0.05
+    }
+}
+
+twenty_good_men = {
+    regiments_per_development = 0.01
+    cavalry_weight = 0.2
+	artillery_weight = 0.1
+    cavalry_cap = 4
+	cost_modifier = 1.5
+    home_province = 4365
+	trigger = {
+		capital_scope = {
+			province_id = 4365
+		}
+        is_allowed_to_recruit_mercenaries = yes
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}

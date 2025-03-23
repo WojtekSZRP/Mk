@@ -1,0 +1,26 @@
+owner = PRO
+controller = PRO
+capital = "Sevilla"
+is_city = yes
+religion = arianism
+trade_goods = wine
+base_tax = 4
+base_production = 3
+base_manpower = 2
+extra_cost = 26
+center_of_trade = 2
+add_core = ARA
+add_core = BRI
+discovered_by = MGE
+discovered_by = eastern
+discovered_by = indian
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = western
+add_permanent_province_modifier = { 
+	name = guadiana_estuary_modifier
+	duration = -1
+}
+culture = aragonese
+add_core = PRO

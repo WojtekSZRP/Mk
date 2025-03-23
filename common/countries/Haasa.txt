@@ -1,0 +1,96 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 178 103 5 }
+revolutionary_colors = { 0 5 5 }
+historical_idea_groups = {
+	diplomatic_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Aarôn #1" = 10
+	"Abtalyon #1" = 10
+	"Agathe #0" = -1
+	"Amram #1" = 10
+	"Babak #1" = 10
+	"Birêl #0" = 0
+	"Chiyya #1" = 10
+	"Dauid #2" = 10
+	"Diklit #1" = -1
+	"Eliezer #1" = 10
+	"Elisha' #1" = 10
+	"Fareed #1" = 10
+	"Gershom #1" = 10
+	"Hoshe' #1" = 10
+	"Ioustina #0" = -1
+	"Kalinikos #0" = 0
+	"Kollouthos #1" = 10
+	"Leon #1" = 10
+	"Mar #2" = 10
+	"Markos #1" = 10
+	"Maththias #0" = 0
+	"Michaêl #1" = 10
+	"Mêlênkouda #1" = 10
+	"Natan #2" = 10
+	"Nechemiah #0" = 0
+	"Nehilai #1" = 10
+	"Nissim #1" = 10
+	"Papasinkouda #1" = 10
+	"Rivai #1" = 10
+	"Sentiko #0" = 0
+	"Shahlufa #1" = 10
+	"Shmuel #0" = 0
+	"Sotinkouda #0" = 0
+	"Thadeosi #1" = 10
+	"Theophania #0" = -1
+	"Tzemach #1" = 10
+	"Wardat-Ishtar #0" = -1
+	"Yoshiah #1" = 10
+	"Ñoltou #0" = -1
+	"Ñouddl #0" = -1
+	"Ñóëÿéìàí #1" = 10
+}
+leader_names = {
+	"Al-Karachi"
+	"Al-Muwalid"
+	"Anwar"
+	"Atef"
+	"Faraj"
+	"Ismail"
+	"Madari"
+	"Saleh"
+	"Siham"
+}
+ship_names = {
+	"Abu Ali"
+	"Ad-Dammam"
+	"Al-Ahsa"
+	"Al-Jubayl"
+	"Al-Khubar"
+	"Al-Quatif"
+	"Al-Zahran"
+	"An-Naqirah"
+	"As-Saffaniyah"
+	"Hofuf"
+	"Ra's Al-Mish'ab"
+	"Ra's Tannurah"
+	"Wabrah"
+}

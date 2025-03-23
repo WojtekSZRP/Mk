@@ -1,0 +1,12 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 140 50 }
+monarch_names = {
+	"Giat #0" = 0
+	"Konstantios #0" = 0
+	"Meletios #0" = 0
+	"Philippos #0" = 0
+	"Pyrros #0" = 0
+	"Sergios #0" = 0
+	"Symeon #0" = 0
+}

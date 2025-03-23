@@ -1,0 +1,119 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 131 141 142 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+	religious_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Adalbert #1" = 10
+	"Ahma #1" = 10
+	"Aimo #1" = 10
+	"Asko #1" = 10
+	"Auli #0" = -1
+	"Azra-Va #0" = -1
+	"Ensio #1" = 10
+	"Gotzelo #1" = 10
+	"Haapa #1" = 10
+	"Havu #2" = 10
+	"Hintsa #0" = 0
+	"Ihanti #1" = 10
+	"Kaarle #1" = 10
+	"Kako #0" = 0
+	"Knut #1" = 10
+	"Leandu #0" = -1
+	"Mandak #0" = 0
+	"Nabtiko #0" = 0
+	"Otso #2" = 10
+	"Päiviö #0" = 0
+	"Reko #1" = 10
+	"Rögnfrið #0" = -1
+	"Sarak #2" = 10
+	"Satajalka #1" = 10
+	"Skuld #0" = -1
+	"Sofie #0" = -1
+	"Syudbya #0" = 0
+	"Tuija #0" = -1
+	"Ukko #0" = 0
+	"Ulyana #0" = -1
+	"Valteri #1" = 10
+	"Vesei #1" = 10
+	"Vigdis #0" = -1
+	"Väinö #1" = 10
+	"Îéâà #1" = 10
+}
+leader_names = {
+	"Alabyshe"
+	"Alenkin"
+	"Belsky"
+	"Deyev"
+	"Dulov"
+	"Golygin"
+	"Kubensky"
+	"Kurbsky"
+	"Mortkin"
+	"Mulozhsky"
+	"Okhlyabinin"
+	"Pnekov"
+	"Shchetinin"
+	"Siseev"
+	"Sitsky"
+	"Sontsov"
+	"Sudsky"
+	"Temnosiny"
+	"Troekurov"
+	"Ukhorsky"
+	"Ushaty"
+	"Velikogagin"
+	"Yukhotsky"
+	"Zaozersky"
+	"Zasekin"
+	"Zhirovy"
+	"Zubaty"
+}
+ship_names = {
+	"Berendeyevo"
+	"Borisoglebsky"
+	"Borok"
+	"Danilov"
+	"Itolar"
+	"Karabikha"
+	"Kurba"
+	"Lyubim"
+	"Myshkin"
+	"Nekouz"
+	"Nekrasovskoye"
+	"Pesochnoye"
+	"Petrovskoye"
+	"Prechistoye"
+	"Rybinsk"
+	"Semibratovo"
+	"Tunoshna"
+	"Uglich"
+	"Varegove"
+}

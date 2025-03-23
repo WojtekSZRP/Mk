@@ -1,0 +1,20 @@
+owner = DAI
+controller = DAI
+capital = "Hai Phong"
+is_city = yes
+culture = vietnamese
+religion = catholic
+trade_goods = naval_supplies
+base_tax = 4
+base_production = 4
+base_manpower = 4
+extra_cost = 10
+add_core = DAI
+add_core = TOK
+discovered_by = chinese
+discovered_by = indian
+add_permanent_province_modifier = { 
+	name = red_river_estuary_modifier
+	duration = -1
+}
+hre = yes

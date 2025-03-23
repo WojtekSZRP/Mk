@@ -1,0 +1,18 @@
+﻿########################################
+# LOC_VER_1.16.1_15.11.2023_v01: CBT7to8_1.36.1 CP: UTF-8-BOM
+# TIMESTAMP: 16.11.2023 17:50:38
+# YML PARSER 0.4.1 FOR GEKS © Spectrum
+########################################
+
+l_english:
+
+ #Personality Options to existing events:
+ #Personality Events:
+ #Death Reasons
+ #Generals/Admirals:
+ #Obituaries
+ #Obituaries for Generals/Admirals:
+ #Ruler Personalities:
+ #Personality Modifier Descriptions - Note: don't refer directly to the sex or title of the monarch.
+ #Leaders (Generals and Admirals)
+ desc_great_explorer_personality:0 "ˆ¥°¦°ºþ ª®¦¢²®¿, ¥²¢ºþ ©´²¢²¿ °ª©¢¦°°º ¯¾ ª ±ª°²ª °Œ¯³ ª¯°ª ±²ª¨ ª ¢®ª¬®±ª!"

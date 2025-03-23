@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = arianism
+primary_culture = lusitanian
+capital = 2247
+fixed_capital = 2247
+add_accepted_culture = senegambian
+1444.11.11= {
+	monarch = {
+		name = "Cunobelinus"
+		dynasty = "Mandonii"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1398.9.22
+		religion = arianism
+		culture = lusitanian
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Lovernisca"
+		dynasty = "de Виана-ду-Каштелу"
+		adm = 4
+		dip = 5
+		mil = 5
+		country_of_origin = W76
+		birth_date = 1391.3.12
+		death_date = 1451.3.12
+		female = yes
+		religion = arianism
+		culture = lusitanian
+	}
+	add_queen_personality = infertile_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Cingetessa"
+		monarch_name = "Cingetessa"
+		dynasty = "Mandonii"
+		adm = 6
+		dip = 5
+		mil = 5
+		birth_date = 1415.12.22
+		death_date = 1480.12.22
+		female = yes
+		claim = 89
+		religion = arianism
+		culture = lusitanian
+	}
+	add_heir_personality = secretive_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 60
+	add_treasury = 66
+}

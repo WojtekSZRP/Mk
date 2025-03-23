@@ -1,0 +1,81 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 234 214 165 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Adoyre #1" = 10
+	"Adriane #0" = -1
+	"Adrianos #1" = 10
+	"Alured #1" = 10
+	"Alwen #0" = 0
+	"Gurdilic #1" = 10
+	"Gurlouen #1" = 10
+	"Herakleios #1" = 10
+	"Kallinikos #2" = 10
+	"Kallistos #0" = 0
+	"Maximos #1" = 10
+	"Narses #1" = 10
+	"Neophytos #0" = 0
+	"Nikolaos #1" = 10
+	"Pavlos #1" = 10
+	"Philotheos #1" = 10
+	"Photios #2" = 10
+	"Riceneu #1" = 10
+	"Theocharistos #1" = 10
+	"Theophylaktos #1" = 10
+	"Tuduallon #1" = 10
+	"Urbcen #1" = 10
+	"Urvod #1" = 10
+}
+leader_names = {
+	"Barry"
+	"Boyle"
+	"Darcy"
+	"FitzGerald"
+	"FitzThomas"
+	"MacCarthy"
+	"Magginis"
+	"McDonnald"
+	"O'Brien"
+	"O'Neill"
+	"Sarsfield"
+	"Talbot"
+}
+ship_names = {
+	"Clare"
+	"Cork"
+	"Deas Mhuman"
+	"Kerry"
+	"Lar Mumhan"
+	"Limerick"
+	"Tipperary"
+	"Tuad Mhuman"
+	"Urh Mumhan"
+	"Waterford"
+}
